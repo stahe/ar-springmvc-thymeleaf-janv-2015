@@ -696,20 +696,20 @@
 <p><a id="refheading58022676630786"></a></p>
 <h1 id="3">3. <span style="color: #365f91">الإجراءات: الاستجابة</span></h1>
 <p>دعونا ننظر في بنية تطبيق <bdi dir="ltr" class="odt-ltr-term">Spring MVC:</bdi></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000047100000175D1035D6D.png" width="569" height="187" style="display:inline-block; margin:4px;width:15.042cm;height:4.935cm;" class="odt-zoomable" data-zoom-src="images/100000000000047100000175D1035D6D.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000047100000175D1035D6D.png" width="569" height="187" style="display:inline-block; margin:4px;width:15.042cm;height:4.935cm;" class="odt-zoomable" data-zoom-src="images/100000000000047100000175D1035D6D.png" /></td></tr></table>
 
 <p>في هذا الفصل، ندرس العملية التي توجه الطلب [1] إلى وحدة التحكم والإجراء [2a] الذي سيقوم بمعالجته، وهي آلية تُعرف باسم التوجيه. كما نقدم الاستجابات المختلفة [3] التي يمكن أن يعيدها الإجراء إلى المتصفح. وقد يكون هذا شيئًا آخر غير عرض <strong><bdi dir="ltr" class="odt-ltr-term">V</bdi></strong> [4b].</p>
 <p><a id="refheading1400771644545772"></a></p>
 <h2 id="31">3.1. <span style="color: #4f81bd">المشروع الجديد</span></h2>
 <p>نقوم بإنشاء مشروع <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> جديد:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000315000000A485700EB2.png" width="395" height="82" style="display:inline-block; margin:4px;width:10.439cm;height:2.17cm;" class="odt-zoomable" data-zoom-src="images/1000000000000315000000A485700EB2.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000315000000A485700EB2.png" width="395" height="82" style="display:inline-block; margin:4px;width:10.439cm;height:2.17cm;" class="odt-zoomable" data-zoom-src="images/1000000000000315000000A485700EB2.png" /></td></tr></table>
 
 <ul>
   <li>في [1-2]، نقوم بإنشاء مشروع جديد يستند إلى <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi>؛
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000054E000002F5B4B35CA4.png" width="679" height="378" style="display:inline-block; margin:4px;width:17.965cm;height:10.014cm;" class="odt-zoomable" data-zoom-src="images/100000000000054E000002F5B4B35CA4.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000054E000002F5B4B35CA4.png" width="679" height="378" style="display:inline-block; margin:4px;width:17.965cm;height:10.014cm;" class="odt-zoomable" data-zoom-src="images/100000000000054E000002F5B4B35CA4.png" /></td></tr></table>
 
 <ul>
   <li>في [3]، اسم مشروع <bdi dir="ltr" class="odt-ltr-term">Maven</bdi>؛
@@ -732,7 +732,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000506000002277DB2796B.png" width="643" height="275" style="display:inline-block; margin:4px;width:17.013cm;height:7.288cm;" class="odt-zoomable" data-zoom-src="images/1000000000000506000002277DB2796B.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000506000002277DB2796B.png" width="643" height="275" style="display:inline-block; margin:4px;width:17.013cm;height:7.288cm;" class="odt-zoomable" data-zoom-src="images/1000000000000506000002277DB2796B.png" /></td></tr></table>
 
 <ul>
   <li>في [12]، المشروع الذي تم إنشاؤه؛
@@ -741,7 +741,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003400000014754520399.png" width="416" height="164" style="display:inline-block; margin:4px;width:11.007cm;height:4.327cm;" class="odt-zoomable" data-zoom-src="images/10000000000003400000014754520399.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000003400000014754520399.png" width="416" height="164" style="display:inline-block; margin:4px;width:11.007cm;height:4.327cm;" class="odt-zoomable" data-zoom-src="images/10000000000003400000014754520399.png" /></td></tr></table>
 
 <ul>
   <li>في [16]، اسم الحزمة الجديد؛
@@ -751,14 +751,14 @@
 </ul>
 
 <p>نقوم الآن بإنشاء فئة جديدة؛</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003BA000001D7D9BF8842.png" width="477" height="236" style="display:inline-block; margin:4px;width:12.621cm;height:6.232cm;" class="odt-zoomable" data-zoom-src="images/10000000000003BA000001D7D9BF8842.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000003BA000001D7D9BF8842.png" width="477" height="236" style="display:inline-block; margin:4px;width:12.621cm;height:6.232cm;" class="odt-zoomable" data-zoom-src="images/10000000000003BA000001D7D9BF8842.png" /></td></tr></table>
 
 <ul>
   <li>في [1-3]، نقوم بإنشاء فئة جديدة؛
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000049A000002F36C02CCE5.png" width="589" height="377" style="display:inline-block; margin:4px;width:15.584cm;height:9.987cm;" class="odt-zoomable" data-zoom-src="images/100000000000049A000002F36C02CCE5.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000049A000002F36C02CCE5.png" width="589" height="377" style="display:inline-block; margin:4px;width:15.584cm;height:9.987cm;" class="odt-zoomable" data-zoom-src="images/100000000000049A000002F36C02CCE5.png" /></td></tr></table>
 
 <ul>
   <li>في [5] نسميها، وفي [4] نحدد حزمة البرنامج؛
@@ -801,7 +801,7 @@
 
 <p><span style="color: #000000">أما التعليق التوضيحي الآخر [@<bdi dir="ltr" class="odt-ltr-term">Controller</bdi>] الذي صادفناه فهو مختلف: حيث تُرجع الإجراءات الخاصة بوحدة التحكم المُعلَّمة بهذه الطريقة اسم العرض الذي يجب عرضه. ومن ثم، فإن الجمع بين هذا العرض والنموذج الذي تم إنشاؤه بواسطة الإجراء الخاص بهذا العرض هو ما يوفر الاستجابة المرسلة إلى العميل.</span></p>
 <p><span style="color: #000000">يتطلب التغيير في بنية مشروعنا تغييرًا في تكوين مشروعنا:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000010200000074DF08F174.png" width="181" height="81" style="display:inline-block; margin:4px;width:4.78cm;height:2.148cm;" class="odt-zoomable" data-zoom-src="images/100000000000010200000074DF08F174.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000010200000074DF08F174.png" width="181" height="81" style="display:inline-block; margin:4px;width:4.78cm;height:2.148cm;" class="odt-zoomable" data-zoom-src="images/100000000000010200000074DF08F174.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">تتطور فئة [<bdi dir="ltr" class="odt-ltr-term">Application</bdi>] على النحو التالي:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -854,7 +854,7 @@
   </li>
 </ul>
 
-<p>وبالتالي، تعالج الطريقة [a01] طلب <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">GET</bdi> /a01].</p>
+<p>وبالتالي، تعالج الطريقة [a01] طلب <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">GET /a01</bdi>].</p>
 <ul>
   <li>السطر 5: تُرجع الطريقة [a01] نوع [<bdi dir="ltr" class="odt-ltr-term">String</bdi>]، والذي سيتم إرساله كما هو إلى العميل؛
   </li>
@@ -863,7 +863,7 @@
 </ul>
 
 <p>دعونا نشغل التطبيق كما فعلنا عدة مرات من قبل، ثم باستخدام [<bdi dir="ltr" class="odt-ltr-term">Advanced Rest Client</bdi>]، نطلب عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> [/a01] باستخدام <bdi dir="ltr" class="odt-ltr-term">GET</bdi> [1-2]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004E200000339A8D901EC.png" width="625" height="412" style="display:inline-block; margin:4px;width:16.536cm;height:10.913cm;" class="odt-zoomable" data-zoom-src="images/10000000000004E200000339A8D901EC.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004E200000339A8D901EC.png" width="625" height="412" style="display:inline-block; margin:4px;width:16.536cm;height:10.913cm;" class="odt-zoomable" data-zoom-src="images/10000000000004E200000339A8D901EC.png" /></td></tr></table>
 
 <ul>
   <li>في [3]، استجابة الخادم؛
@@ -884,15 +884,15 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 2: تشير السمة [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">produces</bdi>=</span><span style="color: #2a00ff">&quot;<bdi dir="ltr" class="odt-ltr-term">text/plain</bdi>;<bdi dir="ltr" class="odt-ltr-term">charset</bdi>=<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>&quot;</span>] إلى أن الإجراء يرسل دفق نصي يحتوي على أحرف مشفرة بتنسيق [<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>]. يسمح هذا التنسيق على وجه التحديد باستخدام الأحرف المُشَدَّدة؛
+  <li>السطر 2: تشير السمة [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">produces</bdi>=</span><span style="color: #2a00ff">&quot;<bdi dir="ltr" class="odt-ltr-term">text/plain;charset</bdi>=<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>&quot;</span>] إلى أن الإجراء يرسل دفق نصي يحتوي على أحرف مشفرة بتنسيق [<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>]. يسمح هذا التنسيق على وجه التحديد باستخدام الأحرف المُشَدَّدة؛
   </li>
 </ul>
 
 <p>لتطبيق هذا الإجراء الجديد، يجب إعادة تشغيل التطبيق:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000013F00000073B067554D.png" width="223" height="81" style="display:inline-block; margin:4px;width:5.911cm;height:2.131cm;" class="odt-zoomable" data-zoom-src="images/100000000000013F00000073B067554D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000013F00000073B067554D.png" width="223" height="81" style="display:inline-block; margin:4px;width:5.911cm;height:2.131cm;" class="odt-zoomable" data-zoom-src="images/100000000000013F00000073B067554D.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>والنتيجة هي كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004D30000033DA2D3BA7F.png" width="618" height="415" style="display:inline-block; margin:4px;width:16.339cm;height:10.968cm;" class="odt-zoomable" data-zoom-src="images/10000000000004D30000033DA2D3BA7F.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004D30000033DA2D3BA7F.png" width="618" height="415" style="display:inline-block; margin:4px;width:16.339cm;height:10.968cm;" class="odt-zoomable" data-zoom-src="images/10000000000004D30000033DA2D3BA7F.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، نرى نوع المستند الذي أرسله الخادم؛
@@ -914,12 +914,12 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 2: تشير السمة [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">produces</bdi>=</span><span style="color: #2a00ff">&quot;<bdi dir="ltr" class="odt-ltr-term">text/xml</bdi>;<bdi dir="ltr" class="odt-ltr-term">charset</bdi>=<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>&quot;</span>] إلى أن الإجراء يرسل دفق <bdi dir="ltr" class="odt-ltr-term">XML</bdi> بأحرف مشفرة بتنسيق [<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>]؛
+  <li>السطر 2: تشير السمة [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">produces</bdi>=</span><span style="color: #2a00ff">&quot;<bdi dir="ltr" class="odt-ltr-term">text/xml;charset</bdi>=<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>&quot;</span>] إلى أن الإجراء يرسل دفق <bdi dir="ltr" class="odt-ltr-term">XML</bdi> بأحرف مشفرة بتنسيق [<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>]؛
   </li>
 </ul>
 
 <p>يؤدي تنفيذها إلى النتيجة التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000053A00000325B7745E24.png" width="669" height="403" style="display:inline-block; margin:4px;width:17.701cm;height:10.65cm;" class="odt-zoomable" data-zoom-src="images/100000000000053A00000325B7745E24.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000053A00000325B7745E24.png" width="669" height="403" style="display:inline-block; margin:4px;width:17.701cm;height:10.65cm;" class="odt-zoomable" data-zoom-src="images/100000000000053A00000325B7745E24.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، تحدد رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> أن المستند المرسل هو <bdi dir="ltr" class="odt-ltr-term">HTML</bdi>؛
@@ -950,12 +950,12 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000128000000C9B255FBDD.png" width="207" height="141" style="display:inline-block; margin:4px;width:5.48cm;height:3.722cm;" class="odt-zoomable" data-zoom-src="images/1000000000000128000000C9B255FBDD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000128000000C9B255FBDD.png" width="207" height="141" style="display:inline-block; margin:4px;width:5.48cm;height:3.722cm;" class="odt-zoomable" data-zoom-src="images/1000000000000128000000C9B255FBDD.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>التبعيات الخاصة بـ <bdi dir="ltr" class="odt-ltr-term">Jackson</bdi> المذكورة أعلاه هي مكتبات لتسلسل الكائنات وإلغاء تسلسلها إلى سلاسل <bdi dir="ltr" class="odt-ltr-term">JSON.</bdi> سيستخدم <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi> بعد ذلك هذه المكتبات لتسلسل الكائنات التي تعيدها الإجراءات وإلغاء تسلسلها. يمكن العثور على مثال لرمز <bdi dir="ltr" class="odt-ltr-term">Java</bdi> لتسلسل كائنات <bdi dir="ltr" class="odt-ltr-term">Java</bdi> وإلغاء تسلسلها إلى <bdi dir="ltr" class="odt-ltr-term">JSON</bdi> في <a href="#refheading191922103626402"><u><span style="color: #0563c1">القسم 9.7</span></u></a>.</p>
 <p>لاحظ في السطر 2 أننا لم نحدد نوع الاستجابة التي يتم إرسالها. سنرى النوع الافتراضي الذي سيتم إرساله.</p>
 <p>النتائج في <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> هي كما يلي [1-3]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004B2000001EBC2949A34.png" width="601" height="245" style="display:inline-block; margin:4px;width:15.901cm;height:6.495cm;" class="odt-zoomable" data-zoom-src="images/10000000000004B2000001EBC2949A34.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004B2000001EBC2949A34.png" width="601" height="245" style="display:inline-block; margin:4px;width:15.901cm;height:6.495cm;" class="odt-zoomable" data-zoom-src="images/10000000000004B2000001EBC2949A34.png" /></td></tr></table>
 
 <p>دعونا الآن نضيف الإجراء التالي [/a05]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -967,7 +967,7 @@
 </code></pre></div>
 
 <p>فئة [<bdi dir="ltr" class="odt-ltr-term">Person</bdi>] هي كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000101000000A9A9964781.png" width="180" height="118" style="display:inline-block; margin:4px;width:4.761cm;height:3.131cm;" class="odt-zoomable" data-zoom-src="images/1000000000000101000000A9A9964781.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000101000000A9A9964781.png" width="180" height="118" style="display:inline-block; margin:4px;width:4.761cm;height:3.131cm;" class="odt-zoomable" data-zoom-src="images/1000000000000101000000A9A9964781.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> istia.st.sprinmvc.models;</span></span></span>
@@ -1007,7 +1007,7 @@
 </code></pre></div>
 
 <p>يؤدي التنفيذ إلى النتائج التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000027D0000033F92230223.png" width="319" height="416" style="display:inline-block; margin:4px;width:8.428cm;height:10.994cm;" class="odt-zoomable" data-zoom-src="images/100000000000027D0000033F92230223.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000027D0000033F92230223.png" width="319" height="416" style="display:inline-block; margin:4px;width:8.428cm;height:10.994cm;" class="odt-zoomable" data-zoom-src="images/100000000000027D0000033F92230223.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، يشير الخادم إلى أن المستند الذي يرسله هو <bdi dir="ltr" class="odt-ltr-term">JSON</bdi>؛
@@ -1032,7 +1032,7 @@
 </ul>
 
 <p>يؤدي التنفيذ إلى النتائج التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000165000001CFF8C32449.png" width="250" height="324" style="display:inline-block; margin:4px;width:6.609cm;height:8.571cm;" class="odt-zoomable" data-zoom-src="images/1000000000000165000001CFF8C32449.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000165000001CFF8C32449.png" width="250" height="324" style="display:inline-block; margin:4px;width:6.609cm;height:8.571cm;" class="odt-zoomable" data-zoom-src="images/1000000000000165000001CFF8C32449.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>فيما سبق، تشير سمة [<bdi dir="ltr" class="odt-ltr-term">Content-Length</bdi>] في <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> في الاستجابة إلى أن الخادم يرسل مستندًا فارغًا.</p>
 <p><a id="refheading1400871644545772"></a></p>
@@ -1055,7 +1055,7 @@
 </ul>
 
 <p>ينتج عن التنفيذ النتائج التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005070000020EF8993016.png" width="644" height="263" style="display:inline-block; margin:4px;width:17.027cm;height:6.959cm;" class="odt-zoomable" data-zoom-src="images/10000000000005070000020EF8993016.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000005070000020EF8993016.png" width="644" height="263" style="display:inline-block; margin:4px;width:17.027cm;height:6.959cm;" class="odt-zoomable" data-zoom-src="images/10000000000005070000020EF8993016.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، نرى أن <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> قد فسّر علامة <bdi dir="ltr" class="odt-ltr-term">HTML</bdi> &lt;h1&gt;، التي تعرض محتواها بخط كبير؛
@@ -1078,7 +1078,7 @@
 </ul>
 
 <p>والنتائج هي كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004A8000001F295952CB8.png" width="596" height="249" style="display:inline-block; margin:4px;width:15.769cm;height:6.588cm;" class="odt-zoomable" data-zoom-src="images/10000000000004A8000001F295952CB8.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004A8000001F295952CB8.png" width="596" height="249" style="display:inline-block; margin:4px;width:15.769cm;height:6.588cm;" class="odt-zoomable" data-zoom-src="images/10000000000004A8000001F295952CB8.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، لم يقم <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> بتفسير علامة <bdi dir="ltr" class="odt-ltr-term">HTML</bdi> &lt;h1&gt; لأن الخادم أبلغه أنه يرسل دفق [<bdi dir="ltr" class="odt-ltr-term">text/plain</bdi>] [2]؛
@@ -1101,7 +1101,7 @@
 </ul>
 
 <p>والنتائج هي كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000049E000002230D3503BE.png" width="591" height="273" style="display:inline-block; margin:4px;width:15.637cm;height:7.235cm;" class="odt-zoomable" data-zoom-src="images/100000000000049E000002230D3503BE.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000049E000002230D3503BE.png" width="591" height="273" style="display:inline-block; margin:4px;width:15.637cm;height:7.235cm;" class="odt-zoomable" data-zoom-src="images/100000000000049E000002230D3503BE.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، لم يقم <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> بتفسير علامة <bdi dir="ltr" class="odt-ltr-term">HTML</bdi> &lt;h1&gt; لأن الخادم أبلغه أنه يرسل دفق [<bdi dir="ltr" class="odt-ltr-term">text/xml</bdi>] [2]. ثم تعامل مع علامة &lt;h1&gt; كعلامة <bdi dir="ltr" class="odt-ltr-term">XML</bdi>؛
@@ -1112,7 +1112,7 @@
 <p><a id="refheading1400891644545772"></a></p>
 <h2 id="37-a10-a11-a12">3.7. <span style="color: #4f81bd">[/a10, /a11, /a12]: إعادة توجيه العميل</span></h2>
 <p>نقوم بإنشاء وحدة تحكم جديدة [<bdi dir="ltr" class="odt-ltr-term">RedirectController</bdi>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000FA000000A233444B96.png" width="175" height="113" style="display:inline-block; margin:4px;width:4.63cm;height:3cm;" class="odt-zoomable" data-zoom-src="images/10000000000000FA000000A233444B96.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000FA000000A233444B96.png" width="175" height="113" style="display:inline-block; margin:4px;width:4.63cm;height:3cm;" class="odt-zoomable" data-zoom-src="images/10000000000000FA000000A233444B96.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>سيكون كود [<bdi dir="ltr" class="odt-ltr-term">RedirectController</bdi>] كما يلي في الوقت الحالي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -1147,7 +1147,7 @@
 </ul>
 
 <p>فيما يلي مثال:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004D20000034074932B02.png" width="617" height="416" style="display:inline-block; margin:4px;width:16.325cm;height:11.007cm;" class="odt-zoomable" data-zoom-src="images/10000000000004D20000034074932B02.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004D20000034074932B02.png" width="617" height="416" style="display:inline-block; margin:4px;width:16.325cm;height:11.007cm;" class="odt-zoomable" data-zoom-src="images/10000000000004D20000034074932B02.png" /></td></tr></table>
 
 <ul>
   <li>في [2]، تلقينا الدفق من الإجراء [/a01]؛
@@ -1166,7 +1166,7 @@
 </code></pre></div>
 
 <p>نحصل على النتائج التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004590000024724B5497D.png" width="557" height="292" style="display:inline-block; margin:4px;width:14.725cm;height:7.713cm;" class="odt-zoomable" data-zoom-src="images/10000000000004590000024724B5497D.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004590000024724B5497D.png" width="557" height="292" style="display:inline-block; margin:4px;width:14.725cm;height:7.713cm;" class="odt-zoomable" data-zoom-src="images/10000000000004590000024724B5497D.png" /></td></tr></table>
 
 <ul>
   <li>في سجلات <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> [1-2]، نرى طلبين، أحدهما إلى [/a11] والآخر إلى [/a01]؛
@@ -1176,7 +1176,7 @@
 </ul>
 
 <p>ثم يقوم المتصفح بإرسال الطلب الثاني إلى عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> الذي تمت إعادة التوجيه إليه:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004C80000022512B4FA03.png" width="612" height="275" style="display:inline-block; margin:4px;width:16.193cm;height:7.264cm;" class="odt-zoomable" data-zoom-src="images/10000000000004C80000022512B4FA03.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004C80000022512B4FA03.png" width="612" height="275" style="display:inline-block; margin:4px;width:16.193cm;height:7.264cm;" class="odt-zoomable" data-zoom-src="images/10000000000004C80000022512B4FA03.png" /></td></tr></table>
 
 <ul>
   <li>في [5]، الطلب الثاني للعميل؛
@@ -1217,7 +1217,7 @@
 </code></pre></div>
 <p>وهو عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> لإعادة التوجيه.</p>
 <p>يؤدي التنفيذ إلى النتائج التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000162000001A442869D52.png" width="248" height="294" style="display:inline-block; margin:4px;width:6.549cm;height:7.77cm;" class="odt-zoomable" data-zoom-src="images/1000000000000162000001A442869D52.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000014B0000008ED50DDD49.png" width="232" height="99" style="display:inline-block; margin:4px;width:6.13cm;height:2.63cm;" class="odt-zoomable" data-zoom-src="images/100000000000014B0000008ED50DDD49.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000162000001A442869D52.png" width="248" height="294" style="display:inline-block; margin:4px;width:6.549cm;height:7.77cm;" class="odt-zoomable" data-zoom-src="images/1000000000000162000001A442869D52.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000014B0000008ED50DDD49.png" width="232" height="99" style="display:inline-block; margin:4px;width:6.13cm;height:2.63cm;" class="odt-zoomable" data-zoom-src="images/100000000000014B0000008ED50DDD49.png" /></td></tr></table>
 
 <p>من هذا المثال، سنتعلم كيفية:</p>
 <ul>
@@ -1230,7 +1230,7 @@
 <p><a id="refheading1400911644545772"></a></p>
 <h2 id="38-a13">3.8. <span style="color: #4f81bd">[/a13]: إنشاء الاستجابة الكاملة</span></h2>
 <p>من الممكن التحكم في الاستجابة بشكل كامل، كما هو موضح في الإجراء التالي في فئة [<bdi dir="ltr" class="odt-ltr-term">ResponsesController</bdi>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000F7000000A4D658B54C.png" width="173" height="115" style="display:inline-block; margin:4px;width:4.57cm;height:3.034cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F7000000A4D658B54C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F7000000A4D658B54C.png" width="173" height="115" style="display:inline-block; margin:4px;width:4.57cm;height:3.034cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F7000000A4D658B54C.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- complete response generation ------------------------</span></span></span>
@@ -1258,7 +1258,7 @@
 </ul>
 
 <p>والنتائج هي كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004DF0000035F6CF10D07.png" width="624" height="432" style="display:inline-block; margin:4px;width:16.498cm;height:11.418cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DF0000035F6CF10D07.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004DF0000035F6CF10D07.png" width="624" height="432" style="display:inline-block; margin:4px;width:16.498cm;height:11.418cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DF0000035F6CF10D07.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، نتعرف على عناصر ردنا؛

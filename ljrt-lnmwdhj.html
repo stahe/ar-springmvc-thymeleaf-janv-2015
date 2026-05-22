@@ -861,10 +861,10 @@
 <p><a id="refheading1400931644545772"></a></p>
 <h1 id="4">4. <span style="color: #365f91">الإجراءات: النموذج</span></h1>
 <p>لنعد إلى بنية تطبيق <bdi dir="ltr" class="odt-ltr-term">Spring MVC:</bdi></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000047500000160853F59A5.png" width="571" height="176" style="display:inline-block; margin:4px;width:15.095cm;height:4.657cm;" class="odt-zoomable" data-zoom-src="images/100000000000047500000160853F59A5.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000047500000160853F59A5.png" width="571" height="176" style="display:inline-block; margin:4px;width:15.095cm;height:4.657cm;" class="odt-zoomable" data-zoom-src="images/100000000000047500000160853F59A5.png" /></td></tr></table>
 
 <p>في الفصل السابق، تناولنا العملية التي توجه الطلب [1] إلى وحدة التحكم والإجراء [2a] الذي سيتولى معالجته، وهي آلية تُعرف باسم التوجيه. كما عرضنا الاستجابات المختلفة التي يمكن أن ترسلها الإجراء إلى المتصفح. حتى الآن، عرضنا إجراءات لم تقم بمعالجة الطلب المقدم إليها. يحمل الطلب [1] أجزاء مختلفة من المعلومات التي يقدمها <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> [2a] إلى الإجراء في شكل <strong>نموذج</strong>. لا ينبغي الخلط بين هذا المصطلح ونموذج <strong><bdi dir="ltr" class="odt-ltr-term">M</bdi></strong> الخاص بعرض <strong><bdi dir="ltr" class="odt-ltr-term">V</bdi></strong> [2c] الذي تنتجه الإجراء:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000055400000088F8F588B2.png" width="680" height="68" style="display:inline-block; margin:4px;width:17.999cm;height:1.796cm;" class="odt-zoomable" data-zoom-src="images/100000000000055400000088F8F588B2.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000055400000088F8F588B2.png" width="680" height="68" style="display:inline-block; margin:4px;width:17.999cm;height:1.796cm;" class="odt-zoomable" data-zoom-src="images/100000000000055400000088F8F588B2.png" /></td></tr></table>
 
 <ul>
   <li>يصل طلب <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> الخاص بالعميل إلى [1]؛
@@ -881,7 +881,7 @@
 <p>يتناول هذا الفصل آليات ربط المعلومات التي يحملها الطلب — وهي سلاسل نصية بطبيعتها — بنموذج الإجراء، الذي يمكن أن يكون فئة ذات خصائص من أنواع مختلفة.</p>
 <p><strong>ملاحظة</strong>: مصطلح [نموذج الإجراء] ليس مصطلحًا معترفًا به.</p>
 <p>نقوم بإنشاء وحدة تحكم جديدة لهذه الإجراءات الجديدة:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000110000000BA46DC9B89.png" width="190" height="130" style="display:inline-block; margin:4px;width:5.039cm;height:3.447cm;" class="odt-zoomable" data-zoom-src="images/1000000000000110000000BA46DC9B89.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000110000000BA46DC9B89.png" width="190" height="130" style="display:inline-block; margin:4px;width:5.039cm;height:3.447cm;" class="odt-zoomable" data-zoom-src="images/1000000000000110000000BA46DC9B89.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>سيكون [<bdi dir="ltr" class="odt-ltr-term">ActionModelController</bdi>] كما يلي في الوقت الحالي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -918,7 +918,7 @@
 </ul>
 
 <p>النتائج كما يلي في <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> [1-3]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005160000027A6FAB3A80.png" width="651" height="317" style="display:inline-block; margin:4px;width:17.224cm;height:8.387cm;" class="odt-zoomable" data-zoom-src="images/10000000000005160000027A6FAB3A80.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000005160000027A6FAB3A80.png" width="651" height="317" style="display:inline-block; margin:4px;width:17.224cm;height:8.387cm;" class="odt-zoomable" data-zoom-src="images/10000000000005160000027A6FAB3A80.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، طلب <bdi dir="ltr" class="odt-ltr-term">GET</bdi> مع المعلمات [<bdi dir="ltr" class="odt-ltr-term">name</bdi>] و [age]؛
@@ -945,7 +945,7 @@
 </ul>
 
 <p>فيما يلي النتائج باستخدام [<bdi dir="ltr" class="odt-ltr-term">Advanced REST Client</bdi>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004EC0000033A572897C3.png" width="630" height="413" style="display:inline-block; margin:4px;width:16.669cm;height:10.927cm;" class="odt-zoomable" data-zoom-src="images/10000000000004EC0000033A572897C3.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004EC0000033A572897C3.png" width="630" height="413" style="display:inline-block; margin:4px;width:16.669cm;height:10.927cm;" class="odt-zoomable" data-zoom-src="images/10000000000004EC0000033A572897C3.png" /></td></tr></table>
 
 <ul>
   <li>في [1-3]، طلب <bdi dir="ltr" class="odt-ltr-term">POST</bdi> مع المعلمات [<bdi dir="ltr" class="odt-ltr-term">name</bdi>] و [age]؛
@@ -975,7 +975,7 @@
 </ul>
 
 <p>والنتائج هي كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004F20000032CB7222D62.png" width="633" height="406" style="display:inline-block; margin:4px;width:16.748cm;height:10.742cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F20000032CB7222D62.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004F20000032CB7222D62.png" width="633" height="406" style="display:inline-block; margin:4px;width:16.748cm;height:10.742cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F20000032CB7222D62.png" /></td></tr></table>
 
 <ul>
   <li>باستخدام <bdi dir="ltr" class="odt-ltr-term">POST</bdi> [1]، نرسل المعلمات [2]؛
@@ -1022,24 +1022,24 @@
 <ul>
   <li>لإنشاء المعلمة [<span style="color: #6a3e3e"><bdi dir="ltr" class="odt-ltr-term">Person</bdi></span>]، يستدعي <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> [<bdi dir="ltr" class="odt-ltr-term">new Person</bdi>()]؛
   </li>
-  <li>ثم، إذا كانت هناك معلمات تحمل أسماء الحقول [id, <bdi dir="ltr" class="odt-ltr-term">name</bdi>, age] للكائن الذي تم إنشاؤه، فإنه يقوم بإنشاء مثيلات لها باستخدام أدوات التعيين الخاصة بها؛
+  <li>ثم، إذا كانت هناك معلمات تحمل أسماء الحقول [<bdi dir="ltr" class="odt-ltr-term">id, name, age</bdi>] للكائن الذي تم إنشاؤه، فإنه يقوم بإنشاء مثيلات لها باستخدام أدوات التعيين الخاصة بها؛
   </li>
   <li>السطر 4: تعيد الإجراء نوع [<bdi dir="ltr" class="odt-ltr-term">Person</bdi>]، والذي سيتم بالتالي تسلسله إلى سلسلة قبل إرساله إلى العميل. وقد رأينا أنه بشكل افتراضي، يتم إجراء التسلسل بتسلسل <bdi dir="ltr" class="odt-ltr-term">JSON.</bdi> وبالتالي، يجب أن يتلقى العميل سلسلة <bdi dir="ltr" class="odt-ltr-term">JSON</bdi> لشخص؛
   </li>
 </ul>
 
 <p>فيما يلي مثال:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004B5000001D2B1D08572.png" width="603" height="233" style="display:inline-block; margin:4px;width:15.942cm;height:6.165cm;" class="odt-zoomable" data-zoom-src="images/10000000000004B5000001D2B1D08572.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004B5000001D2B1D08572.png" width="603" height="233" style="display:inline-block; margin:4px;width:15.942cm;height:6.165cm;" class="odt-zoomable" data-zoom-src="images/10000000000004B5000001D2B1D08572.png" /></td></tr></table>
 
 <ul>
-  <li>في [1]، المعلمات [id, <bdi dir="ltr" class="odt-ltr-term">name</bdi>, age] لإنشاء كائن [<bdi dir="ltr" class="odt-ltr-term">Person</bdi>]؛
+  <li>في [1]، المعلمات [<bdi dir="ltr" class="odt-ltr-term">id, name, age</bdi>] لإنشاء كائن [<bdi dir="ltr" class="odt-ltr-term">Person</bdi>]؛
   </li>
   <li>في [2]، سلسلة <bdi dir="ltr" class="odt-ltr-term">JSON</bdi> الخاصة بهذا الشخص؛
   </li>
 </ul>
 
 <p>ماذا يحدث إذا لم نرسل جميع الحقول الخاصة بشخص ما؟ دعونا نجرب:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000484000001CCA97B1FFE.png" width="578" height="230" style="display:inline-block; margin:4px;width:15.293cm;height:6.085cm;" class="odt-zoomable" data-zoom-src="images/1000000000000484000001CCA97B1FFE.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000484000001CCA97B1FFE.png" width="578" height="230" style="display:inline-block; margin:4px;width:15.293cm;height:6.085cm;" class="odt-zoomable" data-zoom-src="images/1000000000000484000001CCA97B1FFE.png" /></td></tr></table>
 
 <ul>
   <li>في [2]، تم تهيئة المعلمة [id] فقط؛
@@ -1072,7 +1072,7 @@
 </ul>
 
 <p>والنتائج هي كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000017D0000008E09076E4D.png" width="266" height="99" style="display:inline-block; margin:4px;width:7.05cm;height:2.628cm;" class="odt-zoomable" data-zoom-src="images/100000000000017D0000008E09076E4D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000017D0000008E09076E4D.png" width="266" height="99" style="display:inline-block; margin:4px;width:7.05cm;height:2.628cm;" class="odt-zoomable" data-zoom-src="images/100000000000017D0000008E09076E4D.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><a id="refheading1401051644545772"></a></p>
 <h2 id="46-m06-url">4.6. <span style="color: #4f81bd">[/m06]: استرداد عناصر ومعلمات <bdi dir="ltr" class="odt-ltr-term">URL</bdi></span></h2>
@@ -1090,7 +1090,7 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 3: نسترد كلاً من عناصر <bdi dir="ltr" class="odt-ltr-term">URL</bdi> [<bdi dir="ltr" class="odt-ltr-term">Integer a</bdi>, <bdi dir="ltr" class="odt-ltr-term">Double b</bdi>] والمعلمة (<bdi dir="ltr" class="odt-ltr-term">GET</bdi> أو <bdi dir="ltr" class="odt-ltr-term">POST</bdi>) [<bdi dir="ltr" class="odt-ltr-term">Double c</bdi>]؛
+  <li>السطر 3: نسترد كلاً من عناصر <bdi dir="ltr" class="odt-ltr-term">URL</bdi> [<bdi dir="ltr" class="odt-ltr-term">Integer a, Double b</bdi>] والمعلمة (<bdi dir="ltr" class="odt-ltr-term">GET</bdi> أو <bdi dir="ltr" class="odt-ltr-term">POST</bdi>) [<bdi dir="ltr" class="odt-ltr-term">Double c</bdi>]؛
   </li>
   <li>الأسطر 4-7: يتم وضع هذه العناصر في قاموس؛
   </li>
@@ -1099,10 +1099,10 @@
 </ul>
 
 <p>إليك النتائج:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001E20000008DF351F848.png" width="338" height="99" style="display:inline-block; margin:4px;width:8.931cm;height:2.612cm;" class="odt-zoomable" data-zoom-src="images/10000000000001E20000008DF351F848.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000001E20000008DF351F848.png" width="338" height="99" style="display:inline-block; margin:4px;width:8.931cm;height:2.612cm;" class="odt-zoomable" data-zoom-src="images/10000000000001E20000008DF351F848.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
-<p>لاحظ وجود علامة / في نهاية المسار [<bdi dir="ltr" class="odt-ltr-term">http://localhost:8080/m06/100/x/200.43/</bdi>]. بدونها، نحصل على النتيجة الخاطئة التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001D90000008EEF4BCFB7.png" width="331" height="99" style="display:inline-block; margin:4px;width:8.759cm;height:2.63cm;" class="odt-zoomable" data-zoom-src="images/10000000000001D90000008EEF4BCFB7.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>لاحظ وجود علامة / في نهاية المسار [<bdi dir="ltr" class="odt-ltr-term">http://localhost:8080/m06/100/x/200.43</bdi>/]. بدونها، نحصل على النتيجة الخاطئة التالية:</p>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000001D90000008EEF4BCFB7.png" width="331" height="99" style="display:inline-block; margin:4px;width:8.759cm;height:2.63cm;" class="odt-zoomable" data-zoom-src="images/10000000000001D90000008EEF4BCFB7.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><a id="refheading1401071644545772"></a></p>
 <h2 id="47-m07">4.7. <span style="color: #4f81bd">[/m07]: الوصول إلى الطلب بأكمله</span></h2>
@@ -1130,14 +1130,14 @@
 </ul>
 
 <p>والنتائج هي كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000451000001E9E122A639.png" width="553" height="244" style="display:inline-block; margin:4px;width:14.619cm;height:6.468cm;" class="odt-zoomable" data-zoom-src="images/1000000000000451000001E9E122A639.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000451000001E9E122A639.png" width="553" height="244" style="display:inline-block; margin:4px;width:14.619cm;height:6.468cm;" class="odt-zoomable" data-zoom-src="images/1000000000000451000001E9E122A639.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، رؤوس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> للطلب؛
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004600000012173A51CEE.png" width="560" height="144" style="display:inline-block; margin:4px;width:14.817cm;height:3.822cm;" class="odt-zoomable" data-zoom-src="images/10000000000004600000012173A51CEE.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004600000012173A51CEE.png" width="560" height="144" style="display:inline-block; margin:4px;width:14.817cm;height:3.822cm;" class="odt-zoomable" data-zoom-src="images/10000000000004600000012173A51CEE.png" /></td></tr></table>
 
 <ul>
   <li>في [2]، الاستجابة. جميع رؤوس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> من الطلب موجودة بالفعل هناك.
@@ -1165,7 +1165,7 @@
 </ul>
 
 <p>والنتائج هي كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000049700000248C34C4478.png" width="588" height="292" style="display:inline-block; margin:4px;width:15.545cm;height:7.726cm;" class="odt-zoomable" data-zoom-src="images/100000000000049700000248C34C4478.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000049700000248C34C4478.png" width="588" height="292" style="display:inline-block; margin:4px;width:15.545cm;height:7.726cm;" class="odt-zoomable" data-zoom-src="images/100000000000049700000248C34C4478.png" /></td></tr></table>
 
 <ul>
   <li>في [2]، نرى أن رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">Content-Type</bdi>] لم يتم إرساله؛
@@ -1193,14 +1193,14 @@
 </ul>
 
 <p>والنتائج هي كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000048F0000022D83FF06D2.png" width="584" height="279" style="display:inline-block; margin:4px;width:15.439cm;height:7.37cm;" class="odt-zoomable" data-zoom-src="images/100000000000048F0000022D83FF06D2.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000048F0000022D83FF06D2.png" width="584" height="279" style="display:inline-block; margin:4px;width:15.439cm;height:7.37cm;" class="odt-zoomable" data-zoom-src="images/100000000000048F0000022D83FF06D2.png" /></td></tr></table>
 
 <ul>
   <li>في [2]، رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">User-Agent</bdi>]؛
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000042B000000C5AF246BC5.png" width="534" height="98" style="display:inline-block; margin:4px;width:14.116cm;height:2.605cm;" class="odt-zoomable" data-zoom-src="images/100000000000042B000000C5AF246BC5.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000042B000000C5AF246BC5.png" width="534" height="98" style="display:inline-block; margin:4px;width:14.116cm;height:2.605cm;" class="odt-zoomable" data-zoom-src="images/100000000000042B000000C5AF246BC5.png" /></td></tr></table>
 
 <ul>
   <li>في [3]، استرجع الإجراء [/m08] هذا الرأس بشكل صحيح؛
@@ -1236,7 +1236,7 @@
 </ul>
 
 <p>لنلقِ نظرة على النتائج:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004DB0000023B09E402B8.png" width="622" height="286" style="display:inline-block; margin:4px;width:16.445cm;height:7.555cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DB0000023B09E402B8.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004DB0000023B09E402B8.png" width="622" height="286" style="display:inline-block; margin:4px;width:16.445cm;height:7.555cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DB0000023B09E402B8.png" /></td></tr></table>
 
 <ul>
   <li>في [1]: الطلب؛
@@ -1264,7 +1264,7 @@
 </ul>
 
 <p>لنلقِ نظرة على النتائج:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000049A000002561C68F025.png" width="589" height="299" style="display:inline-block; margin:4px;width:15.584cm;height:7.911cm;" class="odt-zoomable" data-zoom-src="images/100000000000049A000002561C68F025.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000049A000002561C68F025.png" width="589" height="299" style="display:inline-block; margin:4px;width:15.584cm;height:7.911cm;" class="odt-zoomable" data-zoom-src="images/100000000000049A000002561C68F025.png" /></td></tr></table>
 
 <ul>
   <li>في [2]، نرى أن المتصفح يعيد ملف تعريف الارتباط؛
@@ -1292,7 +1292,7 @@
 </ul>
 
 <p>إليك المثال الأول:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000048D000002709CE5E893.png" width="583" height="312" style="display:inline-block; margin:4px;width:15.413cm;height:8.257cm;" class="odt-zoomable" data-zoom-src="images/100000000000048D000002709CE5E893.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000048D000002709CE5E893.png" width="583" height="312" style="display:inline-block; margin:4px;width:15.413cm;height:8.257cm;" class="odt-zoomable" data-zoom-src="images/100000000000048D000002709CE5E893.png" /></td></tr></table>
 
 <ul>
   <li>في [2]، القيم المنشورة؛
@@ -1304,7 +1304,7 @@
 </ul>
 
 <p>لا تأخذ المعلمات المرسلة عبر <bdi dir="ltr" class="odt-ltr-term">POST</bdi> دائمًا الشكل البسيط [p1=v1&amp;p2=v2] الذي استخدمناه كثيرًا حتى الآن. لننظر إلى حالة أكثر تعقيدًا:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000051600000267331F7281.png" width="651" height="308" style="display:inline-block; margin:4px;width:17.224cm;height:8.137cm;" class="odt-zoomable" data-zoom-src="images/100000000000051600000267331F7281.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000051600000267331F7281.png" width="651" height="308" style="display:inline-block; margin:4px;width:17.224cm;height:8.137cm;" class="odt-zoomable" data-zoom-src="images/100000000000051600000267331F7281.png" /></td></tr></table>
 
 <ul>
   <li>في [2-3]: ندخل القيم المرسلة بالشكل [<bdi dir="ltr" class="odt-ltr-term">key:value</bdi>]؛
@@ -1314,7 +1314,7 @@
 </ul>
 
 <p>مع النوع [<bdi dir="ltr" class="odt-ltr-term">Content-Type: application/x-www-form-urlencoded</bdi>]، يجب أن تكون السلسلة المنشورة في صيغة [p1=v1&amp;p2=v2]. إذا أردنا نشر أي شيء، فسنستخدم النوع [<bdi dir="ltr" class="odt-ltr-term">Content-Type: text/plain</bdi>]. إليك مثال:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004BE0000023027CFBE7B.png" width="607" height="280" style="display:inline-block; margin:4px;width:16.06cm;height:7.408cm;" class="odt-zoomable" data-zoom-src="images/10000000000004BE0000023027CFBE7B.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004BE0000023027CFBE7B.png" width="607" height="280" style="display:inline-block; margin:4px;width:16.06cm;height:7.408cm;" class="odt-zoomable" data-zoom-src="images/10000000000004BE0000023027CFBE7B.png" /></td></tr></table>
 
 <ul>
   <li>في [2-3]، نقوم بإنشاء رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">Content-Type</bdi>]. بشكل افتراضي [5]، هذا هو الرأس الذي سيتم استخدامه بدلاً من الرأس المحدد في [6]. السمة [<bdi dir="ltr" class="odt-ltr-term">charset</bdi>=<bdi dir="ltr" class="odt-ltr-term">utf-8</bdi>] مهمة. بدونها، نفقد الأحرف التي تحتوي على علامات التشكيل في السلسلة المنشورة؛
@@ -1344,7 +1344,7 @@
 </ul>
 
 <p>إليك مثال على ذلك:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000049A0000025D9F7E9C58.png" width="589" height="303" style="display:inline-block; margin:4px;width:15.584cm;height:8.005cm;" class="odt-zoomable" data-zoom-src="images/100000000000049A0000025D9F7E9C58.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000049A0000025D9F7E9C58.png" width="589" height="303" style="display:inline-block; margin:4px;width:15.584cm;height:8.005cm;" class="odt-zoomable" data-zoom-src="images/100000000000049A0000025D9F7E9C58.png" /></td></tr></table>
 
 <ul>
   <li>في [2]، سلسلة <bdi dir="ltr" class="odt-ltr-term">JSON</bdi> المرسلة؛
@@ -1373,7 +1373,7 @@
 </ul>
 
 <p>والنتائج هي كما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000046D0000025DD44FC4CC.png" width="567" height="303" style="display:inline-block; margin:4px;width:14.99cm;height:8.005cm;" class="odt-zoomable" data-zoom-src="images/100000000000046D0000025DD44FC4CC.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000046D0000025DD44FC4CC.png" width="567" height="303" style="display:inline-block; margin:4px;width:14.99cm;height:8.005cm;" class="odt-zoomable" data-zoom-src="images/100000000000046D0000025DD44FC4CC.png" /></td></tr></table>
 
 <ul>
   <li>في [3]، تأكد من استخدام [<bdi dir="ltr" class="odt-ltr-term">text/plain</bdi>]؛
@@ -1383,7 +1383,7 @@
 <p><a id="refheading1401191644545772"></a></p>
 <h2 id="413-m15">4.13. <span style="color: #4f81bd">[/m15]: استرجاع الجلسة</span></h2>
 <p>دعونا نراجع بنية تنفيذ الإجراء:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000341000000F0B921240E.png" width="417" height="120" style="display:inline-block; margin:4px;width:11.021cm;height:3.175cm;" class="odt-zoomable" data-zoom-src="images/1000000000000341000000F0B921240E.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000341000000F0B921240E.png" width="417" height="120" style="display:inline-block; margin:4px;width:11.021cm;height:3.175cm;" class="odt-zoomable" data-zoom-src="images/1000000000000341000000F0B921240E.png" /></td></tr></table>
 
 <p>يتم إنشاء مثيل لفئة وحدة التحكم في بداية طلب العميل ويتم إتلافه في نهايته. لذلك، لا يمكن استخدامها لتخزين البيانات بين الطلبات، حتى لو تم استدعاؤها بشكل متكرر. قد ترغب في تخزين نوعين من البيانات:</p>
 <ul>
@@ -1393,7 +1393,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000481000001023AFBBC32.png" width="577" height="129" style="display:inline-block; margin:4px;width:15.254cm;height:3.413cm;" class="odt-zoomable" data-zoom-src="images/1000000000000481000001023AFBBC32.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000481000001023AFBBC32.png" width="577" height="129" style="display:inline-block; margin:4px;width:15.254cm;height:3.413cm;" class="odt-zoomable" data-zoom-src="images/1000000000000481000001023AFBBC32.png" /></td></tr></table>
 
 <p>فيما يلي، نعرض أنواع الذاكرة التي يمكن لعمل ما الوصول إليها:</p>
 <ul>
@@ -1449,7 +1449,7 @@
 </ul>
 
 <p><span style="color: #000000">فيما يلي مثال على التنفيذ:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000051D000002B6164A22B6.png" width="655" height="347" style="display:inline-block; margin:4px;width:17.318cm;height:9.183cm;" class="odt-zoomable" data-zoom-src="images/100000000000051D000002B6164A22B6.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000051D000002B6164A22B6.png" width="655" height="347" style="display:inline-block; margin:4px;width:17.318cm;height:9.183cm;" class="odt-zoomable" data-zoom-src="images/100000000000051D000002B6164A22B6.png" /></td></tr></table>
 
 <ul>
   <li><span style="color: #000000">في [1]، نحصل بالفعل على القيمة الأولى للعداد؛</span>
@@ -1459,7 +1459,7 @@
 </ul>
 
 <p><span style="color: #000000">لنلقِ نظرة على الطلب الثاني:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004E3000002A44227A467.png" width="626" height="338" style="display:inline-block; margin:4px;width:16.551cm;height:8.945cm;" class="odt-zoomable" data-zoom-src="images/10000000000004E3000002A44227A467.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004E3000002A44227A467.png" width="626" height="338" style="display:inline-block; margin:4px;width:16.551cm;height:8.945cm;" class="odt-zoomable" data-zoom-src="images/10000000000004E3000002A44227A467.png" /></td></tr></table>
 
 <ul>
   <li><span style="color: #000000">في [3]، نرى أن العميل يرسل ملف تعريف ارتباط الجلسة. لاحظ أنه في استجابة الخادم، لم يعد ملف تعريف ارتباط الجلسة هذا موجودًا. أصبح الآن العميل هو الذي يرسله ليتم التعرف عليه؛</span>
@@ -1472,7 +1472,7 @@
 <p><a id="refheading1401211644545772"></a></p>
 <h2 id="414-m16-session">4.14. <span style="color: #4f81bd">[/m16]: استرداد كائن نطاق [<bdi dir="ltr" class="odt-ltr-term">session</bdi>]</span></h2>
 <p><span style="color: #000000">قد نرغب في وضع جميع البيانات من جلسة عمل المستخدم في كائن واحد ووضع هذا الكائن فقط في الجلسة. سنتبع هذا النهج. سنضع العداد في كائن [<bdi dir="ltr" class="odt-ltr-term">SessionModel</bdi>] التالي:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000120000000CC6F655A03.png" width="212" height="150" style="display:inline-block; margin:4px;width:5.609cm;height:3.972cm;" class="odt-zoomable" data-zoom-src="images/1000000000000120000000CC6F655A03.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000120000000CC6F655A03.png" width="212" height="150" style="display:inline-block; margin:4px;width:5.609cm;height:3.972cm;" class="odt-zoomable" data-zoom-src="images/1000000000000120000000CC6F655A03.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span> istia.st.sprinmvc.models;</span></span>
@@ -1563,23 +1563,23 @@
 
 <p><span style="color: #000000">فيما يلي مثال على التنفيذ:</span></p>
 <p><u><strong><span style="color: #000000">المرة الأولى</span></strong></u></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004F6000002BAC9DFE3E4.png" width="635" height="349" style="display:inline-block; margin:4px;width:16.801cm;height:9.234cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F6000002BAC9DFE3E4.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004F6000002BAC9DFE3E4.png" width="635" height="349" style="display:inline-block; margin:4px;width:16.801cm;height:9.234cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F6000002BAC9DFE3E4.png" /></td></tr></table>
 
 <p><u><strong><span style="color: #000000">المرة الثانية</span></strong></u></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004F7000002BD1B5D81C0.png" width="636" height="351" style="display:inline-block; margin:4px;width:16.815cm;height:9.275cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F7000002BD1B5D81C0.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004F7000002BD1B5D81C0.png" width="636" height="351" style="display:inline-block; margin:4px;width:16.815cm;height:9.275cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F7000002BD1B5D81C0.png" /></td></tr></table>
 
 <p><span style="color: #000000">الآن، لنستخدم متصفحًا آخر لتمثيل مستخدم ثانٍ. هنا، سنستخدم متصفح <bdi dir="ltr" class="odt-ltr-term">Opera:</bdi></span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000527000001EEB66F7A14.png" width="660" height="247" style="display:inline-block; margin:4px;width:17.45cm;height:6.535cm;" class="odt-zoomable" data-zoom-src="images/1000000000000527000001EEB66F7A14.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000527000001EEB66F7A14.png" width="660" height="247" style="display:inline-block; margin:4px;width:17.45cm;height:6.535cm;" class="odt-zoomable" data-zoom-src="images/1000000000000527000001EEB66F7A14.png" /></td></tr></table>
 
 <p><span style="color: #000000">في [1] أعلاه، يسترد هذا المستخدم الثاني قيمة عداد تساوي 1. وهذا يدل على أن جلسته تختلف عن جلسة المستخدم الأول. إذا نظرنا إلى التبادلات بين العميل والخادم (<bdi dir="ltr" class="odt-ltr-term">Ctrl-Shift-I</bdi> لمتصفح <bdi dir="ltr" class="odt-ltr-term">Opera</bdi> أيضًا)، نرى في [2] أن هذا المستخدم الثاني لديه ملف تعريف ارتباط للجلسة يختلف عن ملف تعريف ارتباط المستخدم الأول. وهذا ما يضمن استقلالية الجلسات.</span></p>
 <p><span style="color: #000000"> </span></p>
 <p><a id="refheading1401231644545772"></a></p>
 <h2 id="415-m17">4.15. <span style="color: #4f81bd">[/m17]: استرداد كائن نطاق [التطبيق]</span></h2>
 <p>دعونا نعيد النظر في بنية تنفيذ الإجراء:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000046B000001010E0973C4.png" width="566" height="129" style="display:inline-block; margin:4px;width:14.963cm;height:3.401cm;" class="odt-zoomable" data-zoom-src="images/100000000000046B000001010E0973C4.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000046B000001010E0973C4.png" width="566" height="129" style="display:inline-block; margin:4px;width:14.963cm;height:3.401cm;" class="odt-zoomable" data-zoom-src="images/100000000000046B000001010E0973C4.png" /></td></tr></table>
 
 <p><span style="color: #000000">نحن نعرف كيفية إنشاء جلسة عمل المستخدم. سنقوم الآن بإنشاء كائن في نطاق [التطبيق] يكون محتواه للقراءة فقط ومتاحًا لجميع المستخدمين. نقدم فئة [<bdi dir="ltr" class="odt-ltr-term">ApplicationModel</bdi>]، التي ستعمل ككائن في نطاق [التطبيق]:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000116000000DE0F46487C.png" width="195" height="155" style="display:inline-block; margin:4px;width:5.151cm;height:4.113cm;" class="odt-zoomable" data-zoom-src="images/1000000000000116000000DE0F46487C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000116000000DE0F46487C.png" width="195" height="155" style="display:inline-block; margin:4px;width:5.151cm;height:4.113cm;" class="odt-zoomable" data-zoom-src="images/1000000000000116000000DE0F46487C.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span> istia.st.springmvc.models;</span></span>
@@ -1633,7 +1633,7 @@
 </ul>
 
 <p>فيما يلي مثالان، أحدهما باستخدام <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> والآخر باستخدام <bdi dir="ltr" class="odt-ltr-term">Opera:</bdi></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000014F00000088AEC89E1E.png" width="234" height="95" style="display:inline-block; margin:4px;width:6.2cm;height:2.517cm;" class="odt-zoomable" data-zoom-src="images/100000000000014F00000088AEC89E1E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000012C00000067E1B73119.png" width="210" height="72" style="display:inline-block; margin:4px;width:5.549cm;height:1.905cm;" class="odt-zoomable" data-zoom-src="images/100000000000012C00000067E1B73119.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000014F00000088AEC89E1E.png" width="234" height="95" style="display:inline-block; margin:4px;width:6.2cm;height:2.517cm;" class="odt-zoomable" data-zoom-src="images/100000000000014F00000088AEC89E1E.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000012C00000067E1B73119.png" width="210" height="72" style="display:inline-block; margin:4px;width:5.549cm;height:1.905cm;" class="odt-zoomable" data-zoom-src="images/100000000000012C00000067E1B73119.png" /></td></tr></table>
 
 <p>فيما سبق، نرى أن كلا المتصفحين عملا مع العداد نفسه، وهو ما لم يحدث مع الجلسة. يمثل هذان المتصفحان مستخدمين مختلفين يتمتع كلاهما بإمكانية الوصول إلى بيانات نطاق [<bdi dir="ltr" class="odt-ltr-term">application</bdi>]. بشكل عام، يجب تجنب وضع معلومات القراءة/الكتابة في كائنات نطاق [<bdi dir="ltr" class="odt-ltr-term">application</bdi>]، كما حدث أعلاه مع العداد. في الواقع، تصل خيوط التنفيذ الخاصة بمستخدمين مختلفين إلى بيانات نطاق [التطبيق] في وقت واحد. إذا كانت هناك معلومات قابلة للكتابة، فيجب مزامنة الوصول للكتابة، كما حدث أعلاه مع النوع [<bdi dir="ltr" class="odt-ltr-term">AtomicLong</bdi>]. يعد الوصول المتزامن مصدرًا لأخطاء البرمجة. لذلك، يفضل وضع المعلومات القابلة للقراءة فقط في كائنات نطاق [التطبيق].</p>
 <p><a id="refheading1401251644545772"></a></p>
@@ -1704,7 +1704,7 @@
 </ul>
 
 <p>فيما يلي مثال على التنفيذ. أولاً، نضع المفتاح [<bdi dir="ltr" class="odt-ltr-term">container</bdi>] في الجلسة باستخدام الإجراء [/m18] [1]. بعد ذلك، نستدعي الإجراء [/m19] مرتين لرؤية زيادة العداد.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000531000000D21C6A9769.png" width="665" height="105" style="display:inline-block; margin:4px;width:17.582cm;height:2.778cm;" class="odt-zoomable" data-zoom-src="images/1000000000000531000000D21C6A9769.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000531000000D21C6A9769.png" width="665" height="105" style="display:inline-block; margin:4px;width:17.582cm;height:2.778cm;" class="odt-zoomable" data-zoom-src="images/1000000000000531000000D21C6A9769.png" /></td></tr></table>
 
 <p><a id="refheading1401271644545772"></a></p>
 <h2 id="417-m20-m23-modelattribute">4.17. <span style="color: #4f81bd">[/<bdi dir="ltr" class="odt-ltr-term">m20-/m23</bdi>]: إدخال البيانات باستخدام [@<bdi dir="ltr" class="odt-ltr-term">ModelAttribute</bdi>]</span></h2>
@@ -1741,7 +1741,7 @@
 </ul>
 
 <p>فيما يلي مثال:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001450000008319673040.png" width="228" height="92" style="display:inline-block; margin:4px;width:6.02cm;height:2.427cm;" class="odt-zoomable" data-zoom-src="images/10000000000001450000008319673040.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000001450000008319673040.png" width="228" height="92" style="display:inline-block; margin:4px;width:6.02cm;height:2.427cm;" class="odt-zoomable" data-zoom-src="images/10000000000001450000008319673040.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>الآن، دعونا ندرس الإجراء التالي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -1761,7 +1761,7 @@
 </ul>
 
 <p>فيما يلي تنفيذ:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000142000000899A2DDC32.png" width="225" height="96" style="display:inline-block; margin:4px;width:5.96cm;height:2.536cm;" class="odt-zoomable" data-zoom-src="images/1000000000000142000000899A2DDC32.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000142000000899A2DDC32.png" width="225" height="96" style="display:inline-block; margin:4px;width:5.96cm;height:2.536cm;" class="odt-zoomable" data-zoom-src="images/1000000000000142000000899A2DDC32.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>في الأعلى، نرى أن التعليمات:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
@@ -1771,7 +1771,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>أنشأنا إدخالاً [p, <bdi dir="ltr" class="odt-ltr-term">Person</bdi>(7, &quot;<bdi dir="ltr" class="odt-ltr-term">abcd</bdi>&quot;, 14)] في النموذج. وهذا هو الحال دائماً.</p>
+<p>أنشأنا إدخالاً [<bdi dir="ltr" class="odt-ltr-term">p, Person</bdi>(7, &quot;<bdi dir="ltr" class="odt-ltr-term">abcd</bdi>&quot;, 14)] في النموذج. وهذا هو الحال دائماً.</p>
 <p>الآن لننظر إلى الحالة التالية:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// sinon est construit avec le constructeur par défaut</span></span></span>
@@ -1795,7 +1795,7 @@
 </ul>
 
 <p><span style="color: #000000">فيما يلي مثال على التنفيذ:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000034300000099E2890AE1.png" width="583" height="107" style="display:inline-block; margin:4px;width:15.431cm;height:2.828cm;" class="odt-zoomable" data-zoom-src="images/100000000000034300000099E2890AE1.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000034300000099E2890AE1.png" width="583" height="107" style="display:inline-block; margin:4px;width:15.431cm;height:2.828cm;" class="odt-zoomable" data-zoom-src="images/100000000000034300000099E2890AE1.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">إن سمة النموذج [<bdi dir="ltr" class="odt-ltr-term">param1</bdi>] موجودة بالفعل في النموذج، لكن طريقة [<bdi dir="ltr" class="odt-ltr-term">toString</bdi>] للقيمة المرتبطة بها لا توفر أي معلومات عن هذه القيمة.</span></p>
 <p><span style="color: #000000">الآن لننظر إلى الإجراء التالي، حيث نضع المعلومات صراحةً في النموذج:</span></p>
@@ -1814,7 +1814,7 @@
 </ul>
 
 <p><span style="color: #000000">فيما يلي مثال على التنفيذ:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000015B0000007CE793DBCC.png" width="243" height="87" style="display:inline-block; margin:4px;width:6.421cm;height:2.295cm;" class="odt-zoomable" data-zoom-src="images/100000000000015B0000007CE793DBCC.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000015B0000007CE793DBCC.png" width="243" height="87" style="display:inline-block; margin:4px;width:6.421cm;height:2.295cm;" class="odt-zoomable" data-zoom-src="images/100000000000015B0000007CE793DBCC.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">تتغير القواعد إذا كانت معلمة الإجراء كائنًا. إليك المثال الأول:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -1826,7 +1826,7 @@
 </code></pre></div>
 
 <p><span style="color: #000000">لا يقوم الإجراء بتعديل النموذج المقدم إليه. والنتيجة هي كما يلي:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000033F000000B47FCCE3AC.png" width="582" height="126" style="display:inline-block; margin:4px;width:15.39cm;height:3.334cm;" class="odt-zoomable" data-zoom-src="images/100000000000033F000000B47FCCE3AC.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000033F000000B47FCCE3AC.png" width="582" height="126" style="display:inline-block; margin:4px;width:15.39cm;height:3.334cm;" class="odt-zoomable" data-zoom-src="images/100000000000033F000000B47FCCE3AC.png" /></td></tr></table>
 
 <p><span style="color: #000000">يمكننا أن نرى أن التعليق التوضيحي [</span><span style="color: #646464">@<bdi dir="ltr" class="odt-ltr-term">ModelAttribute</bdi></span><span style="color: #000000">(</span><span style="color: #2a00ff">&quot;<bdi dir="ltr" class="odt-ltr-term">unePersonne</bdi>&quot;</span><span style="color: #000000">) <bdi dir="ltr" class="odt-ltr-term">Personne</bdi> </span><span style="color: #6a3e3e">p1</span><span style="color: #000000">] قد أضاف الشخص [p1] إلى النموذج، مرتبطًا بالمفتاح [<bdi dir="ltr" class="odt-ltr-term">unePersonne</bdi>].</span></p>
 <p><span style="color: #000000">الآن دعونا ننظر في الإجراء التالي:</span></p>
@@ -1845,13 +1845,13 @@
 </ul>
 
 <p><span style="color: #000000">والنتيجة هي كما يلي:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000034F000000A5D51B8A34.png" width="593" height="115" style="display:inline-block; margin:4px;width:15.679cm;height:3.053cm;" class="odt-zoomable" data-zoom-src="images/100000000000034F000000A5D51B8A34.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000034F000000A5D51B8A34.png" width="593" height="115" style="display:inline-block; margin:4px;width:15.679cm;height:3.053cm;" class="odt-zoomable" data-zoom-src="images/100000000000034F000000A5D51B8A34.png" /></td></tr></table>
 
 <p><span style="color: #000000">يمكننا أن نرى أن وجود المعلمة [<bdi dir="ltr" class="odt-ltr-term">Person</bdi> </span><span style="color: #6a3e3e">p1</span><span style="color: #000000">] قد أدى إلى إدراج الشخص [p1] في النموذج، مرتبطًا بالمفتاح [<bdi dir="ltr" class="odt-ltr-term">person</bdi>]، وهو اسم فئة [<bdi dir="ltr" class="odt-ltr-term">Person</bdi>] مع الحرف الأول صغيرًا.</span></p>
 <p><a id="refheading1401291644545772"></a></p>
 <h2 id="418-m24">4.18. <span style="color: #000000">[/m24]: التحقق من صحة نموذج الإجراء</span></h2>
 <p><span style="color: #000000">لننظر إلى نموذج الإجراء التالي [<bdi dir="ltr" class="odt-ltr-term">ActionModel01</bdi>]:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000107000000F10920E36B.png" width="183" height="168" style="display:inline-block; margin:4px;width:4.851cm;height:4.445cm;" class="odt-zoomable" data-zoom-src="images/1000000000000107000000F10920E36B.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000107000000F10920E36B.png" width="183" height="168" style="display:inline-block; margin:4px;width:4.851cm;height:4.445cm;" class="odt-zoomable" data-zoom-src="images/1000000000000107000000F10920E36B.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> istia.st.springmvc.models;</span></span></span>
@@ -1942,7 +1942,7 @@
 </ul>
 
 <p><span style="color: #000000">فيما يلي بعض أمثلة التنفيذ:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000030F000000E4A5F165CD.png" width="547" height="159" style="display:inline-block; margin:4px;width:14.46cm;height:4.21cm;" class="odt-zoomable" data-zoom-src="images/100000000000030F000000E4A5F165CD.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000030F000000E4A5F165CD.png" width="547" height="159" style="display:inline-block; margin:4px;width:14.46cm;height:4.21cm;" class="odt-zoomable" data-zoom-src="images/100000000000030F000000E4A5F165CD.png" /></td></tr></table>
 
 <p><span style="color: #000000">فيما سبق، نرى أن:</span></p>
 <ul>
@@ -1952,20 +1952,20 @@
   </li>
 </ul>
 
-<p><span style="color: #000000">لاحظ رموز الأخطاء الخاصة بالحقل [a]: [<bdi dir="ltr" class="odt-ltr-term">typeMismatch.actionModel01.a</bdi> - <bdi dir="ltr" class="odt-ltr-term">typeMismatch.a</bdi> - <bdi dir="ltr" class="odt-ltr-term">typeMismatch.java.lang.Integer</bdi> - <bdi dir="ltr" class="odt-ltr-term">typeMismatch</bdi>]. سنعود إلى هذه الرموز عندما يحين الوقت لتخصيص رسالة الخطأ. لاحظ أن رمز الخطأ هو [<bdi dir="ltr" class="odt-ltr-term">typeMismatch</bdi>].</span></p>
+<p><span style="color: #000000">لاحظ رموز الأخطاء الخاصة بالحقل [a]: [<bdi dir="ltr" class="odt-ltr-term">typeMismatch.actionModel01.a - typeMismatch.a - typeMismatch.java.lang.Integer - typeMismatch</bdi>]. سنعود إلى هذه الرموز عندما يحين الوقت لتخصيص رسالة الخطأ. لاحظ أن رمز الخطأ هو [<bdi dir="ltr" class="odt-ltr-term">typeMismatch</bdi>].</span></p>
 <p><span style="color: #000000">مثال آخر:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002F3000000A64F37A4DB.png" width="528" height="116" style="display:inline-block; margin:4px;width:13.981cm;height:3.074cm;" class="odt-zoomable" data-zoom-src="images/10000000000002F3000000A64F37A4DB.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000002F3000000A64F37A4DB.png" width="528" height="116" style="display:inline-block; margin:4px;width:13.981cm;height:3.074cm;" class="odt-zoomable" data-zoom-src="images/10000000000002F3000000A64F37A4DB.png" /></td></tr></table>
 
 <p><span style="color: #000000">هنا، لم يتم تمرير المعلمتين [a] و[b]. ثم قامت أدوات التحقق [@<bdi dir="ltr" class="odt-ltr-term">NotNull</bdi>] في نموذج الإجراء [<bdi dir="ltr" class="odt-ltr-term">ActionModel01</bdi>] بوظيفتها؛</span></p>
 <p><span style="color: #000000">أخيرًا، القيم الصحيحة:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001AD0000008A95AD991E.png" width="300" height="97" style="display:inline-block; margin:4px;width:7.939cm;height:2.554cm;" class="odt-zoomable" data-zoom-src="images/10000000000001AD0000008A95AD991E.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000001AD0000008A95AD991E.png" width="300" height="97" style="display:inline-block; margin:4px;width:7.939cm;height:2.554cm;" class="odt-zoomable" data-zoom-src="images/10000000000001AD0000008A95AD991E.png" /></td></tr></table>
 
 <p><a id="refheading1401311644545772"></a></p>
 <h2 id="419-m24">4.19. <span style="color: #4f81bd"><span style="color: #4f81bd">[<bdi dir="ltr" class="odt-ltr-term">m/24</bdi>]: تخصيص رسائل الخطأ</span></span></h2>
 <p><span style="color: #000000">لنعد إلى لقطة الشاشة من المثال السابق:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000030F000000E4A5F165CD.png" width="547" height="159" style="display:inline-block; margin:4px;width:14.46cm;height:4.21cm;" class="odt-zoomable" data-zoom-src="images/100000000000030F000000E4A5F165CD.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000030F000000E4A5F165CD.png" width="547" height="159" style="display:inline-block; margin:4px;width:14.46cm;height:4.21cm;" class="odt-zoomable" data-zoom-src="images/100000000000030F000000E4A5F165CD.png" /></td></tr></table>
 
-<p><span style="color: #000000">في الأعلى، نرى رسائل الخطأ الافتراضية. من الواضح أنه لا يمكننا الاحتفاظ بها في تطبيق حقيقي. من الممكن تخصيص رسائل الخطأ هذه. للقيام بذلك، سنستخدم رموز الخطأ. في الأعلى، نرى أن الخطأ الخاص بالحقل [a] يحتوي على الرموز التالية: [<bdi dir="ltr" class="odt-ltr-term">typeMismatch.actionModel01.a</bdi> - <bdi dir="ltr" class="odt-ltr-term">typeMismatch.a</bdi> - <bdi dir="ltr" class="odt-ltr-term">typeMismatch.java.lang.Integer</bdi> - <bdi dir="ltr" class="odt-ltr-term">typeMismatch</bdi>]. تتراوح رموز الأخطاء هذه من الأكثر تحديدًا إلى الأقل تحديدًا:</span></p>
+<p><span style="color: #000000">في الأعلى، نرى رسائل الخطأ الافتراضية. من الواضح أنه لا يمكننا الاحتفاظ بها في تطبيق حقيقي. من الممكن تخصيص رسائل الخطأ هذه. للقيام بذلك، سنستخدم رموز الخطأ. في الأعلى، نرى أن الخطأ الخاص بالحقل [a] يحتوي على الرموز التالية: [<bdi dir="ltr" class="odt-ltr-term">typeMismatch.actionModel01.a - typeMismatch.a - typeMismatch.java.lang.Integer - typeMismatch</bdi>]. تتراوح رموز الأخطاء هذه من الأكثر تحديدًا إلى الأقل تحديدًا:</span></p>
 <ul>
   <li><span style="color: #000000">[<bdi dir="ltr" class="odt-ltr-term">typeMismatch.actionModel01.a</bdi>]: خطأ في النوع في الحقل [a] من النوع [<bdi dir="ltr" class="odt-ltr-term">ActionModel01</bdi>]؛</span>
   </li>
@@ -1979,7 +1979,7 @@
 
 <p><span style="color: #000000">نلاحظ أيضًا أن رمز الخطأ الخاص بحقل [a] الذي تم الحصول عليه عبر [<bdi dir="ltr" class="odt-ltr-term">error.getCode</bdi>()] هو [<bdi dir="ltr" class="odt-ltr-term">typeMismatch</bdi>] (انظر لقطة الشاشة أعلاه).</span></p>
 <p><span style="color: #000000">سنضع رسائل الخطأ في ملف خصائص:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000EC000000A6063F2F7C.png" width="165" height="116" style="display:inline-block; margin:4px;width:4.369cm;height:3.073cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EC000000A6063F2F7C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000EC000000A6063F2F7C.png" width="165" height="116" style="display:inline-block; margin:4px;width:4.369cm;height:3.073cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EC000000A6063F2F7C.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">سيكون ملف [<bdi dir="ltr" class="odt-ltr-term">messages.properties</bdi>] أعلاه كما يلي:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
@@ -1994,13 +1994,13 @@
 <p><span style="color: #000000">هنا، سيكون المفتاح عبارة عن رمز خطأ، وستكون الرسالة هي رسالة الخطأ المرتبطة بهذا الرمز.</span></p>
 <p><span style="color: #000000">دعونا نستعرض رموز الأخطاء الخاصة بالحقلين:</span></p>
 <ul>
-  <li><span style="color: #000000">[<bdi dir="ltr" class="odt-ltr-term">typeMismatch.actionModel01.a</bdi> - <bdi dir="ltr" class="odt-ltr-term">typeMismatch.a</bdi> - <bdi dir="ltr" class="odt-ltr-term">typeMismatch.java.lang.Integer</bdi> - <bdi dir="ltr" class="odt-ltr-term">typeMismatch</bdi>]، عندما يكون المعامل [a] غير صالح؛</span>
+  <li><span style="color: #000000">[<bdi dir="ltr" class="odt-ltr-term">typeMismatch.actionModel01.a - typeMismatch.a - typeMismatch.java.lang.Integer - typeMismatch</bdi>]، عندما يكون المعامل [a] غير صالح؛</span>
   </li>
-  <li><span style="color: #000000">[<bdi dir="ltr" class="odt-ltr-term">typeMismatch.actionModel01.b</bdi> - <bdi dir="ltr" class="odt-ltr-term">typeMismatch.b</bdi> - <bdi dir="ltr" class="odt-ltr-term">typeMismatch.java.lang.Double</bdi> - <bdi dir="ltr" class="odt-ltr-term">typeMismatch:typeMismatch</bdi> </span>] عندما تكون المعلمة [b] غير صالحة؛
+  <li><span style="color: #000000">[<bdi dir="ltr" class="odt-ltr-term">typeMismatch.actionModel01.b - typeMismatch.b - typeMismatch.java.lang.Double - typeMismatch:typeMismatch</bdi> </span>] عندما تكون المعلمة [b] غير صالحة؛
   </li>
-  <li>[<bdi dir="ltr" class="odt-ltr-term">NotNull.actionModel01.a</bdi> - <bdi dir="ltr" class="odt-ltr-term">NotNull.a</bdi> - <bdi dir="ltr" class="odt-ltr-term">NotNull.java.lang.Integer</bdi> - <bdi dir="ltr" class="odt-ltr-term">NotNull</bdi>] <span style="color: #000000">عندما تكون المعلمة [a] مفقودة؛</span>
+  <li>[<bdi dir="ltr" class="odt-ltr-term">NotNull.actionModel01.a - NotNull.a - NotNull.java.lang.Integer - NotNull</bdi>] <span style="color: #000000">عندما تكون المعلمة [a] مفقودة؛</span>
   </li>
-  <li><span style="color: #000000">[<bdi dir="ltr" class="odt-ltr-term">NotNull.actionModel01.b</bdi> - <bdi dir="ltr" class="odt-ltr-term">NotNull.b</bdi> - <bdi dir="ltr" class="odt-ltr-term">NotNull.java.lang.Double</bdi> - <bdi dir="ltr" class="odt-ltr-term">NotNull</bdi>] عندما تكون المعلمة [b] مفقودة؛</span>
+  <li><span style="color: #000000">[<bdi dir="ltr" class="odt-ltr-term">NotNull.actionModel01.b - NotNull.b - NotNull.java.lang.Double - NotNull</bdi>] عندما تكون المعلمة [b] مفقودة؛</span>
   </li>
 </ul>
 
@@ -2015,7 +2015,7 @@
 </ul>
 
 <p><span style="color: #000000">لاستخدام ملف [<bdi dir="ltr" class="odt-ltr-term">messages.properties</bdi>]، يجب تكوين <bdi dir="ltr" class="odt-ltr-term">Spring:</bdi></span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000010D000000B603AEEC0C.png" width="188" height="127" style="display:inline-block; margin:4px;width:4.979cm;height:3.369cm;" class="odt-zoomable" data-zoom-src="images/100000000000010D000000B603AEEC0C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000010D000000B603AEEC0C.png" width="188" height="127" style="display:inline-block; margin:4px;width:4.979cm;height:3.369cm;" class="odt-zoomable" data-zoom-src="images/100000000000010D000000B603AEEC0C.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">نقوم بإزالة تعليقات التكوين من فئة [<bdi dir="ltr" class="odt-ltr-term">Application</bdi>]:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -2081,7 +2081,7 @@
 </ul>
 
 <p><span style="color: #000000">في مشروع <bdi dir="ltr" class="odt-ltr-term">STS</bdi>، يجب وضع المجلد [<bdi dir="ltr" class="odt-ltr-term">i18n</bdi>] في مجلد الموارد لأنه يضاف إلى مسار فئة المشروع:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000010D000000B65DBE90A1.png" width="188" height="127" style="display:inline-block; margin:4px;width:4.979cm;height:3.369cm;" class="odt-zoomable" data-zoom-src="images/100000000000010D000000B65DBE90A1.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000010D000000B65DBE90A1.png" width="188" height="127" style="display:inline-block; margin:4px;width:4.979cm;height:3.369cm;" class="odt-zoomable" data-zoom-src="images/100000000000010D000000B65DBE90A1.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">لاستخدام هذا الملف، نقوم بإنشاء الإجراء الجديد التالي:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-csharp">
@@ -2165,7 +2165,7 @@
 </ul>
 
 <p><span style="color: #000000">فيما يلي بعض أمثلة التنفيذ:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002D3000000822C968A9B.png" width="506" height="91" style="display:inline-block; margin:4px;width:13.39cm;height:2.408cm;" class="odt-zoomable" data-zoom-src="images/10000000000002D3000000822C968A9B.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000002D3000000822C968A9B.png" width="506" height="91" style="display:inline-block; margin:4px;width:13.39cm;height:2.408cm;" class="odt-zoomable" data-zoom-src="images/10000000000002D3000000822C968A9B.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">نلاحظ أن:</span></p>
 <ul>
@@ -2180,7 +2180,7 @@
 </code></pre></div>
 
 <p><span style="color: #000000">مثال آخر:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000028B0000008719E44712.png" width="455" height="94" style="display:inline-block; margin:4px;width:12.051cm;height:2.499cm;" class="odt-zoomable" data-zoom-src="images/100000000000028B0000008719E44712.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000028B0000008719E44712.png" width="455" height="94" style="display:inline-block; margin:4px;width:12.051cm;height:2.499cm;" class="odt-zoomable" data-zoom-src="images/100000000000028B0000008719E44712.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">نرى أن:</span></p>
 <ul>
@@ -2281,7 +2281,7 @@
 </ul>
 
 <p><span style="color: #000000">لاستخدام هذه الإعدادات المحلية، سننشئ ملفات رسائل للإعدادات المحلية [fr] و [en]:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000DC000000977AF696E4.png" width="154" height="106" style="display:inline-block; margin:4px;width:4.069cm;height:2.792cm;" class="odt-zoomable" data-zoom-src="images/10000000000000DC000000977AF696E4.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000DC000000977AF696E4.png" width="154" height="106" style="display:inline-block; margin:4px;width:4.069cm;height:2.792cm;" class="odt-zoomable" data-zoom-src="images/10000000000000DC000000977AF696E4.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">ملف [<bdi dir="ltr" class="odt-ltr-term">messages</bdi>_fr.<bdi dir="ltr" class="odt-ltr-term">properties</bdi>] هو كما يلي:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
@@ -2299,10 +2299,10 @@
 
 <p><span style="color: #000000">ملف [<bdi dir="ltr" class="odt-ltr-term">messages.properties</bdi>] هو نسخة من ملف [<bdi dir="ltr" class="odt-ltr-term">messages</bdi>_en.<bdi dir="ltr" class="odt-ltr-term">properties</bdi>]. لاحظ أن ملف [<bdi dir="ltr" class="odt-ltr-term">messages.properties</bdi>] يُستخدم عندما لا يتم العثور على ملف يطابق لغة الطلب. في حالتنا، إذا أرسل المستخدم معلمة [<bdi dir="ltr" class="odt-ltr-term">lang</bdi>=en]، وبما أن ملف [<bdi dir="ltr" class="odt-ltr-term">messages</bdi>_en.<bdi dir="ltr" class="odt-ltr-term">properties</bdi>] غير موجود، فسيتم استخدام ملف [<bdi dir="ltr" class="odt-ltr-term">messages.properties</bdi>]. وبالتالي، سيشاهد المستخدم الرسائل باللغة الإنجليزية.</span></p>
 <p><span style="color: #000000">دعونا نجرب ذلك. أولاً، في أدوات المطورين في <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> (<bdi dir="ltr" class="odt-ltr-term">Ctrl-Shift-I</bdi>)، تحقق من ملفات تعريف الارتباط الخاصة بك:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003720000012DD13E6D32.png" width="617" height="211" style="display:inline-block; margin:4px;width:16.33cm;height:5.572cm;" class="odt-zoomable" data-zoom-src="images/10000000000003720000012DD13E6D32.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000003720000012DD13E6D32.png" width="617" height="211" style="display:inline-block; margin:4px;width:16.33cm;height:5.572cm;" class="odt-zoomable" data-zoom-src="images/10000000000003720000012DD13E6D32.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">إذا كان لديك ملف تعريف ارتباط باسم [<bdi dir="ltr" class="odt-ltr-term">lang</bdi>]، فاحذفه. بعد ذلك، في <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi>، انتقل إلى عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> [<bdi dir="ltr" class="odt-ltr-term">http://localhost:8080/m25</bdi>]:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000028700000084796BC864.png" width="453" height="92" style="display:inline-block; margin:4px;width:11.98cm;height:2.445cm;" class="odt-zoomable" data-zoom-src="images/100000000000028700000084796BC864.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000028700000084796BC864.png" width="453" height="92" style="display:inline-block; margin:4px;width:11.98cm;height:2.445cm;" class="odt-zoomable" data-zoom-src="images/100000000000028700000084796BC864.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">أرسل المتصفح رؤوس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> التالية:</span></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1"> 1</a></span>
@@ -2326,7 +2326,7 @@
 <a id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="n">Accept</span><span class="o">-</span><span class="n">Language</span><span class="p">:</span> <span class="n">fr</span><span class="o">-</span><span class="n">FR</span><span class="p">,</span><span class="n">fr</span><span class="p">;</span><span class="n">q</span><span class="o">=</span><span class="mf">0.8</span><span class="p">,</span><span class="n">en</span><span class="o">-</span><span class="n">US</span><span class="p">;</span><span class="n">q</span><span class="o">=</span><span class="mf">0.6</span><span class="p">,</span><span class="n">en</span><span class="p">;</span><span class="n">q</span><span class="o">=</span><span class="mf">0.4</span>
 </code></pre></div></td></tr></table></div>
 <p>يمكننا أن نرى أنه في هذه الرؤوس، لا يوجد ملف تعريف ارتباط [<bdi dir="ltr" class="odt-ltr-term">lang</bdi>]. في هذه الحالة، يستخدم كودنا الإعدادات المحلية [fr]. يظهر هذا في لقطة الشاشة. دعونا نجرب حالة أخرى:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003A6000000EBC3DCB4C3.png" width="467" height="118" style="display:inline-block; margin:4px;width:12.356cm;height:3.11cm;" class="odt-zoomable" data-zoom-src="images/10000000000003A6000000EBC3DCB4C3.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000003A6000000EBC3DCB4C3.png" width="467" height="118" style="display:inline-block; margin:4px;width:12.356cm;height:3.11cm;" class="odt-zoomable" data-zoom-src="images/10000000000003A6000000EBC3DCB4C3.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، قمنا بتمرير المعلمة [<bdi dir="ltr" class="odt-ltr-term">lang</bdi>=en] لتعيين الإعدادات المحلية إلى [en]؛
@@ -2338,13 +2338,13 @@
 </ul>
 
 <p>الآن دعونا نلقي نظرة على تبادلات <bdi dir="ltr" class="odt-ltr-term">HTTP:</bdi></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000019F0000022855F0DE78.png" width="290" height="386" style="display:inline-block; margin:4px;width:7.68cm;height:10.215cm;" class="odt-zoomable" data-zoom-src="images/100000000000019F0000022855F0DE78.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000019F0000022855F0DE78.png" width="290" height="386" style="display:inline-block; margin:4px;width:7.68cm;height:10.215cm;" class="odt-zoomable" data-zoom-src="images/100000000000019F0000022855F0DE78.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>يمكننا أن نرى أعلاه أن الخادم أرسل ملف تعريف ارتباط [<bdi dir="ltr" class="odt-ltr-term">lang</bdi>]. ولهذا نتيجة مهمة: ستكون الإعدادات المحلية للطلب التالي [en] مرة أخرى بسبب ملف تعريف الارتباط [<bdi dir="ltr" class="odt-ltr-term">lang</bdi>] الذي سيرسله المتصفح. لذا يجب أن نبقي الرسائل باللغة الإنجليزية. دعونا نتحقق من ذلك:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000023C0000007AE8C74701.png" width="400" height="85" style="display:inline-block; margin:4px;width:10.59cm;height:2.26cm;" class="odt-zoomable" data-zoom-src="images/100000000000023C0000007AE8C74701.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000023C0000007AE8C74701.png" width="400" height="85" style="display:inline-block; margin:4px;width:10.59cm;height:2.26cm;" class="odt-zoomable" data-zoom-src="images/100000000000023C0000007AE8C74701.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>في الأعلى، نرى أن الإعدادات اللغوية ظلت [en]. وبسبب ملف تعريف الارتباط الذي يرسله المتصفح بشكل منهجي، ستظل على هذا النحو حتى يقوم المستخدم بتغييرها عن طريق إرسال المعلمة [<bdi dir="ltr" class="odt-ltr-term">lang</bdi>] على النحو التالي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000024F0000007F0F0215B9.png" width="413" height="89" style="display:inline-block; margin:4px;width:10.94cm;height:2.351cm;" class="odt-zoomable" data-zoom-src="images/100000000000024F0000007F0F0215B9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000024F0000007F0F0215B9.png" width="413" height="89" style="display:inline-block; margin:4px;width:10.94cm;height:2.351cm;" class="odt-zoomable" data-zoom-src="images/100000000000024F0000007F0F0215B9.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><a id="refheading1401351644545772"></a></p>
 <h2 id="421-m26">4.21. <span style="color: #4f81bd">[/m26]: إدراج الإعدادات المحلية في قالب الإجراء</span></h2>
@@ -2367,9 +2367,9 @@
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000017A000000761F0BF5A4.png" width="265" height="83" style="display:inline-block; margin:4px;width:7.001cm;height:2.185cm;" class="odt-zoomable" data-zoom-src="images/100000000000017A000000761F0BF5A4.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001820000007563881BAD.png" width="270" height="82" style="display:inline-block; margin:4px;width:7.151cm;height:2.168cm;" class="odt-zoomable" data-zoom-src="images/10000000000001820000007563881BAD.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000017A000000761F0BF5A4.png" width="265" height="83" style="display:inline-block; margin:4px;width:7.001cm;height:2.185cm;" class="odt-zoomable" data-zoom-src="images/100000000000017A000000761F0BF5A4.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000001820000007563881BAD.png" width="270" height="82" style="display:inline-block; margin:4px;width:7.151cm;height:2.168cm;" class="odt-zoomable" data-zoom-src="images/10000000000001820000007563881BAD.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000025D0000007B40E6ED69.png" width="423" height="86" style="display:inline-block; margin:4px;width:11.201cm;height:2.277cm;" class="odt-zoomable" data-zoom-src="images/100000000000025D0000007B40E6ED69.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000025D0000007B40E6ED69.png" width="423" height="86" style="display:inline-block; margin:4px;width:11.201cm;height:2.277cm;" class="odt-zoomable" data-zoom-src="images/100000000000025D0000007B40E6ED69.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>كما هو موضح أعلاه، لا يتم التحقق من صحة الإعدادات المحلية المطلوبة. ومع ذلك، يؤدي الطلب اللاحق للمتصفح إلى حدوث استثناء من جانب الخادم لأن ملف تعريف الارتباط الخاص بالإعدادات المحلية الذي يتلقاه غير صحيح.</p>
 <p><a id="refheading1401371644545772"></a></p>
@@ -2399,7 +2399,7 @@
 <ul>
   <li>السطر 3:  يتم طلب الإجراء [/m27] عبر <bdi dir="ltr" class="odt-ltr-term">POST</bdi>؛
   </li>
-  <li>الأسطر 8–11: سيتم تحديد كل خطأ بواسطة [<bdi dir="ltr" class="odt-ltr-term">field</bdi>, <bdi dir="ltr" class="odt-ltr-term">message</bdi>] مع:
+  <li>الأسطر 8–11: سيتم تحديد كل خطأ بواسطة [<bdi dir="ltr" class="odt-ltr-term">field, message</bdi>] مع:
     <ul>
       <li>الحقل: الحقل الذي يحتوي على الخطأ،
       </li>
@@ -2412,7 +2412,7 @@
 </ul>
 
 <p>السطر 3: يتم استخدام نموذج الإجراء التالي [<bdi dir="ltr" class="odt-ltr-term">ActionModel02</bdi>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000113000000EE0B03C36F.png" width="192" height="167" style="display:inline-block; margin:4px;width:5.091cm;height:4.406cm;" class="odt-zoomable" data-zoom-src="images/1000000000000113000000EE0B03C36F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000113000000EE0B03C36F.png" width="192" height="167" style="display:inline-block; margin:4px;width:5.091cm;height:4.406cm;" class="odt-zoomable" data-zoom-src="images/1000000000000113000000EE0B03C36F.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> istia.st.springmvc.models;</span></span></span>
@@ -2503,10 +2503,10 @@
 </ul>
 
 <p><span style="color: #000000">تم تضمين تبعيات <bdi dir="ltr" class="odt-ltr-term">Maven</bdi> لهاتين الحزمتين في المشروع:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000F50000006F1CF8DF07.png" width="172" height="78" style="display:inline-block; margin:4px;width:4.54cm;height:2.057cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F50000006F1CF8DF07.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F50000006F1CF8DF07.png" width="172" height="78" style="display:inline-block; margin:4px;width:4.54cm;height:2.057cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F50000006F1CF8DF07.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><span style="color: #000000">هنا، لن نستخدم رسائل متعددة اللغات، بل رسائل محددة داخل القيد باستخدام السمة [<bdi dir="ltr" class="odt-ltr-term">message</bdi>]. لاختبار هذا الإجراء، سنستخدم [<bdi dir="ltr" class="odt-ltr-term">Advanced Rest Client</bdi>]:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002680000025E65D60503.png" width="308" height="303" style="display:inline-block; margin:4px;width:8.149cm;height:8.017cm;" class="odt-zoomable" data-zoom-src="images/10000000000002680000025E65D60503.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000002680000025E65D60503.png" width="308" height="303" style="display:inline-block; margin:4px;width:8.149cm;height:8.017cm;" class="odt-zoomable" data-zoom-src="images/10000000000002680000025E65D60503.png" /></td></tr></table>
 
 <ul>
   <li>في [1-2]، طلب <bdi dir="ltr" class="odt-ltr-term">POST</bdi>؛
@@ -2530,7 +2530,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005660000014FD5854C48.png" width="680" height="165" style="display:inline-block; margin:4px;width:17.999cm;height:4.364cm;" class="odt-zoomable" data-zoom-src="images/10000000000005660000014FD5854C48.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000005660000014FD5854C48.png" width="680" height="165" style="display:inline-block; margin:4px;width:17.999cm;height:4.364cm;" class="odt-zoomable" data-zoom-src="images/10000000000005660000014FD5854C48.png" /></td></tr></table>
 
 <ul>
   <li>في [7]، استجابة الخادم: تم تشغيل القيد [@<bdi dir="ltr" class="odt-ltr-term">NotNull</bdi>] للحقول الفارغة، وتم إرجاع رسالة الخطأ المرتبطة به؛
@@ -2540,17 +2540,17 @@
 </ul>
 
 <p>إليك مثال آخر:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000151000001A8AD1834DB.png" width="236" height="297" style="display:inline-block; margin:4px;width:6.241cm;height:7.853cm;" class="odt-zoomable" data-zoom-src="images/1000000000000151000001A8AD1834DB.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000151000001A8AD1834DB.png" width="236" height="297" style="display:inline-block; margin:4px;width:6.241cm;height:7.853cm;" class="odt-zoomable" data-zoom-src="images/1000000000000151000001A8AD1834DB.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><img src="images/10000000000004F6000001544612FFF2.png" width="670" height="179" style="width:17.729cm;height:4.747cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000004F6000001544612FFF2.png" /></p>
 <p>ندعو القارئ إلى اختبار حالات الخطأ المختلفة حتى يتم نشر جميع البيانات الصحيحة:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001A4000003438E9FBE69.png" width="294" height="585" style="display:inline-block; margin:4px;width:7.781cm;height:15.469cm;" class="odt-zoomable" data-zoom-src="images/10000000000001A4000003438E9FBE69.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000015900000191FD7A3ACF.png" width="242" height="281" style="display:inline-block; margin:4px;width:6.391cm;height:7.428cm;" class="odt-zoomable" data-zoom-src="images/100000000000015900000191FD7A3ACF.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000001A4000003438E9FBE69.png" width="294" height="585" style="display:inline-block; margin:4px;width:7.781cm;height:15.469cm;" class="odt-zoomable" data-zoom-src="images/10000000000001A4000003438E9FBE69.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000015900000191FD7A3ACF.png" width="242" height="281" style="display:inline-block; margin:4px;width:6.391cm;height:7.428cm;" class="odt-zoomable" data-zoom-src="images/100000000000015900000191FD7A3ACF.png" /></td></tr></table>
 
 <p><strong>ملاحظة</strong>: تنسيق التاريخ هو التنسيق الأنجلوساكسوني: <strong><bdi dir="ltr" class="odt-ltr-term">mm/dd/yyyy</bdi></strong>.</p>
 <p><a id="refheading1401391644545772"></a></p>
 <h2 id="423-m28">4.23. <span style="color: #4f81bd">[/m28]: إخراج رسائل الخطأ</span></h2>
 <p>في فئة [<bdi dir="ltr" class="odt-ltr-term">ActionModel02</bdi>]، قمنا بترميز الرسائل بشكل ثابت. من الأفضل إخراجها إلى ملفات رسائل. نتبع مثال الإجراء [/m25]. نقوم بإنشاء نموذج الإجراء الجديد التالي [<bdi dir="ltr" class="odt-ltr-term">ActionModel03</bdi>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000F4000000DFF4AF3610.png" width="171" height="156" style="display:inline-block; margin:4px;width:4.521cm;height:4.133cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F4000000DFF4AF3610.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F4000000DFF4AF3610.png" width="171" height="156" style="display:inline-block; margin:4px;width:4.521cm;height:4.133cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F4000000DFF4AF3610.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> istia.st.springmvc.models;</span></span></span>
@@ -2632,7 +2632,7 @@
 </code></pre></div>
 
 <p>يتم عرض رسائل الخطأ في ملفات [<bdi dir="ltr" class="odt-ltr-term">messages.properties</bdi>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000F6000000FC0AB569E0.png" width="172" height="177" style="display:inline-block; margin:4px;width:4.56cm;height:4.671cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F6000000FC0AB569E0.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F6000000FC0AB569E0.png" width="172" height="177" style="display:inline-block; margin:4px;width:4.56cm;height:4.671cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F6000000FC0AB569E0.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>فيما يلي ملف [<bdi dir="ltr" class="odt-ltr-term">messages</bdi>_fr.<bdi dir="ltr" class="odt-ltr-term">properties</bdi>]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
@@ -2727,10 +2727,10 @@
 
 <p>لقد ناقشنا هذا النوع من الكود بالفعل. الشيء الوحيد المهم حقًا هو السطر 23: تعتمد رسالة الخطأ التي يتم إرجاعها على الإعدادات المحلية للطلب.</p>
 <p>إليك مثال باللغة الفرنسية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000150000001AF14AF6190.png" width="235" height="301" style="display:inline-block; margin:4px;width:6.219cm;height:7.976cm;" class="odt-zoomable" data-zoom-src="images/1000000000000150000001AF14AF6190.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001EB0000014D3012AB5D.png" width="344" height="233" style="display:inline-block; margin:4px;width:9.089cm;height:6.165cm;" class="odt-zoomable" data-zoom-src="images/10000000000001EB0000014D3012AB5D.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000150000001AF14AF6190.png" width="235" height="301" style="display:inline-block; margin:4px;width:6.219cm;height:7.976cm;" class="odt-zoomable" data-zoom-src="images/1000000000000150000001AF14AF6190.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000001EB0000014D3012AB5D.png" width="344" height="233" style="display:inline-block; margin:4px;width:9.089cm;height:6.165cm;" class="odt-zoomable" data-zoom-src="images/10000000000001EB0000014D3012AB5D.png" /></td></tr></table>
 
 <p>والآن باللغة الإنجليزية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000134000001B0207EA3C2.png" width="215" height="302" style="display:inline-block; margin:4px;width:5.701cm;height:7.996cm;" class="odt-zoomable" data-zoom-src="images/1000000000000134000001B0207EA3C2.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000018D00000157FAFA354B.png" width="278" height="240" style="display:inline-block; margin:4px;width:7.35cm;height:6.35cm;" class="odt-zoomable" data-zoom-src="images/100000000000018D00000157FAFA354B.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000134000001B0207EA3C2.png" width="215" height="302" style="display:inline-block; margin:4px;width:5.701cm;height:7.996cm;" class="odt-zoomable" data-zoom-src="images/1000000000000134000001B0207EA3C2.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000018D00000157FAFA354B.png" width="278" height="240" style="display:inline-block; margin:4px;width:7.35cm;height:6.35cm;" class="odt-zoomable" data-zoom-src="images/100000000000018D00000157FAFA354B.png" /></td></tr></table>
 
 
 

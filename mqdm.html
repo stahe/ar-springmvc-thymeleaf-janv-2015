@@ -896,7 +896,7 @@
 <h1 id="1">1. <span style="color: #365f91">مقدمة</span></h1>
 <p>ملف <bdi dir="ltr" class="odt-ltr-term">PDF</bdi> لهذا المستند متاح |<a href="https://1drv.ms/b/c/f53a919f43d27eb5/IQBt42ZDvPoKRZsjsubvjvcAAWeLz-847V93nK-uMQvdrVo?e=cHBVrI">هنا</a>|.</p>
 <p>الأمثلة الواردة في هذا المستند متاحة |<a href="https://1drv.ms/u/c/f53a919f43d27eb5/IQDwyiWIhkY5QJP6RiV5yBucAfDKnSJ4ZZ37b8kGPm8GPpo?e=Xd1xgL">هنا</a>|.</p>
-<p>نهدف هنا إلى تقديم المفاهيم الأساسية لـ <strong><bdi dir="ltr" class="odt-ltr-term">Spring</bdi></strong> <bdi dir="ltr" class="odt-ltr-term">MVC</bdi>، وهو إطار عمل ويب لـ <bdi dir="ltr" class="odt-ltr-term">Java</bdi> يوفر بنية لتطوير تطبيقات الويب وفقًا لنمط <bdi dir="ltr" class="odt-ltr-term">MVC</bdi> (<bdi dir="ltr" class="odt-ltr-term">Model</bdi>–<bdi dir="ltr" class="odt-ltr-term">View</bdi>–<bdi dir="ltr" class="odt-ltr-term">Controller</bdi>)، وذلك من خلال أمثلة توضيحية. <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> هو فرع من نظام <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> [<a href="http://projects.spring.io/spring-framework/"><u><span style="color: #0563c1"><bdi dir="ltr" class="odt-ltr-term">http://projects.spring.io/spring-framework/</bdi></span></u></a>]. كما نقدم محرك العرض <strong><bdi dir="ltr" class="odt-ltr-term">Thymeleaf</bdi></strong> [<a href="http://www.thymeleaf.org/"><u><span style="color: #0563c1"><bdi dir="ltr" class="odt-ltr-term">http://www.thymeleaf.org/</bdi></span></u></a>].</p>
+<p>نهدف هنا إلى تقديم المفاهيم الأساسية لـ <strong><bdi dir="ltr" class="odt-ltr-term">Spring</bdi></strong> <bdi dir="ltr" class="odt-ltr-term">MVC</bdi>، وهو إطار عمل ويب لـ <bdi dir="ltr" class="odt-ltr-term">Java</bdi> يوفر بنية لتطوير تطبيقات الويب وفقًا لنمط <bdi dir="ltr" class="odt-ltr-term">MVC</bdi> (<bdi dir="ltr" class="odt-ltr-term">Model–View–Controller</bdi>)، وذلك من خلال أمثلة توضيحية. <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> هو فرع من نظام <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> [<a href="http://projects.spring.io/spring-framework/"><u><span style="color: #0563c1"><bdi dir="ltr" class="odt-ltr-term">http://projects.spring.io/spring-framework/</bdi></span></u></a>]. كما نقدم محرك العرض <strong><bdi dir="ltr" class="odt-ltr-term">Thymeleaf</bdi></strong> [<a href="http://www.thymeleaf.org/"><u><span style="color: #0563c1"><bdi dir="ltr" class="odt-ltr-term">http://www.thymeleaf.org/</bdi></span></u></a>].</p>
 <p>هذه الدورة مخصصة للقراء الذين يتمتعون بإجادة جيدة للغة <bdi dir="ltr" class="odt-ltr-term">Java.</bdi> لا يلزم وجود معرفة مسبقة ببرمجة الويب.</p>
 <p><strong>على الرغم من تفصيل هذا المستند، إلا أنه من المحتمل أن يكون غير مكتمل</strong>. <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> هو إطار عمل واسع النطاق له العديد من الفروع. لمعرفة المزيد عن <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi>، يمكنك الرجوع إلى الموارد التالية:</p>
 <ul>
@@ -915,9 +915,9 @@
 <ul>
   <li>[<a href="https://stahe.github.io/ar-aspnetmvc-nov-2013/"><u><span style="color: #0563c1">مقدمة إلى <bdi dir="ltr" class="odt-ltr-term">ASP.NET MVC</bdi> بالأمثلة</span></u></a>]. <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> و <bdi dir="ltr" class="odt-ltr-term">ASP.NET MVC</bdi> هما إطاران متشابهان، وقد تم إنشاء الثاني بعد الأول بفترة طويلة. من أجل مقارنة الإطارين، اتبعت نفس التسلسل الوارد في الوثيقة الخاصة بـ <bdi dir="ltr" class="odt-ltr-term">ASP.NET MVC</bdi>؛
   </li>
-  <li>لا يحتوي المستند الخاص بـ <bdi dir="ltr" class="odt-ltr-term">ASP.NET MVC</bdi> حاليًا (ديسمبر 2014) على دراسة حالة مع حلها. وقد استخدمت هنا الدراسة الواردة في المستند [<a href="https://stahe.github.io/ar-spring-angular1.x-juillet-2014/"><u><span style="color: #0563c1">دليل <bdi dir="ltr" class="odt-ltr-term">AngularJS</bdi> / <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> 4</span></u></a>]، والتي قمت بتعديلها على النحو التالي:
+  <li>لا يحتوي المستند الخاص بـ <bdi dir="ltr" class="odt-ltr-term">ASP.NET MVC</bdi> حاليًا (ديسمبر 2014) على دراسة حالة مع حلها. وقد استخدمت هنا الدراسة الواردة في المستند [<a href="https://stahe.github.io/ar-spring-angular1.x-juillet-2014/"><u><span style="color: #0563c1">دليل <bdi dir="ltr" class="odt-ltr-term">AngularJS / Spring</bdi> 4</span></u></a>]، والتي قمت بتعديلها على النحو التالي:
     <ul>
-      <li>دراسة الحالة في [<bdi dir="ltr" class="odt-ltr-term">AngularJS</bdi> / <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> 4 <bdi dir="ltr" class="odt-ltr-term">Tutorial</bdi>] هي دراسة لتطبيق عميل/خادم حيث يكون الخادم عبارة عن خدمة ويب / <bdi dir="ltr" class="odt-ltr-term">JSON</bdi> تم إنشاؤها باستخدام <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> ويكون العميل عميل <bdi dir="ltr" class="odt-ltr-term">AngularJS</bdi>؛
+      <li>دراسة الحالة في [<bdi dir="ltr" class="odt-ltr-term">AngularJS / Spring</bdi> 4 <bdi dir="ltr" class="odt-ltr-term">Tutorial</bdi>] هي دراسة لتطبيق عميل/خادم حيث يكون الخادم عبارة عن خدمة ويب / <bdi dir="ltr" class="odt-ltr-term">JSON</bdi> تم إنشاؤها باستخدام <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> ويكون العميل عميل <bdi dir="ltr" class="odt-ltr-term">AngularJS</bdi>؛
       </li>
       <li>في هذه الوثيقة، نستخدم نفس خدمة الويب/<bdi dir="ltr" class="odt-ltr-term">JSON</bdi>، لكن العميل هو تطبيق ويب من مستويين [عميل <bdi dir="ltr" class="odt-ltr-term">jQuery</bdi>] / [خدمة ويب/<bdi dir="ltr" class="odt-ltr-term">JSON</bdi>]؛
       </li>
@@ -947,19 +947,19 @@
 <p><a id="refheading2534711226231699"></a></p>
 <h2 id="13">1.3. <span style="color: #4f81bd">الأمثلة</span></h2>
 <p>الأمثلة متاحة |هنا| كملف <em><bdi dir="ltr" class="odt-ltr-term">ZIP</bdi></em> قابل للتنزيل.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000F90000012D110076DD.png" width="174" height="211" style="display:inline-block; margin:4px;width:4.611cm;height:5.574cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F90000012D110076DD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F90000012D110076DD.png" width="174" height="211" style="display:inline-block; margin:4px;width:4.611cm;height:5.574cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F90000012D110076DD.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>لتحميل جميع المشاريع إلى <bdi dir="ltr" class="odt-ltr-term">STS</bdi>، اتبع الخطوات التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000053F0000047A40A98BB9.png" width="470" height="401" style="display:inline-block; margin:4px;width:12.441cm;height:10.617cm;" class="odt-zoomable" data-zoom-src="images/100000000000053F0000047A40A98BB9.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000053F0000047A40A98BB9.png" width="470" height="401" style="display:inline-block; margin:4px;width:12.441cm;height:10.617cm;" class="odt-zoomable" data-zoom-src="images/100000000000053F0000047A40A98BB9.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000043000000386C8DC6BC7.png" width="536" height="451" style="display:inline-block; margin:4px;width:14.182cm;height:11.933cm;" class="odt-zoomable" data-zoom-src="images/100000000000043000000386C8DC6BC7.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000043000000386C8DC6BC7.png" width="536" height="451" style="display:inline-block; margin:4px;width:14.182cm;height:11.933cm;" class="odt-zoomable" data-zoom-src="images/100000000000043000000386C8DC6BC7.png" /></td></tr></table>
 
 <ul>
   <li>في [1-3]، قم باستيراد مشاريع <bdi dir="ltr" class="odt-ltr-term">Maven</bdi>؛
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000064100000415C3FF7CAC.png" width="680" height="444" style="display:inline-block; margin:4px;width:17.999cm;height:11.748cm;" class="odt-zoomable" data-zoom-src="images/100000000000064100000415C3FF7CAC.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000064100000415C3FF7CAC.png" width="680" height="444" style="display:inline-block; margin:4px;width:17.999cm;height:11.748cm;" class="odt-zoomable" data-zoom-src="images/100000000000064100000415C3FF7CAC.png" /></td></tr></table>
 
 <ul>
   <li>في [4]، حدد مجلد <bdi dir="ltr" class="odt-ltr-term">examples</bdi>؛
@@ -975,7 +975,7 @@
 <p><a id="refheading99511454977699"></a></p>
 <h2 id="14-spring-mvc">1.4. <span style="color: #4f81bd">دور <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> في تطبيق الويب</span></h2>
 <p>دعونا نضع <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> في سياق تطوير تطبيق ويب. في أغلب الأحيان، سيتم بناؤه على بنية متعددة المستويات مثل ما يلي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005E10000013CA78EDF79.png" width="680" height="143" style="display:inline-block; margin:4px;width:17.999cm;height:3.778cm;" class="odt-zoomable" data-zoom-src="images/10000000000005E10000013CA78EDF79.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000005E10000013CA78EDF79.png" width="680" height="143" style="display:inline-block; margin:4px;width:17.999cm;height:3.778cm;" class="odt-zoomable" data-zoom-src="images/10000000000005E10000013CA78EDF79.png" /></td></tr></table>
 
 <ul>
   <li>الطبقة [<b><bdi dir="ltr" class="odt-ltr-term">Web</bdi></b>] هي الطبقة التي تتعامل مع مستخدم تطبيق الويب. يتفاعل المستخدم مع تطبيق الويب من خلال صفحات الويب التي يتم عرضها في المتصفح. <b>يقع <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> في هذه الطبقة وفقط في هذه الطبقة؛</b>
@@ -989,16 +989,16 @@
 </ul>
 
 <p>ستستخدم معظم الأمثلة الواردة أدناه طبقة واحدة فقط، وهي طبقة [<bdi dir="ltr" class="odt-ltr-term">Web</bdi>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000236000001002A688749.png" width="283" height="128" style="display:inline-block; margin:4px;width:7.488cm;height:3.387cm;" class="odt-zoomable" data-zoom-src="images/1000000000000236000001002A688749.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000236000001002A688749.png" width="283" height="128" style="display:inline-block; margin:4px;width:7.488cm;height:3.387cm;" class="odt-zoomable" data-zoom-src="images/1000000000000236000001002A688749.png" /></td></tr></table>
 
 <p>ومع ذلك، ستختتم هذه الوثيقة بإنشاء تطبيق ويب متعدد المستويات:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000051000000455C7A0A7BC.png" width="648" height="554" style="display:inline-block; margin:4px;width:17.145cm;height:14.67cm;" class="odt-zoomable" data-zoom-src="images/100000000000051000000455C7A0A7BC.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000051000000455C7A0A7BC.png" width="648" height="554" style="display:inline-block; margin:4px;width:17.145cm;height:14.67cm;" class="odt-zoomable" data-zoom-src="images/100000000000051000000455C7A0A7BC.png" /></td></tr></table>
 
-<p>سيتصل المتصفح بتطبيق [<bdi dir="ltr" class="odt-ltr-term">Web1</bdi>] تم تنفيذه باستخدام <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> / <bdi dir="ltr" class="odt-ltr-term">Thymeleaf</bdi>، والذي سيسترد بياناته من خدمة ويب [<bdi dir="ltr" class="odt-ltr-term">Web2</bdi>] تم تنفيذها أيضًا باستخدام <bdi dir="ltr" class="odt-ltr-term">Spring MVC.</bdi> وسيتصل هذا التطبيق الويب الثاني بقاعدة بيانات.</p>
+<p>سيتصل المتصفح بتطبيق [<bdi dir="ltr" class="odt-ltr-term">Web1</bdi>] تم تنفيذه باستخدام <bdi dir="ltr" class="odt-ltr-term">Spring MVC / Thymeleaf</bdi>، والذي سيسترد بياناته من خدمة ويب [<bdi dir="ltr" class="odt-ltr-term">Web2</bdi>] تم تنفيذها أيضًا باستخدام <bdi dir="ltr" class="odt-ltr-term">Spring MVC.</bdi> وسيتصل هذا التطبيق الويب الثاني بقاعدة بيانات.</p>
 <p><a id="refheading99531454977699"></a></p>
 <h2 id="15-spring-mvc">1.5. <span style="color: #4f81bd">نموذج تطوير <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi></span></h2>
 <p>يُنفذ <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> نمط هندسة <bdi dir="ltr" class="odt-ltr-term">MVC</bdi> (النموذج – العرض – وحدة التحكم) على النحو التالي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003DE0000016D1FA2AB0E.png" width="495" height="183" style="display:inline-block; margin:4px;width:13.097cm;height:4.83cm;" class="odt-zoomable" data-zoom-src="images/10000000000003DE0000016D1FA2AB0E.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000003DE0000016D1FA2AB0E.png" width="495" height="183" style="display:inline-block; margin:4px;width:13.097cm;height:4.83cm;" class="odt-zoomable" data-zoom-src="images/10000000000003DE0000016D1FA2AB0E.png" /></td></tr></table>
 
 <p>تتم معالجة طلب العميل على النحو التالي:</p>
 <ol>
@@ -1035,16 +1035,16 @@
 </ol>
 
 <p>الآن، دعونا نوضح العلاقة بين بنية الويب <bdi dir="ltr" class="odt-ltr-term">MVC</bdi> والبنية الطبقية. اعتمادًا على كيفية تعريفنا للنموذج، قد يكون هذان المفهومان مرتبطين أو غير مرتبطين. لنفكر في تطبيق ويب <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> أحادي الطبقة:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000040400000165023E1DEC.png" width="514" height="179" style="display:inline-block; margin:4px;width:13.6cm;height:4.724cm;" class="odt-zoomable" data-zoom-src="images/100000000000040400000165023E1DEC.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000040400000165023E1DEC.png" width="514" height="179" style="display:inline-block; margin:4px;width:13.6cm;height:4.724cm;" class="odt-zoomable" data-zoom-src="images/100000000000040400000165023E1DEC.png" /></td></tr></table>
 
 <p>إذا قمنا بتنفيذ الطبقة [<bdi dir="ltr" class="odt-ltr-term">Web</bdi>] باستخدام <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi>، فسنحصل بالفعل على بنية ويب <bdi dir="ltr" class="odt-ltr-term">MVC</bdi> ولكن ليس بنية متعددة الطبقات. هنا، ستتولى الطبقة [<bdi dir="ltr" class="odt-ltr-term">Web</bdi>] كل شيء: العرض، والمنطق التجاري، والوصول إلى البيانات. والأعمال هي التي ستقوم بتنفيذ هذا العمل.</p>
 <p>الآن، دعونا ننظر في بنية ويب متعددة الطبقات:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004F90000010A84FF144C.png" width="637" height="133" style="display:inline-block; margin:4px;width:16.842cm;height:3.519cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F90000010A84FF144C.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004F90000010A84FF144C.png" width="637" height="133" style="display:inline-block; margin:4px;width:16.842cm;height:3.519cm;" class="odt-zoomable" data-zoom-src="images/10000000000004F90000010A84FF144C.png" /></td></tr></table>
 
 <p>يمكن تنفيذ طبقة [الويب] بدون إطار عمل وبدون اتباع نموذج <bdi dir="ltr" class="odt-ltr-term">MVC.</bdi> وبذلك نحصل على بنية متعددة الطبقات، لكن طبقة الويب لا تنفذ نموذج <bdi dir="ltr" class="odt-ltr-term">MVC.</bdi></p>
 <p>على سبيل المثال، في عالم .<bdi dir="ltr" class="odt-ltr-term">NET</bdi>، يمكن تنفيذ طبقة [الويب] المذكورة أعلاه باستخدام <bdi dir="ltr" class="odt-ltr-term">ASP.NET MVC</bdi>، مما ينتج عنه بنية متعددة الطبقات تحتوي على طبقة [ويب] بنمط <bdi dir="ltr" class="odt-ltr-term">MVC.</bdi> وبمجرد الانتهاء من ذلك، يمكننا استبدال طبقة <bdi dir="ltr" class="odt-ltr-term">ASP.NET MVC</bdi> هذه بطبقة <bdi dir="ltr" class="odt-ltr-term">ASP.NET</bdi> كلاسيكية (<bdi dir="ltr" class="odt-ltr-term">WebForms</bdi>) مع الحفاظ على بقية العناصر (منطق الأعمال، <bdi dir="ltr" class="odt-ltr-term">DAO</bdi>، <bdi dir="ltr" class="odt-ltr-term">ORM</bdi>) <strong>دون تغيير</strong>.  وبذلك نحصل على بنية متعددة الطبقات مع طبقة [<bdi dir="ltr" class="odt-ltr-term">Web</bdi>] لم تعد قائمة على <bdi dir="ltr" class="odt-ltr-term">MVC.</bdi></p>
 <p>في <bdi dir="ltr" class="odt-ltr-term">MVC</bdi>، قلنا إن نموذج <bdi dir="ltr" class="odt-ltr-term">M</bdi> هو نموذج عرض <bdi dir="ltr" class="odt-ltr-term">V</bdi>، أي مجموعة البيانات التي يعرضها عرض <bdi dir="ltr" class="odt-ltr-term">V.</bdi> وهناك تعريف آخر لنموذج <bdi dir="ltr" class="odt-ltr-term">M</bdi> في <bdi dir="ltr" class="odt-ltr-term">MVC:</bdi></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004AF0000010C799067A3.png" width="600" height="134" style="display:inline-block; margin:4px;width:15.863cm;height:3.545cm;" class="odt-zoomable" data-zoom-src="images/10000000000004AF0000010C799067A3.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004AF0000010C799067A3.png" width="600" height="134" style="display:inline-block; margin:4px;width:15.863cm;height:3.545cm;" class="odt-zoomable" data-zoom-src="images/10000000000004AF0000010C799067A3.png" /></td></tr></table>
 
 <p>يعتبر العديد من المؤلفين أن ما يقع على يمين طبقة [الويب] يشكل نموذج <bdi dir="ltr" class="odt-ltr-term">M</bdi> في <bdi dir="ltr" class="odt-ltr-term">MVC.</bdi> لتجنب الغموض، يمكننا الإشارة إلى:</p>
 <ul>
@@ -1061,14 +1061,14 @@
 <p><strong>ملاحظة</strong>: لن يستوعب معظم المبتدئين تفاصيل المشروع بالكامل. وهذا ليس مهمًا. سيتم شرح هذه التفاصيل لاحقًا في هذا المستند. سنكتفي باتباع الخطوات.</p>
 <p><a id="refheading570211429907001"></a></p>
 <h3 id="161">1.6.1. <span style="color: #4f81bd">مشروع العرض التوضيحي</span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004220000017A264E91D8.png" width="529" height="189" style="display:inline-block; margin:4px;width:13.996cm;height:5.001cm;" class="odt-zoomable" data-zoom-src="images/10000000000004220000017A264E91D8.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004220000017A264E91D8.png" width="529" height="189" style="display:inline-block; margin:4px;width:13.996cm;height:5.001cm;" class="odt-zoomable" data-zoom-src="images/10000000000004220000017A264E91D8.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، نقوم باستيراد أحد أدلة <bdi dir="ltr" class="odt-ltr-term">Spring</bdi>؛
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005B8000004090DFFBE39.png" width="680" height="480" style="display:inline-block; margin:4px;width:17.999cm;height:12.7cm;" class="odt-zoomable" data-zoom-src="images/10000000000005B8000004090DFFBE39.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000005B8000004090DFFBE39.png" width="680" height="480" style="display:inline-block; margin:4px;width:17.999cm;height:12.7cm;" class="odt-zoomable" data-zoom-src="images/10000000000005B8000004090DFFBE39.png" /></td></tr></table>
 
 <ul>
   <li>في [2]، نختار مثال [<bdi dir="ltr" class="odt-ltr-term">Serving Web Content</bdi>]؛
@@ -1150,7 +1150,7 @@
 </ul>
 
 <p>المكتبات المضمنة في هذا التكوين عديدة:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000123000001444D595CD8.png" width="204" height="227" style="display:inline-block; margin:4px;width:5.39cm;height:6.001cm;" class="odt-zoomable" data-zoom-src="images/1000000000000123000001444D595CD8.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000011B000001148B127233.png" width="202" height="197" style="display:inline-block; margin:4px;width:5.35cm;height:5.218cm;" class="odt-zoomable" data-zoom-src="images/100000000000011B000001148B127233.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000123000001444D595CD8.png" width="204" height="227" style="display:inline-block; margin:4px;width:5.39cm;height:6.001cm;" class="odt-zoomable" data-zoom-src="images/1000000000000123000001444D595CD8.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000011B000001148B127233.png" width="202" height="197" style="display:inline-block; margin:4px;width:5.35cm;height:5.218cm;" class="odt-zoomable" data-zoom-src="images/100000000000011B000001148B127233.png" /></td></tr></table>
 
 <p>أعلاه، نرى أرشيفات خادم <bdi dir="ltr" class="odt-ltr-term">Tomcat.</bdi></p>
 <p><bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi> هو فرع من نظام <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> [<a href="http://projects.spring.io/spring-boot/"><u><span style="color: #0563c1"><bdi dir="ltr" class="odt-ltr-term">http://projects.spring.io/spring-boot/</bdi></span></u></a>]. يهدف هذا المشروع إلى تقليل التكوين المطلوب لمشاريع <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> إلى الحد الأدنى. لتحقيق ذلك، يقوم <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi> بالتكوين التلقائي بناءً على التبعيات الموجودة في مسار فئات المشروع. يوفر <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi> العديد من التبعيات الجاهزة للاستخدام. على سبيل المثال، تتضمن التبعية [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">spring-boot-starter-thymeleaf</bdi></span>] الموجودة في مشروع <bdi dir="ltr" class="odt-ltr-term">Maven</bdi> السابق جميع التبعيات المطلوبة لتطبيق <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> الذي يستخدم محرك العرض [<bdi dir="ltr" class="odt-ltr-term">Thymeleaf</bdi>]. وبفضل هاتين الميزتين:</p>
@@ -1163,7 +1163,7 @@
 <p><a id="refheading570251429907001"></a></p>
 <h3 id="163-spring-mvc">1.6.3. <span style="color: #4f81bd">بنية تطبيق <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi></span></h3>
 <p>يُنفذ <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> نمط الهندسة المعمارية <bdi dir="ltr" class="odt-ltr-term">MVC</bdi> (النموذج – العرض – وحدة التحكم):</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000552000001ABE9D38150.png" width="680" height="213" style="display:inline-block; margin:4px;width:17.999cm;height:5.643cm;" class="odt-zoomable" data-zoom-src="images/1000000000000552000001ABE9D38150.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000552000001ABE9D38150.png" width="680" height="213" style="display:inline-block; margin:4px;width:17.999cm;height:5.643cm;" class="odt-zoomable" data-zoom-src="images/1000000000000552000001ABE9D38150.png" /></td></tr></table>
 
 <p>تتم معالجة طلب العميل على النحو التالي:</p>
 <ol>
@@ -1202,7 +1202,7 @@
 <p>سنقوم بفحص هذه العناصر المختلفة في المشروع قيد الدراسة.</p>
 <p><a id="refheading570271429907001"></a></p>
 <h3 id="164-c">1.6.4. <span style="color: #4f81bd">وحدة التحكم <bdi dir="ltr" class="odt-ltr-term">C</bdi></span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000FA0000013C6705144C.png" width="175" height="221" style="display:inline-block; margin:4px;width:4.63cm;height:5.853cm;" class="odt-zoomable" data-zoom-src="images/10000000000000FA0000013C6705144C.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000FA0000013C6705144C.png" width="175" height="221" style="display:inline-block; margin:4px;width:4.63cm;height:5.853cm;" class="odt-zoomable" data-zoom-src="images/10000000000000FA0000013C6705144C.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>يحتوي التطبيق المستورد على وحدة التحكم التالية:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -1245,10 +1245,10 @@
 </ul>
 
 <p>دعونا نفحص مشروع <bdi dir="ltr" class="odt-ltr-term">Eclipse</bdi> الخاص بنا:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003F300000263D59802BF.png" width="506" height="306" style="display:inline-block; margin:4px;width:13.376cm;height:8.084cm;" class="odt-zoomable" data-zoom-src="images/10000000000003F300000263D59802BF.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000003F300000263D59802BF.png" width="506" height="306" style="display:inline-block; margin:4px;width:13.376cm;height:8.084cm;" class="odt-zoomable" data-zoom-src="images/10000000000003F300000263D59802BF.png" /></td></tr></table>
 
 <p>المجلدان [<bdi dir="ltr" class="odt-ltr-term">src/main/java</bdi>] و [<bdi dir="ltr" class="odt-ltr-term">src/main/resources</bdi>] هما مجلدان سيتم إضافة محتوياتهما إلى مسار فئات المشروع (<bdi dir="ltr" class="odt-ltr-term">Classpath</bdi>). بالنسبة إلى [<bdi dir="ltr" class="odt-ltr-term">src/main/java</bdi>]، سيتم وضع النسخ المُجمَّعة من كود مصدر <bdi dir="ltr" class="odt-ltr-term">Java</bdi> هناك. أما محتويات المجلد [<bdi dir="ltr" class="odt-ltr-term">src/main/resources</bdi>] فستُضاف إلى مسار فئات المشروع دون تعديل. وبالتالي، يمكننا أن نرى أن المجلد [<bdi dir="ltr" class="odt-ltr-term">templates</bdi>] سيكون موجودًا في مسار فئات المشروع [1].</p>
-<p>يمكنك التحقق من ذلك [2-3] في نافذة [<bdi dir="ltr" class="odt-ltr-term">Navigator</bdi>] في <bdi dir="ltr" class="odt-ltr-term">Eclipse</bdi> [<bdi dir="ltr" class="odt-ltr-term">Window</bdi> / <bdi dir="ltr" class="odt-ltr-term">Show view</bdi> / <bdi dir="ltr" class="odt-ltr-term">Other</bdi> / <bdi dir="ltr" class="odt-ltr-term">General</bdi> / <bdi dir="ltr" class="odt-ltr-term">Navigator</bdi>]. يتم إنشاء المجلد [<bdi dir="ltr" class="odt-ltr-term">target</bdi>] عن طريق ترجمة (أو &quot;<em>بناء</em>&quot;) المشروع. يمثل المجلد [<bdi dir="ltr" class="odt-ltr-term">classes</bdi>] جذر مسار الفئات. يمكنك ملاحظة أن المجلد [<bdi dir="ltr" class="odt-ltr-term">templates</bdi>] موجود هناك.</p>
+<p>يمكنك التحقق من ذلك [2-3] في نافذة [<bdi dir="ltr" class="odt-ltr-term">Navigator</bdi>] في <bdi dir="ltr" class="odt-ltr-term">Eclipse</bdi> [<bdi dir="ltr" class="odt-ltr-term">Window / Show view / Other / General / Navigator</bdi>]. يتم إنشاء المجلد [<bdi dir="ltr" class="odt-ltr-term">target</bdi>] عن طريق ترجمة (أو &quot;<em>بناء</em>&quot;) المشروع. يمثل المجلد [<bdi dir="ltr" class="odt-ltr-term">classes</bdi>] جذر مسار الفئات. يمكنك ملاحظة أن المجلد [<bdi dir="ltr" class="odt-ltr-term">templates</bdi>] موجود هناك.</p>
 <p><a id="refheading15908779844303"></a></p>
 <h3 id="165-v">1.6.5. <span style="color: #4f81bd">الطريقة <bdi dir="ltr" class="odt-ltr-term">V</bdi></span></h3>
 <p>في <bdi dir="ltr" class="odt-ltr-term">MVC</bdi>، رأينا للتو وحدة التحكم <bdi dir="ltr" class="odt-ltr-term">C</bdi> والنموذج <bdi dir="ltr" class="odt-ltr-term">M.</bdi> يتم تمثيل العرض <bdi dir="ltr" class="odt-ltr-term">V</bdi> هنا بواسطة الملف [<bdi dir="ltr" class="odt-ltr-term">greeting.html</bdi>] التالي:</p>
@@ -1279,7 +1279,7 @@
 <p>يحدد المعامل الأول اسم السمة، ويحدد الثاني قيمتها.</p>
 <p><a id="refheading15910779844303"></a></p>
 <h3 id="166">1.6.6. <span style="color: #4f81bd">التنفيذ</span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000F3000000AD13949412.png" width="170" height="121" style="display:inline-block; margin:4px;width:4.5cm;height:3.203cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F3000000AD13949412.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F3000000AD13949412.png" width="170" height="121" style="display:inline-block; margin:4px;width:4.5cm;height:3.203cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F3000000AD13949412.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>تعد فئة [<bdi dir="ltr" class="odt-ltr-term">Application.java</bdi>] هي الفئة القابلة للتنفيذ في المشروع. وفيما يلي شفرة البرمجة الخاصة بها:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -1314,7 +1314,7 @@
 </ul>
 
 <p>دعونا نقوم بتشغيل المشروع:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002100000014566557274.png" width="370" height="228" style="display:inline-block; margin:4px;width:9.781cm;height:6.02cm;" class="odt-zoomable" data-zoom-src="images/10000000000002100000014566557274.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000002100000014566557274.png" width="370" height="228" style="display:inline-block; margin:4px;width:9.781cm;height:6.02cm;" class="odt-zoomable" data-zoom-src="images/10000000000002100000014566557274.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>نحصل على سجلات وحدة التحكم التالية:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
@@ -1381,10 +1381,10 @@
 </ul>
 
 <p>لاختبار تطبيق الويب، نطلب عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> [<bdi dir="ltr" class="odt-ltr-term">http://localhost:8080/greeting</bdi>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000015F00000092D1A4EF79.png" width="246" height="102" style="display:inline-block; margin:4px;width:6.5cm;height:2.704cm;" class="odt-zoomable" data-zoom-src="images/100000000000015F00000092D1A4EF79.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001A500000095777C6898.png" width="294" height="104" style="display:inline-block; margin:4px;width:7.789cm;height:2.757cm;" class="odt-zoomable" data-zoom-src="images/10000000000001A500000095777C6898.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000015F00000092D1A4EF79.png" width="246" height="102" style="display:inline-block; margin:4px;width:6.5cm;height:2.704cm;" class="odt-zoomable" data-zoom-src="images/100000000000015F00000092D1A4EF79.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000001A500000095777C6898.png" width="294" height="104" style="display:inline-block; margin:4px;width:7.789cm;height:2.757cm;" class="odt-zoomable" data-zoom-src="images/10000000000001A500000095777C6898.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>قد يكون من المثير للاهتمام الاطلاع على رؤوس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> التي يرسلها الخادم. للقيام بذلك، سنستخدم المكون الإضافي لمتصفح <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> المسمى [<bdi dir="ltr" class="odt-ltr-term">Advanced Rest Client</bdi>] (انظر <a href="#refheading179814779844303"><u><span style="color: #0563c1">القسم 9.6</span></u></a>):</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000541000004931A07F1C9.png" width="673" height="586" style="display:inline-block; margin:4px;width:17.794cm;height:15.492cm;" class="odt-zoomable" data-zoom-src="images/1000000000000541000004931A07F1C9.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000541000004931A07F1C9.png" width="673" height="586" style="display:inline-block; margin:4px;width:17.794cm;height:15.492cm;" class="odt-zoomable" data-zoom-src="images/1000000000000541000004931A07F1C9.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> المطلوب؛
@@ -1408,7 +1408,7 @@
 </ul>
 
 <p><a id="arret-application"></a>لإيقاف التطبيق:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000E2000000813AE15452.png" width="158" height="90" style="display:inline-block; margin:4px;width:4.189cm;height:2.392cm;" class="odt-zoomable" data-zoom-src="images/10000000000000E2000000813AE15452.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000A000000077A7321E38.png" width="112" height="83" style="display:inline-block; margin:4px;width:2.96cm;height:2.201cm;" class="odt-zoomable" data-zoom-src="images/10000000000000A000000077A7321E38.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000A30000006C0CD40C98.png" width="114" height="76" style="display:inline-block; margin:4px;width:3.02cm;height:2cm;" class="odt-zoomable" data-zoom-src="images/10000000000000A30000006C0CD40C98.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000E2000000813AE15452.png" width="158" height="90" style="display:inline-block; margin:4px;width:4.189cm;height:2.392cm;" class="odt-zoomable" data-zoom-src="images/10000000000000E2000000813AE15452.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000A000000077A7321E38.png" width="112" height="83" style="display:inline-block; margin:4px;width:2.96cm;height:2.201cm;" class="odt-zoomable" data-zoom-src="images/10000000000000A000000077A7321E38.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000A30000006C0CD40C98.png" width="114" height="76" style="display:inline-block; margin:4px;width:3.02cm;height:2cm;" class="odt-zoomable" data-zoom-src="images/10000000000000A30000006C0CD40C98.png" /></td></tr></table>
 
 <p><a id="refheading570351429907001"></a></p>
 <h3 id="167">1.6.7. <span style="color: #4f81bd">إنشاء أرشيف قابل للتنفيذ</span></h3>
@@ -1436,14 +1436,14 @@
 </ul>
 
 <p>إليك كيفية المتابعة:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002E90000016337141E69.png" width="373" height="178" style="display:inline-block; margin:4px;width:9.857cm;height:4.697cm;" class="odt-zoomable" data-zoom-src="images/10000000000002E90000016337141E69.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000002E90000016337141E69.png" width="373" height="178" style="display:inline-block; margin:4px;width:9.857cm;height:4.697cm;" class="odt-zoomable" data-zoom-src="images/10000000000002E90000016337141E69.png" /></td></tr></table>
 
 <ul>
   <li>في [1]: نقوم بتشغيل هدف <bdi dir="ltr" class="odt-ltr-term">Maven</bdi>؛
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000040B00000359928CD4A6.png" width="518" height="429" style="display:inline-block; margin:4px;width:13.693cm;height:11.338cm;" class="odt-zoomable" data-zoom-src="images/100000000000040B00000359928CD4A6.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000040B00000359928CD4A6.png" width="518" height="429" style="display:inline-block; margin:4px;width:13.693cm;height:11.338cm;" class="odt-zoomable" data-zoom-src="images/100000000000040B00000359928CD4A6.png" /></td></tr></table>
 
 <ul>
   <li>في [2]: هناك هدفان: [<bdi dir="ltr" class="odt-ltr-term">clean</bdi>] لحذف مجلد [<bdi dir="ltr" class="odt-ltr-term">target</bdi>] من مشروع <bdi dir="ltr" class="odt-ltr-term">Maven</bdi>، و[<bdi dir="ltr" class="odt-ltr-term">package</bdi>] لإعادة إنشائه؛
@@ -1454,8 +1454,8 @@
   </li>
 </ul>
 
-<p><strong>ملاحظة</strong>: لكي ينجح الإنشاء، يجب أن تكون <bdi dir="ltr" class="odt-ltr-term">JVM</bdi> المستخدمة بواسطة <bdi dir="ltr" class="odt-ltr-term">STS</bdi> هي <strong><bdi dir="ltr" class="odt-ltr-term">JDK</bdi></strong> [<bdi dir="ltr" class="odt-ltr-term">Window</bdi> / <bdi dir="ltr" class="odt-ltr-term">Preferences</bdi> / <bdi dir="ltr" class="odt-ltr-term">Java</bdi> / <bdi dir="ltr" class="odt-ltr-term">Installed JREs</bdi>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000016E000000B99A9DF91E.png" width="256" height="130" style="display:inline-block; margin:4px;width:6.78cm;height:3.427cm;" class="odt-zoomable" data-zoom-src="images/100000000000016E000000B99A9DF91E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p><strong>ملاحظة</strong>: لكي ينجح الإنشاء، يجب أن تكون <bdi dir="ltr" class="odt-ltr-term">JVM</bdi> المستخدمة بواسطة <bdi dir="ltr" class="odt-ltr-term">STS</bdi> هي <strong><bdi dir="ltr" class="odt-ltr-term">JDK</bdi></strong> [<bdi dir="ltr" class="odt-ltr-term">Window / Preferences / Java / Installed JREs</bdi>]:</p>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000016E000000B99A9DF91E.png" width="256" height="130" style="display:inline-block; margin:4px;width:6.78cm;height:3.427cm;" class="odt-zoomable" data-zoom-src="images/100000000000016E000000B99A9DF91E.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>في السجلات التي تظهر في وحدة التحكم، من المهم رؤية المكون الإضافي [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">spring-boot-maven-plugin</bdi></span>]. هذا هو المكون الإضافي الذي يقوم بإنشاء الأرشيف القابل للتنفيذ.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="o">[</span><span class="n">INFO</span><span class="o">]</span><span class="w"> </span><span class="o">---</span><span class="w"> </span><span class="n">spring</span><span class="o">-</span><span class="n">boot</span><span class="o">-</span><span class="n">maven</span><span class="o">-</span><span class="n">plugin</span><span class="p">:</span><span class="mf">1.1.9</span><span class="p">.</span><span class="na">RELEASE</span><span class="p">:</span><span class="n">repackage</span><span class="w"> </span><span class="p">(</span><span class="k">default</span><span class="p">)</span><span class="w"> </span><span class="err">@</span><span class="w"> </span><span class="n">gs</span><span class="o">-</span><span class="n">serving</span><span class="o">-</span><span class="n">web</span><span class="o">-</span><span class="n">content</span><span class="w"> </span><span class="o">---</span>
@@ -1501,7 +1501,7 @@
 
 <p><strong>ملاحظة</strong>: يجب عليك أولاً إيقاف أي خدمة ويب قد تكون قد بدأت في <bdi dir="ltr" class="odt-ltr-term">Eclipse</bdi> (انظر <a href="#arret-application"><u><span style="color: #0563c1">الصفحة 17</span></u></a>).</p>
 <p>الآن بعد أن أصبح تطبيق الويب قيد التشغيل، يمكنك الوصول إليه باستخدام متصفح:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001BC0000009929A35289.png" width="311" height="107" style="display:inline-block; margin:4px;width:8.22cm;height:2.833cm;" class="odt-zoomable" data-zoom-src="images/10000000000001BC0000009929A35289.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000001BC0000009929A35289.png" width="311" height="107" style="display:inline-block; margin:4px;width:8.22cm;height:2.833cm;" class="odt-zoomable" data-zoom-src="images/10000000000001BC0000009929A35289.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><a id="refheading570371429907001"></a></p>
 <h3 id="168-tomcat">1.6.8. <span style="color: #4f81bd">نشر التطبيق على خادم <bdi dir="ltr" class="odt-ltr-term">Tomcat</bdi></span></h3>
@@ -1579,11 +1579,11 @@
 </ul>
 
 <p>في الواقع، إذا نظرنا إلى التبعيات الحالية للمشروع، نرى أن التبعية [<span style="color: #ff3333"><bdi dir="ltr" class="odt-ltr-term">spring-boot-starter-tomcat</bdi></span>] موجودة بالفعل:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001450000016EB6851851.png" width="212" height="239" style="display:inline-block; margin:4px;width:5.609cm;height:6.316cm;" class="odt-zoomable" data-zoom-src="images/10000000000001450000016EB6851851.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000001450000016EB6851851.png" width="212" height="239" style="display:inline-block; margin:4px;width:5.609cm;height:6.316cm;" class="odt-zoomable" data-zoom-src="images/10000000000001450000016EB6851851.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>لذلك لا داعي لإضافته إلى ملف [<bdi dir="ltr" class="odt-ltr-term">pom.xml</bdi>]. وقد قمنا بتعليقه للاسترشاد به.</p>
 <p>نحتاج أيضًا إلى تكوين تطبيق الويب. في حالة عدم وجود ملف [<bdi dir="ltr" class="odt-ltr-term">web.xml</bdi>]، يتم ذلك باستخدام فئة تمتد من [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">SpringBootServletInitializer</bdi></span>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000FE0000009B9062512E.png" width="178" height="108" style="display:inline-block; margin:4px;width:4.701cm;height:2.87cm;" class="odt-zoomable" data-zoom-src="images/10000000000000FE0000009B9062512E.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000FE0000009B9062512E.png" width="178" height="108" style="display:inline-block; margin:4px;width:4.701cm;height:2.87cm;" class="odt-zoomable" data-zoom-src="images/10000000000000FE0000009B9062512E.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>فيما يلي فئة [<bdi dir="ltr" class="odt-ltr-term">ApplicationInitializer</bdi>]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -1612,7 +1612,7 @@
 </ul>
 
 <p>لتشغيل المشروع، اتبع الخطوات التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000053600000154E1918E25.png" width="667" height="170" style="display:inline-block; margin:4px;width:17.648cm;height:4.498cm;" class="odt-zoomable" data-zoom-src="images/100000000000053600000154E1918E25.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000053600000154E1918E25.png" width="667" height="170" style="display:inline-block; margin:4px;width:17.648cm;height:4.498cm;" class="odt-zoomable" data-zoom-src="images/100000000000053600000154E1918E25.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، قم بتشغيل المشروع على أحد الخوادم المسجلة في بيئة تطوير <bdi dir="ltr" class="odt-ltr-term">Eclipse</bdi>؛
@@ -1622,7 +1622,7 @@
 </ul>
 
 <p>بمجرد الانتهاء من ذلك، يمكنك إدخال عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> [<bdi dir="ltr" class="odt-ltr-term">http://localhost:8080/gs-rest-service/greeting/</bdi>?<bdi dir="ltr" class="odt-ltr-term">name</bdi>=<bdi dir="ltr" class="odt-ltr-term">Mitchell</bdi>] في المتصفح:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000022B0000008EA361FFF2.png" width="389" height="99" style="display:inline-block; margin:4px;width:10.28cm;height:2.63cm;" class="odt-zoomable" data-zoom-src="images/100000000000022B0000008EA361FFF2.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000022B0000008EA361FFF2.png" width="389" height="99" style="display:inline-block; margin:4px;width:10.28cm;height:2.63cm;" class="odt-zoomable" data-zoom-src="images/100000000000022B0000008EA361FFF2.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><strong>ملاحظة</strong>: قد يفشل هذا التنفيذ اعتمادًا على إصدارات [<bdi dir="ltr" class="odt-ltr-term">Tomcat</bdi>] و[<bdi dir="ltr" class="odt-ltr-term">TC Server Developer</bdi>]. كان هذا هو الحال مع [<bdi dir="ltr" class="odt-ltr-term">Apache Tomcat 8.0.3</bdi> و8.0.15]، على سبيل المثال. في المثال أعلاه، كان إصدار <bdi dir="ltr" class="odt-ltr-term">Tomcat</bdi> المستخدم هو [8.0.9].</p>
 <p>نحن نعرف الآن كيفية إنشاء أرشيف <bdi dir="ltr" class="odt-ltr-term">WAR.</bdi> وسنواصل العمل مع <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi> وأرشيف <bdi dir="ltr" class="odt-ltr-term">JAR</bdi> القابل للتنفيذ الخاص به.</p>
@@ -1630,7 +1630,7 @@
 <h2 id="17-spring-mvc">1.7. <span style="color: #4f81bd">مشروع <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> ثانٍ</span></h2>
 <p><a id="refheading15914779844303"></a></p>
 <h3 id="171">1.7.1. <span style="color: #4f81bd">مشروع العرض التوضيحي</span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000037D0000013957DE169C.png" width="447" height="157" style="display:inline-block; margin:4px;width:11.815cm;height:4.142cm;" class="odt-zoomable" data-zoom-src="images/100000000000037D0000013957DE169C.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000037D0000013957DE169C.png" width="447" height="157" style="display:inline-block; margin:4px;width:11.815cm;height:4.142cm;" class="odt-zoomable" data-zoom-src="images/100000000000037D0000013957DE169C.png" /></td></tr></table>
 
 <p><a id="refheading5702114299070011"></a></p>
 <ul>
@@ -1638,7 +1638,7 @@
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004BA000002EFDC854CFE.png" width="605" height="375" style="display:inline-block; margin:4px;width:16.007cm;height:9.934cm;" class="odt-zoomable" data-zoom-src="images/10000000000004BA000002EFDC854CFE.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004BA000002EFDC854CFE.png" width="605" height="375" style="display:inline-block; margin:4px;width:16.007cm;height:9.934cm;" class="odt-zoomable" data-zoom-src="images/10000000000004BA000002EFDC854CFE.png" /></td></tr></table>
 
 <ul>
   <li>في [2]، نختار مثال [<bdi dir="ltr" class="odt-ltr-term">Rest Service</bdi>]؛
@@ -1719,13 +1719,13 @@
 </ul>
 
 <p>المكتبات المضمنة في هذا التكوين عديدة:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000013900000130C601B465.png" width="219" height="213" style="display:inline-block; margin:4px;width:5.791cm;height:5.623cm;" class="odt-zoomable" data-zoom-src="images/100000000000013900000130C601B465.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000F700000110A13A7F1F.png" width="173" height="190" style="display:inline-block; margin:4px;width:4.57cm;height:5.032cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F700000110A13A7F1F.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000013900000130C601B465.png" width="219" height="213" style="display:inline-block; margin:4px;width:5.791cm;height:5.623cm;" class="odt-zoomable" data-zoom-src="images/100000000000013900000130C601B465.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F700000110A13A7F1F.png" width="173" height="190" style="display:inline-block; margin:4px;width:4.57cm;height:5.032cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F700000110A13A7F1F.png" /></td></tr></table>
 
 <p>أعلاه، نرى الأرشيفات الثلاثة لخادم <bdi dir="ltr" class="odt-ltr-term">Tomcat.</bdi></p>
 <p><a id="refheading15918779844303"></a></p>
-<h3 id="173-spring-web-json">1.7.3. <span style="color: #4f81bd">بنية خدمة <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> [web / <bdi dir="ltr" class="odt-ltr-term">JSON</bdi>]</span></h3>
+<h3 id="173-spring-web-json">1.7.3. <span style="color: #4f81bd">بنية خدمة <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> [<bdi dir="ltr" class="odt-ltr-term">web / JSON</bdi>]</span></h3>
 <p><a id="refheading5702514299070011"></a>دعونا نستعرض كيف ينفذ <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> نموذج <bdi dir="ltr" class="odt-ltr-term">MVC:</bdi></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000047A00000163B5D915D1.png" width="573" height="177" style="display:inline-block; margin:4px;width:15.161cm;height:4.695cm;" class="odt-zoomable" data-zoom-src="images/100000000000047A00000163B5D915D1.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000047A00000163B5D915D1.png" width="573" height="177" style="display:inline-block; margin:4px;width:15.161cm;height:4.695cm;" class="odt-zoomable" data-zoom-src="images/100000000000047A00000163B5D915D1.png" /></td></tr></table>
 
 <p>تتم معالجة طلب العميل على النحو التالي:</p>
 <ol>
@@ -1762,7 +1762,7 @@
 </ol>
 
 <p>بالنسبة لخدمة الويب / <bdi dir="ltr" class="odt-ltr-term">JSON</bdi>، يتم تعديل البنية السابقة بشكل طفيف:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000047800000166007926FB.png" width="572" height="179" style="display:inline-block; margin:4px;width:15.134cm;height:4.736cm;" class="odt-zoomable" data-zoom-src="images/100000000000047800000166007926FB.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000047800000166007926FB.png" width="572" height="179" style="display:inline-block; margin:4px;width:15.134cm;height:4.736cm;" class="odt-zoomable" data-zoom-src="images/100000000000047800000166007926FB.png" /></td></tr></table>
 
 <ul>
   <li>في [4a]، يتم تحويل النموذج، وهو فئة <bdi dir="ltr" class="odt-ltr-term">Java</bdi>، إلى سلسلة <bdi dir="ltr" class="odt-ltr-term">JSON</bdi> بواسطة مكتبة <bdi dir="ltr" class="odt-ltr-term">JSON</bdi>؛
@@ -1772,7 +1772,7 @@
 </ul>
 <p><a id="refheading15920779844303"></a></p>
 <h3 id="174-c">1.7.4. <span style="color: #4f81bd">وحدة التحكم <bdi dir="ltr" class="odt-ltr-term">C</bdi></span></h3>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000ED000000AB6C6D3DB3.png" width="166" height="120" style="display:inline-block; margin:4px;width:4.39cm;height:3.166cm;" class="odt-zoomable" data-zoom-src="images/10000000000000ED000000AB6C6D3DB3.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000ED000000AB6C6D3DB3.png" width="166" height="120" style="display:inline-block; margin:4px;width:4.39cm;height:3.166cm;" class="odt-zoomable" data-zoom-src="images/10000000000000ED000000AB6C6D3DB3.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><a id="refheading5702714299070011"></a></p>
 <p>يحتوي التطبيق المستورد على وحدة التحكم التالية:</p>
@@ -1810,7 +1810,7 @@
 <p><a id="refheading15922779844303"></a></p>
 <h3 id="175-m">1.7.5. <span style="color: #4f81bd">نموذج <bdi dir="ltr" class="odt-ltr-term">M</bdi></span></h3>
 <p><a id="refheading570291429907001"></a>نموذج <bdi dir="ltr" class="odt-ltr-term">M</bdi> الناتج عن الطريقة السابقة هو كائن [<bdi dir="ltr" class="odt-ltr-term">Greeting</bdi>] التالي:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000ED000000ABFE40A4F7.png" width="166" height="120" style="display:inline-block; margin:4px;width:4.39cm;height:3.166cm;" class="odt-zoomable" data-zoom-src="images/10000000000000ED000000ABFE40A4F7.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000ED000000ABFE40A4F7.png" width="166" height="120" style="display:inline-block; margin:4px;width:4.39cm;height:3.166cm;" class="odt-zoomable" data-zoom-src="images/10000000000000ED000000ABFE40A4F7.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> hello;</span></span></span>
@@ -1836,13 +1836,13 @@
 </code></pre></div>
 
 <p>سيؤدي تحويل هذا الكائن إلى <bdi dir="ltr" class="odt-ltr-term">JSON</bdi> إلى إنشاء السلسلة <strong>{&quot;id&quot;:n,&quot;<bdi dir="ltr" class="odt-ltr-term">content</bdi>&quot;:&quot;<bdi dir="ltr" class="odt-ltr-term">text</bdi>&quot;}</strong>. وفي النهاية، ستكون سلسلة <bdi dir="ltr" class="odt-ltr-term">JSON</bdi> الناتجة عن طريقة وحدة التحكم بالصيغة التالية:</p>
-<p><strong>{&quot;id&quot;:2,&quot;<bdi dir="ltr" class="odt-ltr-term">content</bdi>&quot;:&quot;<bdi dir="ltr" class="odt-ltr-term">Hello</bdi>, <bdi dir="ltr" class="odt-ltr-term">World</bdi>!&quot;}</strong></p>
+<p><strong>{&quot;id&quot;:2,&quot;<bdi dir="ltr" class="odt-ltr-term">content</bdi>&quot;:&quot;<bdi dir="ltr" class="odt-ltr-term">Hello, World</bdi>!&quot;}</strong></p>
 <p>أو </p>
-<p><strong>{&quot;id&quot;:2,&quot;<bdi dir="ltr" class="odt-ltr-term">content</bdi>&quot;:&quot;<bdi dir="ltr" class="odt-ltr-term">Hello</bdi>, <bdi dir="ltr" class="odt-ltr-term">John</bdi>!&quot;}</strong></p>
+<p><strong>{&quot;id&quot;:2,&quot;<bdi dir="ltr" class="odt-ltr-term">content</bdi>&quot;:&quot;<bdi dir="ltr" class="odt-ltr-term">Hello, John</bdi>!&quot;}</strong></p>
 <p><a id="refheading15924779844303"></a></p>
 <h3 id="176">1.7.6. <span style="color: #4f81bd">التنفيذ</span></h3>
 <p><a id="refheading570311429907001"></a></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000000ED000000AB6B43BC81.png" width="166" height="120" style="display:inline-block; margin:4px;width:4.39cm;height:3.166cm;" class="odt-zoomable" data-zoom-src="images/10000000000000ED000000AB6B43BC81.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000ED000000AB6B43BC81.png" width="166" height="120" style="display:inline-block; margin:4px;width:4.39cm;height:3.166cm;" class="odt-zoomable" data-zoom-src="images/10000000000000ED000000AB6B43BC81.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>تعد فئة [<bdi dir="ltr" class="odt-ltr-term">Application.java</bdi>] هي الفئة القابلة للتنفيذ في المشروع. وفيما يلي نصها البرمجي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -1867,7 +1867,7 @@
 <p><a id="refheading15926779844303"></a></p>
 <h3 id="177">1.7.7. <span style="color: #4f81bd">تشغيل المشروع</span></h3>
 <p><a id="refheading570331429907001"></a>دعونا نقوم بتشغيل المشروع:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002100000014566557274.png" width="370" height="228" style="display:inline-block; margin:4px;width:9.781cm;height:6.02cm;" class="odt-zoomable" data-zoom-src="images/10000000000002100000014566557274.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000002100000014566557274.png" width="370" height="228" style="display:inline-block; margin:4px;width:9.781cm;height:6.02cm;" class="odt-zoomable" data-zoom-src="images/10000000000002100000014566557274.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>نحصل على سجلات وحدة التحكم التالية:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1"> 1</a></span>
@@ -1934,12 +1934,12 @@
 </ul>
 
 <p>لاختبار تطبيق الويب، نطلب عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> [<bdi dir="ltr" class="odt-ltr-term">http://localhost:8080/greeting</bdi>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000145000000802108509F.png" width="212" height="83" style="display:inline-block; margin:4px;width:5.609cm;height:2.208cm;" class="odt-zoomable" data-zoom-src="images/1000000000000145000000802108509F.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000019F00000085614557B2.png" width="290" height="93" style="display:inline-block; margin:4px;width:7.68cm;height:2.461cm;" class="odt-zoomable" data-zoom-src="images/100000000000019F00000085614557B2.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000145000000802108509F.png" width="212" height="83" style="display:inline-block; margin:4px;width:5.609cm;height:2.208cm;" class="odt-zoomable" data-zoom-src="images/1000000000000145000000802108509F.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000019F00000085614557B2.png" width="290" height="93" style="display:inline-block; margin:4px;width:7.68cm;height:2.461cm;" class="odt-zoomable" data-zoom-src="images/100000000000019F00000085614557B2.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>نتلقى سلسلة <bdi dir="ltr" class="odt-ltr-term">JSON</bdi> المتوقعة.</p>
 <p><strong>ملاحظة</strong>: لم يعمل هذا المثال مع المتصفح المدمج في <bdi dir="ltr" class="odt-ltr-term">Eclipse.</bdi></p>
 <p>قد يكون من المفيد عرض رؤوس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> المرسلة من الخادم. للقيام بذلك، سنستخدم المكون الإضافي لـ <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> المسمى [<bdi dir="ltr" class="odt-ltr-term">Advanced Rest Client</bdi>] (انظر الملاحق، <a href="#refheading179814779844303"><u><span style="color: #0563c1">القسم 9.6</span></u></a>):</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000541000004BF767E3B13.png" width="673" height="608" style="display:inline-block; margin:4px;width:17.794cm;height:16.074cm;" class="odt-zoomable" data-zoom-src="images/1000000000000541000004BF767E3B13.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000541000004BF767E3B13.png" width="673" height="608" style="display:inline-block; margin:4px;width:17.794cm;height:16.074cm;" class="odt-zoomable" data-zoom-src="images/1000000000000541000004BF767E3B13.png" /></td></tr></table>
 
 <ul>
   <li>في [1]، عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> المطلوب؛
@@ -1964,9 +1964,9 @@
 <p><a id="refheading15928779844303"></a></p>
 <h3 id="178">1.7.8. <span style="color: #4f81bd">إنشاء أرشيف قابل للتنفيذ</span></h3>
 <p><a id="refheading5703514299070011"></a>كما فعلنا في المشروع السابق، نقوم بإنشاء أرشيف قابل للتنفيذ:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002D20000015A6F6F7561.png" width="361" height="173" style="display:inline-block; margin:4px;width:9.551cm;height:4.577cm;" class="odt-zoomable" data-zoom-src="images/10000000000002D20000015A6F6F7561.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000002D20000015A6F6F7561.png" width="361" height="173" style="display:inline-block; margin:4px;width:9.551cm;height:4.577cm;" class="odt-zoomable" data-zoom-src="images/10000000000002D20000015A6F6F7561.png" /></td></tr></table>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003FD00000359F9AE9EA5.png" width="511" height="429" style="display:inline-block; margin:4px;width:13.508cm;height:11.338cm;" class="odt-zoomable" data-zoom-src="images/10000000000003FD00000359F9AE9EA5.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000003FD00000359F9AE9EA5.png" width="511" height="429" style="display:inline-block; margin:4px;width:13.508cm;height:11.338cm;" class="odt-zoomable" data-zoom-src="images/10000000000003FD00000359F9AE9EA5.png" /></td></tr></table>
 
 <ul>
   <li>في [1]: نقوم بتشغيل هدف <bdi dir="ltr" class="odt-ltr-term">Maven</bdi>؛
@@ -2021,7 +2021,7 @@
 
 <p><strong>ملاحظة</strong>: يجب عليك أولاً إيقاف أي خدمة ويب قد تكون قد تم تشغيلها في <bdi dir="ltr" class="odt-ltr-term">Eclipse</bdi> (انظر <a href="#arret-application"><u><span style="color: #0563c1">القسم 1.6.6</span></u></a>).</p>
 <p>الآن بعد أن أصبح تطبيق الويب قيد التشغيل، يمكنك الوصول إليه باستخدام متصفح:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001470000007FCF70CA67.png" width="229" height="89" style="display:inline-block; margin:4px;width:6.05cm;height:2.35cm;" class="odt-zoomable" data-zoom-src="images/10000000000001470000007FCF70CA67.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000001470000007FCF70CA67.png" width="229" height="89" style="display:inline-block; margin:4px;width:6.05cm;height:2.35cm;" class="odt-zoomable" data-zoom-src="images/10000000000001470000007FCF70CA67.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><a id="refheading15930779844303"></a></p>
 <h3 id="179-tomcat">1.7.9. <span style="color: #4f81bd">نشر التطبيق على خادم <bdi dir="ltr" class="odt-ltr-term">Tomcat</bdi></span></h3>
@@ -2047,7 +2047,7 @@
 </ul>
 
 <p>كما تحتاج إلى تكوين تطبيق الويب. إذا لم يكن هناك ملف [<bdi dir="ltr" class="odt-ltr-term">web.xml</bdi>]، يتم ذلك باستخدام فئة تمتد من [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">SpringBootServletInitializer</bdi></span>]:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000102000000D1A9F9B1A9.png" width="181" height="146" style="display:inline-block; margin:4px;width:4.78cm;height:3.872cm;" class="odt-zoomable" data-zoom-src="images/1000000000000102000000D1A9F9B1A9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000102000000D1A9F9B1A9.png" width="181" height="146" style="display:inline-block; margin:4px;width:4.78cm;height:3.872cm;" class="odt-zoomable" data-zoom-src="images/1000000000000102000000D1A9F9B1A9.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>فيما يلي فئة [<bdi dir="ltr" class="odt-ltr-term">ApplicationInitializer</bdi>]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
@@ -2076,7 +2076,7 @@
 </ul>
 
 <p>لتشغيل المشروع، اتبع الخطوات التالية:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000004E20000015106D662F3.png" width="625" height="168" style="display:inline-block; margin:4px;width:16.536cm;height:4.457cm;" class="odt-zoomable" data-zoom-src="images/10000000000004E20000015106D662F3.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004E20000015106D662F3.png" width="625" height="168" style="display:inline-block; margin:4px;width:16.536cm;height:4.457cm;" class="odt-zoomable" data-zoom-src="images/10000000000004E20000015106D662F3.png" /></td></tr></table>
 
 <ul>
   <li>في [1-2]، قم بتشغيل المشروع على أحد الخوادم المسجلة في بيئة تطوير <bdi dir="ltr" class="odt-ltr-term">Eclipse</bdi>؛
@@ -2084,7 +2084,7 @@
 </ul>
 
 <p>بمجرد الانتهاء من ذلك، يمكنك طلب عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> [<bdi dir="ltr" class="odt-ltr-term">http://localhost:8080/gs-rest-service/greeting/</bdi>?<bdi dir="ltr" class="odt-ltr-term">name</bdi>=<bdi dir="ltr" class="odt-ltr-term">Mitchell</bdi>] في متصفح:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000022B0000008EA361FFF2.png" width="389" height="99" style="display:inline-block; margin:4px;width:10.28cm;height:2.63cm;" class="odt-zoomable" data-zoom-src="images/100000000000022B0000008EA361FFF2.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000022B0000008EA361FFF2.png" width="389" height="99" style="display:inline-block; margin:4px;width:10.28cm;height:2.63cm;" class="odt-zoomable" data-zoom-src="images/100000000000022B0000008EA361FFF2.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p><a id="refheading15932779844303"></a></p>
 <h2 id="18">1.8. <span style="color: #4f81bd">الخلاصة</span></h2>
