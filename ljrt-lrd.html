@@ -12,7 +12,7 @@
         <meta name="author" content="Serge Tahé">
       
       
-        <link rel="canonical" href="https://stahe.github.io/ar-springmvc-thymeleaf-janv-2015/ljrt-lstjb.html">
+        <link rel="canonical" href="https://stahe.github.io/ar-springmvc-thymeleaf-janv-2015/ljrt-lrd.html">
       
       
         <link rel="prev" href="ssyt-brmj-lwyb.html">
@@ -29,7 +29,7 @@
     
     
       
-        <title>3. الإجراءات: الاستجابة - مقدمة إلى Spring MVC و Thymeleaf من خلال أمثلة</title>
+        <title>3. الإجراءات: الرد - مقدمة إلى Spring MVC و Thymeleaf من خلال أمثلة</title>
       
     
     
@@ -130,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              3. الإجراءات: الاستجابة
+              3. الإجراءات: الرد
             
           </span>
         </div>
@@ -375,7 +375,7 @@
   <span class="md-ellipsis">
     
   
-    3. الإجراءات: الاستجابة
+    3. الإجراءات: الرد
   
 
     
@@ -386,14 +386,14 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="ljrt-lstjb.html" class="md-nav__link md-nav__link--active">
+      <a href="ljrt-lrd.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    3. الإجراءات: الاستجابة
+    3. الإجراءات: الرد
   
 
     
@@ -444,7 +444,7 @@
   <a href="#33-a03-xml" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.3. [/a03]: إرجاع دفق XML
+        3.3. [/a03]: تحويل تدفق XML
       
     </span>
   </a>
@@ -455,7 +455,7 @@
   <a href="#34-a04-a05-json" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.4. [/a04, /a05]: إرجاع موجز JSON
+        3.4. [/a04, /a05]: إرجاع تدفق jSON
       
     </span>
   </a>
@@ -466,7 +466,7 @@
   <a href="#35-a06" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.5. [/a06]: إرجاع دفق فارغ
+        3.5. [/a06]: إرجاع تدفق فارغ
       
     </span>
   </a>
@@ -477,7 +477,7 @@
   <a href="#36-a07-a08-a09-content-type" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.6. [/a07, /a08, /a09]: نوع البيانات مع [Content-Type]
+        3.6. [/a07, /a08, /a09]: طبيعة التدفق مع [Content-Type]
       
     </span>
   </a>
@@ -499,7 +499,7 @@
   <a href="#38-a13" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.8. [/a13]: إنشاء الاستجابة الكاملة
+        3.8. [/a13]: إنشاء الرد الكامل
       
     </span>
   </a>
@@ -575,14 +575,14 @@
   
   
     <li class="md-nav__item">
-      <a href="ltqq-mn--javascript-mn-jnb-lmyl.html" class="md-nav__link">
+      <a href="ltqq-mn--lbynt-bstkhdm-jf-skrybt-mn-jnb-lmyl.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. التحقق من صحة JavaScript من جانب العميل
+    6. التحقق من صحة البيانات باستخدام جافا سكريبت من جانب العميل
   
 
     
@@ -602,14 +602,14 @@
   
   
     <li class="md-nav__item">
-      <a href="twyl-tbyq-spring-mvc-l-tbyq-ajax.html" class="md-nav__link">
+      <a href="twyl-tbyq-spring-mvc-l-ajax.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    7. تحويل تطبيق Spring MVC إلى تطبيق Ajax
+    7. تحويل تطبيق Spring MVC إلى Ajax
   
 
     
@@ -656,14 +656,14 @@
   
   
     <li class="md-nav__item">
-      <a href="lmlq.html" class="md-nav__link">
+      <a href="lmrfqt.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    9. الملاحق
+    9. المرفقات
   
 
     
@@ -693,58 +693,58 @@
 
 
 
-<p><a id="refheading58022676630786"></a></p>
-<h1 id="3">3. <span style="color: #365f91">الإجراءات: الاستجابة</span></h1>
-<p>دعونا ننظر في بنية تطبيق <bdi dir="ltr" class="odt-ltr-term">Spring MVC:</bdi></p>
+<p><span id="refheading58022676630786" name="refheading58022676630786" class="odt-bookmark-anchor"></span></p>
+<h1 id="3">3. <span style="color: #365f91">الإجراءات: الرد</span></h1>
+<p>لننظر إلى بنية تطبيق <bdi dir="ltr" class="odt-ltr-term">Spring MVC:</bdi></p>
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000047100000175D1035D6D.png" width="569" height="187" style="display:inline-block; margin:4px;width:15.042cm;height:4.935cm;" class="odt-zoomable" data-zoom-src="images/100000000000047100000175D1035D6D.png" /></td></tr></table>
 
-<p>في هذا الفصل، ندرس العملية التي توجه الطلب [1] إلى وحدة التحكم والإجراء [2a] الذي سيقوم بمعالجته، وهي آلية تُعرف باسم التوجيه. كما نقدم الاستجابات المختلفة [3] التي يمكن أن يعيدها الإجراء إلى المتصفح. وقد يكون هذا شيئًا آخر غير عرض <strong><bdi dir="ltr" class="odt-ltr-term">V</bdi></strong> [4b].</p>
-<p><a id="refheading1400771644545772"></a></p>
+<p>في هذا الفصل، نلقي نظرة على العملية التي تنقل الطلب [1] إلى وحدة التحكم والإجراء [2a] اللذين سيقومان بمعالجته، وهي آلية تُسمى التوجيه. كما نقدم الاستجابات المختلفة [3] التي يمكن أن ترسلها الإجراء إلى المتصفح. وقد تكون هذه الاستجابات غير عرض <strong><bdi dir="ltr" class="odt-ltr-term">V</bdi></strong> [4b].</p>
+<p><span id="refheading1400771644545772" name="refheading1400771644545772" class="odt-bookmark-anchor"></span></p>
 <h2 id="31">3.1. <span style="color: #4f81bd">المشروع الجديد</span></h2>
-<p>نقوم بإنشاء مشروع <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> جديد:</p>
+<p>نقوم بإنشاء مشروع <bdi dir="ltr" class="odt-ltr-term">Spring</bdi> جديد <bdi dir="ltr" class="odt-ltr-term">MVC:</bdi></p>
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000315000000A485700EB2.png" width="395" height="82" style="display:inline-block; margin:4px;width:10.439cm;height:2.17cm;" class="odt-zoomable" data-zoom-src="images/1000000000000315000000A485700EB2.png" /></td></tr></table>
 
 <ul>
-  <li>في [1-2]، نقوم بإنشاء مشروع جديد يستند إلى <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi>؛
+  <li>في [1-2]، نقوم بإنشاء مشروع جديد قائم على <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi>؛
   </li>
 </ul>
 
-<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000054E000002F5B4B35CA4.png" width="679" height="378" style="display:inline-block; margin:4px;width:17.965cm;height:10.014cm;" class="odt-zoomable" data-zoom-src="images/100000000000054E000002F5B4B35CA4.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000054E000002F5B4B35CA4.png" width="679" height="379" style="display:inline-block; margin:4px;width:17.965cm;height:10.015cm;" class="odt-zoomable" data-zoom-src="images/100000000000054E000002F5B4B35CA4.png" /></td></tr></table>
 
 <ul>
   <li>في [3]، اسم مشروع <bdi dir="ltr" class="odt-ltr-term">Maven</bdi>؛
   </li>
-  <li>في [4]، مجموعة <bdi dir="ltr" class="odt-ltr-term">Maven</bdi> التي سيتم وضع ناتج تجميع المشروع فيها؛
+  <li>في [4]، مجموعة <bdi dir="ltr" class="odt-ltr-term">Maven</bdi> التي سيتم وضع نتيجة تجميع المشروع فيها؛
   </li>
-  <li>في [5]، الاسم الممنوح لمخرجات التجميع؛
+  <li>في [5]، الاسم الممنوح لمنتج التجميع؛
   </li>
   <li>في [6]، وصف للمشروع؛
   </li>
   <li>في [7]، الحزمة التي سيتم وضع الفئة القابلة للتنفيذ للمشروع فيها؛
   </li>
-  <li>في [8]، طبيعة المشروع. هذا مشروع ويب مع طرق عرض <bdi dir="ltr" class="odt-ltr-term">Thymeleaf.</bdi> هنا، نرى جميع تبعيات <bdi dir="ltr" class="odt-ltr-term">Maven</bdi> الجاهزة للاستخدام التي يوفرها مشروع <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi>؛
+  <li>في [8]، طبيعة المشروع. إنه مشروع ويب مع طرق عرض <bdi dir="ltr" class="odt-ltr-term">Thymeleaf.</bdi> نرى هنا جميع تبعيات <bdi dir="ltr" class="odt-ltr-term">Maven</bdi> الجاهزة للاستخدام التي يوفرها مشروع <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi>؛
   </li>
-  <li>في [9]، نحدد أن ناتج بناء <bdi dir="ltr" class="odt-ltr-term">Maven</bdi> سيتم تجميعه في أرشيف <b><bdi dir="ltr" class="odt-ltr-term">JAR</bdi> </b>بدلاً من <b><bdi dir="ltr" class="odt-ltr-term">WAR</bdi></b>. سيستخدم المشروع بعد ذلك خادم <bdi dir="ltr" class="odt-ltr-term">Tomcat</bdi> مدمج، والذي سيتم تضمينه في تبعياته؛
+  <li>في [9]، نحدد أن المنتج الناتج عن عملية البناء في <bdi dir="ltr" class="odt-ltr-term">Maven</bdi> سيتم تعليبه في أرشيف <b>jar </b>وليس <b>war</b>. سيستخدم المشروع عندئذٍ خادم <bdi dir="ltr" class="odt-ltr-term">Tomcat</bdi> مدمجًا سيكون موجودًا ضمن تبعياته؛
   </li>
-  <li>في [10]، ننتقل إلى الخطوة التالية من المعالج؛
+  <li>في [10]، ننتقل إلى الخطوة التالية من المساعد؛
   </li>
-  <li>في [11]، حدد دليل المشروع؛
+  <li>في [11]، يتم تحديد مجلد المشروع؛
   </li>
 </ul>
 
-<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000506000002277DB2796B.png" width="643" height="275" style="display:inline-block; margin:4px;width:17.013cm;height:7.288cm;" class="odt-zoomable" data-zoom-src="images/1000000000000506000002277DB2796B.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000506000002277DB2796B.png" width="643" height="276" style="display:inline-block; margin:4px;width:17.013cm;height:7.29cm;" class="odt-zoomable" data-zoom-src="images/1000000000000506000002277DB2796B.png" /></td></tr></table>
 
 <ul>
   <li>في [12]، المشروع الذي تم إنشاؤه؛
   </li>
-  <li>في [14-15]، أعد تسمية الحزمة [<bdi dir="ltr" class="odt-ltr-term">istia.st.springmvc</bdi>]؛
+  <li>في [14-15]، يتم إعادة تسمية الحزمة [<bdi dir="ltr" class="odt-ltr-term">istia.st.springmvc</bdi>]؛
   </li>
 </ul>
 
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000003400000014754520399.png" width="416" height="164" style="display:inline-block; margin:4px;width:11.007cm;height:4.327cm;" class="odt-zoomable" data-zoom-src="images/10000000000003400000014754520399.png" /></td></tr></table>
 
 <ul>
-  <li>في [16]، اسم الحزمة الجديد؛
+  <li>إلى [16]، وهو الاسم الجديد للحزمة؛
   </li>
   <li>في [17]، المشروع الجديد؛
   </li>
@@ -758,65 +758,65 @@
   </li>
 </ul>
 
-<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000049A000002F36C02CCE5.png" width="589" height="377" style="display:inline-block; margin:4px;width:15.584cm;height:9.987cm;" class="odt-zoomable" data-zoom-src="images/100000000000049A000002F36C02CCE5.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000049A000002F36C02CCE5.png" width="589" height="378" style="display:inline-block; margin:4px;width:15.584cm;height:9.989cm;" class="odt-zoomable" data-zoom-src="images/100000000000049A000002F36C02CCE5.png" /></td></tr></table>
 
 <ul>
-  <li>في [5] نسميها، وفي [4] نحدد حزمة البرنامج؛
+  <li>في [5] نحدد اسمها، وفي [4] نحدد الحزمة التي تنتمي إليها؛
   </li>
   <li>في [6] المشروع الجديد؛
   </li>
 </ul>
 
-<p><span style="color: #000000">الفئة حالياً كما يلي:</span></p>
+<p><span style="color: #000000">الفئة في الوقت الحالي هي كما يلي:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span> istia.st.springmvc;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> ActionsController {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p><span style="color: #000000">نقوم بتحديث هذا الكود على النحو التالي:</span></p>
+<p><span style="color: #000000">نقوم بتطوير هذا الكود بالطريقة التالية:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span> istia.st.springmvc;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.web.bind.annotation.RestController;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">@RestController</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> ActionsController {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
 <ul>
-  <li><span style="color: #000000">السطر 6: تشير العلامة [@<bdi dir="ltr" class="odt-ltr-term">RestController</bdi>] إلى أمرين:</span>
+  <li><span style="color: #000000">السطر 6: تشير التعليقات التوضيحية [@<bdi dir="ltr" class="odt-ltr-term">RestController</bdi>] إلى أمرين:</span>
     <ul>
-      <li><span style="color: #000000">أن فئة [<bdi dir="ltr" class="odt-ltr-term">ActionsController</bdi>] المُعلَّمة بهذه الطريقة هي وحدة تحكم <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi>، وبالتالي تحتوي على إجراءات تتعامل مع عناوين <bdi dir="ltr" class="odt-ltr-term">URL</bdi> الخاصة بالعميل؛</span>
+      <li><span style="color: #000000">أن الفئة [<bdi dir="ltr" class="odt-ltr-term">ActionsController</bdi>] المُعلَّمة بهذه الطريقة هي وحدة تحكم <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi>، وبالتالي فهي تحتوي على إجراءات تعالج طلبات العملاء <bdi dir="ltr" class="odt-ltr-term">URL</bdi>؛</span>
       </li>
-      <li><span style="color: #000000">أن نتيجة هذه الإجراءات يتم إرسالها إلى العميل؛</span>
+      <li><span style="color: #000000">أن نتيجة هذه الإجراءات تُرسل إلى العميل؛</span>
       </li>
     </ul>
   </li>
 </ul>
 
-<p><span style="color: #000000">أما التعليق التوضيحي الآخر [@<bdi dir="ltr" class="odt-ltr-term">Controller</bdi>] الذي صادفناه فهو مختلف: حيث تُرجع الإجراءات الخاصة بوحدة التحكم المُعلَّمة بهذه الطريقة اسم العرض الذي يجب عرضه. ومن ثم، فإن الجمع بين هذا العرض والنموذج الذي تم إنشاؤه بواسطة الإجراء الخاص بهذا العرض هو ما يوفر الاستجابة المرسلة إلى العميل.</span></p>
-<p><span style="color: #000000">يتطلب التغيير في بنية مشروعنا تغييرًا في تكوين مشروعنا:</span></p>
-<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000010200000074DF08F174.png" width="181" height="81" style="display:inline-block; margin:4px;width:4.78cm;height:2.148cm;" class="odt-zoomable" data-zoom-src="images/100000000000010200000074DF08F174.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
+<p><span style="color: #000000">أما التعليق التوضيحي الآخر [@<bdi dir="ltr" class="odt-ltr-term">Controller</bdi>] الذي صادفناه فهو مختلف: حيث تُرجع الإجراءات الخاصة بوحدة التحكم المُعلَّمة بهذا التعليق اسم العرض الذي يجب عرضه. ومن ثم، فإن الجمع بين هذا العرض والنموذج الذي أنشأته الإجراء لهذا العرض هو ما يوفر الاستجابة المرسلة إلى العميل.</span></p>
+<p><span style="color: #000000">يؤدي تغيير هيكل مشروعنا إلى تغيير في تكوينه:</span></p>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000010200000074DF08F174.png" width="181" height="81" style="display:inline-block; margin:4px;width:4.78cm;height:2.15cm;" class="odt-zoomable" data-zoom-src="images/100000000000010200000074DF08F174.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
-<p><span style="color: #000000">تتطور فئة [<bdi dir="ltr" class="odt-ltr-term">Application</bdi>] على النحو التالي:</span></p>
+<p><span style="color: #000000">تتطور الفئة [<bdi dir="ltr" class="odt-ltr-term">Application</bdi>] على النحو التالي:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span> istia.st.springmvc.main;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.boot.SpringApplication;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.boot.autoconfigure.EnableAutoConfiguration;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.context.annotation.ComponentScan;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.context.annotation.Configuration;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">@Configuration</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#646464">@ComponentScan</span><span style="color:#000000">({</span><span style="color:#2a00ff">&quot;istia.st.springmvc.controllers&quot;</span><span style="color:#000000">})</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">@EnableAutoConfiguration</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> Application {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">static</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">void</span><span style="color:#000000"> main(String[] </span><span style="color:#6a3e3e">args</span><span style="color:#000000">) {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        SpringApplication.</span><span style="font-style:italic;color:#000000">run</span><span style="color:#000000">(Application.</span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000">, </span><span style="color:#6a3e3e">args</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
@@ -824,18 +824,18 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 9: تأخذ العلامة [<bdi dir="ltr" class="odt-ltr-term">ComponentScan</bdi>] كمُعلِّم مصفوفة من أسماء الحزم التي يجب أن يبحث فيها <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi> عن مكونات <bdi dir="ltr" class="odt-ltr-term">Spring.</bdi> هنا، نُدرج الحزمة [<span style="color: #2a00ff"><bdi dir="ltr" class="odt-ltr-term">istia.st.springmvc.controllers</bdi></span>] في هذه المصفوفة حتى يمكن العثور على وحدة التحكم المُعلَّمة بـ [@<bdi dir="ltr" class="odt-ltr-term">RestController</bdi>]؛
+  <li>السطر 9: تقبل العلامة [<bdi dir="ltr" class="odt-ltr-term">ComponentScan</bdi>] كمعلمة مصفوفة من أسماء الحزم التي يجب أن يبحث فيها <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi> عن مكونات <bdi dir="ltr" class="odt-ltr-term">Spring.</bdi> هنا نضع في هذه المصفوفة الحزمة [<bdi dir="ltr" class="odt-ltr-term">istia.st.springmvc.controllers</bdi>] حتى يتم العثور على وحدة التحكم المُعلَّمة بـ [@<bdi dir="ltr" class="odt-ltr-term">RestController</bdi>]؛
   </li>
 </ul>
 
-<p><span style="color: #000000">سننشئ إجراءات متنوعة في وحدة التحكم لتوضيح ميزاتها الرئيسية. أولاً، سنركز على الأنواع المختلفة من الاستجابات الممكنة لإجراء ما في تطبيق بدون طرق عرض.</span></p>
-<p><a id="refheading1400791644545772"></a></p>
+<p><span style="color: #000000">سنقوم بإنشاء إجراءات متنوعة في وحدة التحكم لتوضيح خصائصها الرئيسية. سنركز أولاً على الأنواع المختلفة من الاستجابات الممكنة لإجراء ما في تطبيق بدون طرق عرض.</span></p>
+<p><span id="refheading1400791644545772" name="refheading1400791644545772" class="odt-bookmark-anchor"></span></p>
 <h2 id="32-a01-a02-hello-world">3.2. <span style="color: #4f81bd">[/a01, /a02] - <bdi dir="ltr" class="odt-ltr-term">Hello world</bdi></span></h2>
-<p>سيكون الإجراء الأول كما يلي:</p>
+<p>سيكون الإجراء الأول لدينا كما يلي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content">@RestController</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> ActionsController {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- hello world ------------------------</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- مرحبًا بالعالم ------------------------</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/a01&quot;</span><span style="color:#000000">, method = RequestMethod.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">GET</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> String a01() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> </span><span style="color:#2a00ff">&quot;Greetings from Spring Boot!&quot;</span><span style="color:#000000">;</span></span></span>
@@ -844,39 +844,39 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 4: تحدد العلامة [<span style="color: #646464"><bdi dir="ltr" class="odt-ltr-term">RequestMapping</bdi></span>] الطلب الذي تعالجه الإجراء المُعلَّم:
+  <li>السطر 4: التعليق التوضيحي [<bdi dir="ltr" class="odt-ltr-term">RequestMapping</bdi>] يحدد الطلب الذي تعالجه الإجراء المُعلَّم:
     <ul>
-      <li>السمة [<bdi dir="ltr" class="odt-ltr-term">value</bdi>] هي عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> الذي يتم معالجته،
+      <li>السمة [<bdi dir="ltr" class="odt-ltr-term">value</bdi>] هي <bdi dir="ltr" class="odt-ltr-term">URL</bdi> المعالجة،
       </li>
-      <li>وتحدد السمة [<bdi dir="ltr" class="odt-ltr-term">method</bdi>] الطريقة المقبولة؛
+      <li>السمة [<bdi dir="ltr" class="odt-ltr-term">method</bdi>] تحدد الطريقة المقبولة؛
       </li>
     </ul>
   </li>
 </ul>
 
-<p>وبالتالي، تعالج الطريقة [a01] طلب <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">GET /a01</bdi>].</p>
+<p>وبالتالي، فإن الطريقة [a01] تعالج الطلب <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">GET /a01</bdi>].</p>
 <ul>
-  <li>السطر 5: تُرجع الطريقة [a01] نوع [<bdi dir="ltr" class="odt-ltr-term">String</bdi>]، والذي سيتم إرساله كما هو إلى العميل؛
+  <li>السطر 5: تُرجع الطريقة [a01] نوعًا [<bdi dir="ltr" class="odt-ltr-term">String</bdi>] الذي سيتم إرساله كما هو إلى العميل؛
   </li>
   <li>السطر 6: السلسلة التي تم إرجاعها؛
   </li>
 </ul>
 
-<p>دعونا نشغل التطبيق كما فعلنا عدة مرات من قبل، ثم باستخدام [<bdi dir="ltr" class="odt-ltr-term">Advanced Rest Client</bdi>]، نطلب عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> [/a01] باستخدام <bdi dir="ltr" class="odt-ltr-term">GET</bdi> [1-2]:</p>
-<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004E200000339A8D901EC.png" width="625" height="412" style="display:inline-block; margin:4px;width:16.536cm;height:10.913cm;" class="odt-zoomable" data-zoom-src="images/10000000000004E200000339A8D901EC.png" /></td></tr></table>
+<p>دعونا نُشغّل التطبيق كما فعلنا عدة مرات من قبل، ثم باستخدام العميل [<bdi dir="ltr" class="odt-ltr-term">Advanced Rest Client</bdi>]، نطلب <bdi dir="ltr" class="odt-ltr-term">URL</bdi> و [/a01] باستخدام <bdi dir="ltr" class="odt-ltr-term">GET</bdi> و [1-2]:</p>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004E200000339A8D901EC.png" width="625" height="413" style="display:inline-block; margin:4px;width:16.536cm;height:10.915cm;" class="odt-zoomable" data-zoom-src="images/10000000000004E200000339A8D901EC.png" /></td></tr></table>
 
 <ul>
   <li>في [3]، استجابة الخادم؛
   </li>
-  <li>في [4]، رؤوس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> للاستجابة. يمكننا أن نرى أن الترميز المستخدم هو [<bdi dir="ltr" class="odt-ltr-term">ISO-8859-1</bdi>]. قد نفضل ترميز <bdi dir="ltr" class="odt-ltr-term">UTF-8.</bdi> يمكن تكوين هذا؛
+  <li>إلى [4]، وهي رؤوس الاستجابة <bdi dir="ltr" class="odt-ltr-term">HTTP.</bdi> نلاحظ أن الترميز المستخدم هو [<bdi dir="ltr" class="odt-ltr-term">ISO-8859-1</bdi>]. يمكننا تفضيل الترميز <bdi dir="ltr" class="odt-ltr-term">UTF-8.</bdi> يمكن تكوين ذلك؛
   </li>
-  <li>في [5]، نطلب نفس عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> باستخدام متصفح <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi>؛
+  <li>في [5]، نطلب نفس <bdi dir="ltr" class="odt-ltr-term">URL</bdi> باستخدام متصفح <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi>؛
   </li>
 </ul>
 
-<p>نضيف الإجراء التالي [/a02] إلى [<bdi dir="ltr" class="odt-ltr-term">ActionsController</bdi>] (قد نخلط أحيانًا بين عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> والطريقة التي تعالجه، والتي يشار إليها باسم الإجراء):</p>
+<p>نضيف الإجراء [/a02] التالي في وحدة التحكم [<bdi dir="ltr" class="odt-ltr-term">ActionsController</bdi>] (وبالتالي قد يتم الخلط أحيانًا بين <bdi dir="ltr" class="odt-ltr-term">URL</bdi> والطريقة التي تعالجها تحت اسم الإجراء):</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- accented characters - UTF8 ------------------------</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- أحرف ذات علامات تشكيل - UTF8 ------------------------</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/a02&quot;</span><span style="color:#000000">, method = RequestMethod.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">GET</span><span style="color:#000000">, produces=</span><span style="color:#2a00ff">&quot;text/plain;charset=UTF-8&quot;</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> String a02() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> </span><span style="color:#2a00ff">&quot;caractères accentués : éèàôûî&quot;</span><span style="color:#000000">;</span></span></span>
@@ -884,25 +884,25 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 2: تشير السمة [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">produces</bdi>=</span><span style="color: #2a00ff">&quot;<bdi dir="ltr" class="odt-ltr-term">text/plain;charset</bdi>=<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>&quot;</span>] إلى أن الإجراء يرسل دفق نصي يحتوي على أحرف مشفرة بتنسيق [<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>]. يسمح هذا التنسيق على وجه التحديد باستخدام الأحرف المُشَدَّدة؛
+  <li>السطر 2: يشير السمة [<bdi dir="ltr" class="odt-ltr-term">produces</bdi>=&quot;<bdi dir="ltr" class="odt-ltr-term">text/plain;charset</bdi>=<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>&quot;] إلى أن الإجراء يرسل تدفقًا نصيًّا يحتوي على أحرف مُشفَّرة بتنسيق [<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>]. ويسمح هذا التنسيق بشكل خاص باستخدام الأحرف المُشَدَّدة؛
   </li>
 </ul>
 
-<p>لتطبيق هذا الإجراء الجديد، يجب إعادة تشغيل التطبيق:</p>
+<p>لأخذ هذا الإجراء الجديد في الاعتبار، يتعين علينا إعادة تشغيل التطبيق:</p>
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000013F00000073B067554D.png" width="223" height="81" style="display:inline-block; margin:4px;width:5.911cm;height:2.131cm;" class="odt-zoomable" data-zoom-src="images/100000000000013F00000073B067554D.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <p>والنتيجة هي كما يلي:</p>
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004D30000033DA2D3BA7F.png" width="618" height="415" style="display:inline-block; margin:4px;width:16.339cm;height:10.968cm;" class="odt-zoomable" data-zoom-src="images/10000000000004D30000033DA2D3BA7F.png" /></td></tr></table>
 
 <ul>
-  <li>في [1]، نرى نوع المستند الذي أرسله الخادم؛
+  <li>في [1]، نرى طبيعة المستند المرسل من الخادم؛
   </li>
-  <li>في [2-3]، تظهر الأحرف المُشَدَّدة بوضوح؛
+  <li>في [2-3]، تظهر الأحرف المُشَدَّدة بشكل صحيح؛
   </li>
 </ul>
 
-<p><a id="refheading1400811644545772"></a></p>
-<h2 id="33-a03-xml">3.3. <span style="color: #4f81bd">[/a03]: إرجاع دفق <bdi dir="ltr" class="odt-ltr-term">XML</bdi></span></h2>
+<p><span id="refheading1400811644545772" name="refheading1400811644545772" class="odt-bookmark-anchor"></span></p>
+<h2 id="33-a03-xml">3.3. <span style="color: #4f81bd">[/a03]: تحويل تدفق <bdi dir="ltr" class="odt-ltr-term">XML</bdi></span></h2>
 <p>نضيف الإجراء [/a03] التالي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- text/xml ------------------------</span></span></span>
@@ -914,28 +914,28 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 2: تشير السمة [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">produces</bdi>=</span><span style="color: #2a00ff">&quot;<bdi dir="ltr" class="odt-ltr-term">text/xml;charset</bdi>=<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>&quot;</span>] إلى أن الإجراء يرسل دفق <bdi dir="ltr" class="odt-ltr-term">XML</bdi> بأحرف مشفرة بتنسيق [<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>]؛
+  <li>السطر 2: يشير السمة [<bdi dir="ltr" class="odt-ltr-term">produces</bdi>=&quot;<bdi dir="ltr" class="odt-ltr-term">text/xml;charset</bdi>=<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>&quot;] إلى أن الإجراء يرسل تدفقًا <bdi dir="ltr" class="odt-ltr-term">XML</bdi> بأحرف مشفرة بتنسيق [<bdi dir="ltr" class="odt-ltr-term">UTF-8</bdi>]؛
   </li>
 </ul>
 
-<p>يؤدي تنفيذها إلى النتيجة التالية:</p>
+<p>وينتج عن تنفيذه ما يلي:</p>
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000053A00000325B7745E24.png" width="669" height="403" style="display:inline-block; margin:4px;width:17.701cm;height:10.65cm;" class="odt-zoomable" data-zoom-src="images/100000000000053A00000325B7745E24.png" /></td></tr></table>
 
 <ul>
-  <li>في [1]، تحدد رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> أن المستند المرسل هو <bdi dir="ltr" class="odt-ltr-term">HTML</bdi>؛
+  <li>في [1]، يحدد الرأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> أن المستند المرسل هو <bdi dir="ltr" class="odt-ltr-term">HTML</bdi>؛
   </li>
-  <li>في [2]، يستخدم متصفح <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> هذه المعلومات لتنسيق نص <bdi dir="ltr" class="odt-ltr-term">XML</bdi> المستلم؛
+  <li>في [2]، يستخدم متصفح <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> هذه المعلومات لتنسيق النص <bdi dir="ltr" class="odt-ltr-term">XML</bdi> المستلم؛
   </li>
 </ul>
 
-<p>تذكر أنه مع <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi>، يمكنك عرض تبادلات <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> بين العميل والخادم في وحدة تحكم المطور (<bdi dir="ltr" class="odt-ltr-term">Ctrl-Shift-I</bdi>):</p>
-<p><img src="images/10000000000002CC000001A402F932EA.png" width="501" height="294" style="width:13.259cm;height:7.779cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000002CC000001A402F932EA.png" /></p>
-<p>من الآن فصاعدًا، لن نقوم بشكل منهجي بالتقاط لقطات شاشة لتبادل <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> بين العميل والخادم. في بعض الأحيان، سنكتفي باقتباس نص هذه التبادلات.</p>
-<p><a id="refheading1400831644545772"></a></p>
-<h2 id="34-a04-a05-json">3.4. <span style="color: #4f81bd">[/a04, /a05]: إرجاع موجز <bdi dir="ltr" class="odt-ltr-term">JSON</bdi></span></h2>
+<p>تجدر الإشارة إلى أنه في متصفح <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi>، يمكن الوصول إلى التبادلات بين العميل والخادم في نافذة المطور (<bdi dir="ltr" class="odt-ltr-term">Ctrl-Shift-I</bdi>):</p>
+<p><img src="images/10000000000002CC000001A402F932EA.png" width="501" height="294" style="width:13.259cm;height:7.781cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000002CC000001A402F932EA.png" /></p>
+<p>من الآن فصاعدًا، لن يتم التقاط لقطات شاشة بشكل منهجي للمراسلات <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> بين العميل والخادم. في بعض الأحيان، سنكتفي بذكر نص هذه المراسلات.</p>
+<p><span id="refheading1400831644545772" name="refheading1400831644545772" class="odt-bookmark-anchor"></span></p>
+<h2 id="34-a04-a05-json">3.4. <span style="color: #4f81bd"><strong>[/a04, /a05]: إرجاع تدفق <bdi dir="ltr" class="odt-ltr-term">jSON</bdi></strong></span></h2>
 <p>نضيف الإجراء [/a04] التالي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- produce from jSON ------------------------</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- إنتاج jSON ------------------------</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/a04&quot;</span><span style="color:#000000">, method = RequestMethod.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">GET</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> Map&lt;String, Object&gt; a04() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        Map&lt;String, Object&gt; </span><span style="color:#6a3e3e">map</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> HashMap&lt;String, Object&gt;();</span></span></span>
@@ -946,98 +946,98 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 3: تُرجع الإجراء نوع [<bdi dir="ltr" class="odt-ltr-term">Map</bdi>]، وهو عبارة عن قاموس. تذكر أنه مع وحدة التحكم [@<bdi dir="ltr" class="odt-ltr-term">RestController</bdi>]، تكون نتيجة الإجراء هي الاستجابة المرسلة إلى العميل. ونظرًا لأن <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> هو بروتوكول لتبادل أسطر النص، يجب تسلسل استجابة العميل إلى سلسلة. للقيام بذلك، يستخدم <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> محولات متنوعة [<bdi dir="ltr" class="odt-ltr-term">Object</bdi> &lt;---&gt; <bdi dir="ltr" class="odt-ltr-term">string</bdi>]. يتم ربط كائن معين بمحول من خلال التكوين. هنا، ستقوم ميزة التكوين التلقائي في <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi> بفحص تبعيات المشروع:
+  <li>السطر 3: تُرجع الإجراء نوعًا [<bdi dir="ltr" class="odt-ltr-term">Map</bdi>]، وهو قاموس. نتذكر أنه مع وحدة تحكم من النوع [@<bdi dir="ltr" class="odt-ltr-term">RestController</bdi>]، تكون نتيجة الإجراء هي الاستجابة المرسلة إلى العميل. وبما أن بروتوكول <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> هو بروتوكول لتبادل أسطر النص، يجب تسلسل استجابة العميل إلى سلسلة أحرف. ولتحقيق ذلك، يستخدم <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> محولات متنوعة من نوع [<bdi dir="ltr" class="odt-ltr-term">Objet</bdi> &lt;---&gt; <bdi dir="ltr" class="odt-ltr-term">chaîne de caractères</bdi>]. ويتم ربط كائن معين بمحول ما عن طريق التهيئة. وهنا، ستقوم ميزة التهيئة التلقائية في <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi> بفحص تبعيات المشروع:
   </li>
 </ul>
 
-<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000128000000C9B255FBDD.png" width="207" height="141" style="display:inline-block; margin:4px;width:5.48cm;height:3.722cm;" class="odt-zoomable" data-zoom-src="images/1000000000000128000000C9B255FBDD.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000128000000C9B255FBDD.png" width="207" height="141" style="display:inline-block; margin:4px;width:5.48cm;height:3.72cm;" class="odt-zoomable" data-zoom-src="images/1000000000000128000000C9B255FBDD.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
-<p>التبعيات الخاصة بـ <bdi dir="ltr" class="odt-ltr-term">Jackson</bdi> المذكورة أعلاه هي مكتبات لتسلسل الكائنات وإلغاء تسلسلها إلى سلاسل <bdi dir="ltr" class="odt-ltr-term">JSON.</bdi> سيستخدم <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi> بعد ذلك هذه المكتبات لتسلسل الكائنات التي تعيدها الإجراءات وإلغاء تسلسلها. يمكن العثور على مثال لرمز <bdi dir="ltr" class="odt-ltr-term">Java</bdi> لتسلسل كائنات <bdi dir="ltr" class="odt-ltr-term">Java</bdi> وإلغاء تسلسلها إلى <bdi dir="ltr" class="odt-ltr-term">JSON</bdi> في <a href="#refheading191922103626402"><u><span style="color: #0563c1">القسم 9.7</span></u></a>.</p>
-<p>لاحظ في السطر 2 أننا لم نحدد نوع الاستجابة التي يتم إرسالها. سنرى النوع الافتراضي الذي سيتم إرساله.</p>
-<p>النتائج في <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> هي كما يلي [1-3]:</p>
-<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004B2000001EBC2949A34.png" width="601" height="245" style="display:inline-block; margin:4px;width:15.901cm;height:6.495cm;" class="odt-zoomable" data-zoom-src="images/10000000000004B2000001EBC2949A34.png" /></td></tr></table>
+<p>التبعيات الخاصة بـ <bdi dir="ltr" class="odt-ltr-term">Jackson</bdi> المذكورة أعلاه هي مكتبات لتسلسل/إلغاء تسلسل الكائنات إلى سلاسل <bdi dir="ltr" class="odt-ltr-term">jSON.</bdi> سيقوم <bdi dir="ltr" class="odt-ltr-term">Spring Boot</bdi> بعد ذلك باستخدام هذه المكتبات لتسلسل/إلغاء تسلسل الكائنات التي تُرجعها الإجراءات. يمكن العثور على مثال لرمز <bdi dir="ltr" class="odt-ltr-term">Java</bdi> لتسلسل/إلغاء تسلسل كائنات <bdi dir="ltr" class="odt-ltr-term">Java</bdi> في <bdi dir="ltr" class="odt-ltr-term">jSON</bdi> في الفقرة<a href="lmrfqt.html#refheading191922103626402"><u><span style="color: #0563c1"> 9.7</span></u></a>.</p>
+<p>يُلاحظ في السطر 2 أننا لم نحدد نوع الاستجابة المرسلة. سنرى الآن النوع الافتراضي الذي سيتم إرساله.</p>
+<p>في متصفح <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi>، تظهر النتائج على النحو التالي: [1-3]:</p>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004B2000001EBC2949A34.png" width="601" height="246" style="display:inline-block; margin:4px;width:15.901cm;height:6.496cm;" class="odt-zoomable" data-zoom-src="images/10000000000004B2000001EBC2949A34.png" /></td></tr></table>
 
-<p>دعونا الآن نضيف الإجراء التالي [/a05]:</p>
+<p>لنضف الآن الإجراء التالي [/a05]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- produce from jSON - 2 ------------------------</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- إنتاج jSON - 2 ------------------------</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/a05&quot;</span><span style="color:#000000">, method = RequestMethod.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">GET</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> Personne a05() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">new</span><span style="color:#000000"> Personne(1,</span><span style="color:#2a00ff">&quot;carole&quot;</span><span style="color:#000000">,45);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>فئة [<bdi dir="ltr" class="odt-ltr-term">Person</bdi>] هي كما يلي:</p>
-<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000101000000A9A9964781.png" width="180" height="118" style="display:inline-block; margin:4px;width:4.761cm;height:3.131cm;" class="odt-zoomable" data-zoom-src="images/1000000000000101000000A9A9964781.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
+<p>الفئة [<bdi dir="ltr" class="odt-ltr-term">Personne</bdi>] هي كما يلي:</p>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000101000000A9A9964781.png" width="180" height="118" style="display:inline-block; margin:4px;width:4.761cm;height:3.129cm;" class="odt-zoomable" data-zoom-src="images/1000000000000101000000A9A9964781.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> istia.st.sprinmvc.models;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> Personne {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// identifier</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// المعرف</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> Integer </span><span style="color:#0000c0">id</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// name</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// الاسم</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> String </span><span style="color:#0000c0">nom</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// age</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// العمر</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> </span><span style="color:#0000c0">age</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// manufacturers</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// المُنشئون</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> Personne() {</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> Personne(String </span><span style="color:#6a3e3e">nom</span><span style="color:#000000">, </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> </span><span style="color:#6a3e3e">age</span><span style="color:#000000">) {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">this</span><span style="color:#000000">.</span><span style="color:#0000c0">nom</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">nom</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">this</span><span style="color:#000000">.</span><span style="color:#0000c0">age</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">age</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> Personne(Integer </span><span style="color:#6a3e3e">id</span><span style="color:#000000">, String </span><span style="color:#6a3e3e">nom</span><span style="color:#000000">, </span><span style="font-weight:bold;color:#7f0055">int</span><span style="color:#000000"> </span><span style="color:#6a3e3e">age</span><span style="color:#000000">) {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">this</span><span style="color:#000000">(</span><span style="color:#6a3e3e">nom</span><span style="color:#000000">, </span><span style="color:#6a3e3e">age</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">this</span><span style="color:#000000">.</span><span style="color:#0000c0">id</span><span style="color:#000000"> = </span><span style="color:#6a3e3e">id</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Override</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> String toString() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> String.</span><span style="font-style:italic;color:#000000">format</span><span style="color:#000000">(</span><span style="color:#2a00ff">&quot;[id=%s, nom=%s,  age=%d]&quot;</span><span style="color:#000000">, </span><span style="color:#0000c0">id</span><span style="color:#000000">, </span><span style="color:#0000c0">nom</span><span style="color:#000000">, </span><span style="color:#0000c0">age</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// getters and setters</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// المنشورات والمُعيّنات</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>يؤدي التنفيذ إلى النتائج التالية:</p>
+<p>يُنتج التنفيذ النتائج التالية:</p>
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000027D0000033F92230223.png" width="319" height="416" style="display:inline-block; margin:4px;width:8.428cm;height:10.994cm;" class="odt-zoomable" data-zoom-src="images/100000000000027D0000033F92230223.png" /></td></tr></table>
 
 <ul>
-  <li>في [1]، يشير الخادم إلى أن المستند الذي يرسله هو <bdi dir="ltr" class="odt-ltr-term">JSON</bdi>؛
+  <li>في [1]، يشير الخادم إلى أن المستند الذي يرسله هو <bdi dir="ltr" class="odt-ltr-term">jSON</bdi>؛
   </li>
-  <li>في [2]، المستند <bdi dir="ltr" class="odt-ltr-term">JSON</bdi> المستلم؛
+  <li>في [2]، المستند <bdi dir="ltr" class="odt-ltr-term">jSON</bdi> المستلم؛
   </li>
 </ul>
 
-<p><a id="refheading1400851644545772"></a></p>
-<h2 id="35-a06">3.5. <span style="color: #4f81bd">[/a06]: إرجاع دفق فارغ</span></h2>
+<p><span id="refheading1400851644545772" name="refheading1400851644545772" class="odt-bookmark-anchor"></span></p>
+<h2 id="35-a06">3.5. <span style="color: #4f81bd">[/a06]: إرجاع تدفق فارغ</span></h2>
 <p>نضيف الإجراء [/a06] التالي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- render an empty stream ------------------------</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- إرجاع تدفق فارغ ------------------------</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/a06&quot;</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">void</span><span style="color:#000000"> a06() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
 <ul>
-  <li>في السطر 3، لا تُرجع الإجراء [/a06] أي شيء. سيقوم <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> بعد ذلك بإنشاء استجابة فارغة للعميل؛
+  <li>السطر 3، الإجراء [/a06] لا يُرجع أي شيء. عندئذٍ سيقوم <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> بتوليد استجابة فارغة للعميل؛
   </li>
 </ul>
 
-<p>يؤدي التنفيذ إلى النتائج التالية:</p>
+<p>يُنتج التنفيذ النتائج التالية:</p>
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000165000001CFF8C32449.png" width="250" height="324" style="display:inline-block; margin:4px;width:6.609cm;height:8.571cm;" class="odt-zoomable" data-zoom-src="images/1000000000000165000001CFF8C32449.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
-<p>فيما سبق، تشير سمة [<bdi dir="ltr" class="odt-ltr-term">Content-Length</bdi>] في <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> في الاستجابة إلى أن الخادم يرسل مستندًا فارغًا.</p>
-<p><a id="refheading1400871644545772"></a></p>
-<h2 id="36-a07-a08-a09-content-type">3.6. <span style="color: #4f81bd">[/a07, /a08, /a09]: نوع البيانات مع [<bdi dir="ltr" class="odt-ltr-term">Content-Type</bdi>]</span></h2>
-<p>نضيف الإجراء التالي [/a07]:</p>
+<p>فيما سبق، يشير السمة <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">Content-Length</bdi>] في الاستجابة إلى أن الخادم يرسل مستندًا فارغًا.</p>
+<p><span id="refheading1400871644545772" name="refheading1400871644545772" class="odt-bookmark-anchor"></span></p>
+<h2 id="36-a07-a08-a09-content-type">3.6. <span style="color: #4f81bd">[/a07, /a08, /a09]: طبيعة التدفق مع [<bdi dir="ltr" class="odt-ltr-term">Content-Type</bdi>]</span></h2>
+<p>نضيف الإجراء [/a07] التالي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- text/html ------------------------</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/a07&quot;</span><span style="color:#000000">, method = RequestMethod.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">GET</span><span style="color:#000000">, produces = </span><span style="color:#2a00ff">&quot;text/html;charset=UTF-8&quot;</span><span style="color:#000000">)</span></span></span>
@@ -1048,23 +1048,23 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 2: يعرض الإجراء [/a07] دفق <bdi dir="ltr" class="odt-ltr-term">HTML</bdi> [<bdi dir="ltr" class="odt-ltr-term">text/html</bdi>]؛
+  <li>السطر 2، تُنتج الإجراء [/a07] تدفقًا <bdi dir="ltr" class="odt-ltr-term">HTML</bdi> [<bdi dir="ltr" class="odt-ltr-term">text/html</bdi>]؛
   </li>
   <li>السطر 4: سلسلة <bdi dir="ltr" class="odt-ltr-term">HTML</bdi>؛
   </li>
 </ul>
 
-<p>ينتج عن التنفيذ النتائج التالية:</p>
+<p>يؤدي التنفيذ إلى النتائج التالية:</p>
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000005070000020EF8993016.png" width="644" height="263" style="display:inline-block; margin:4px;width:17.027cm;height:6.959cm;" class="odt-zoomable" data-zoom-src="images/10000000000005070000020EF8993016.png" /></td></tr></table>
 
 <ul>
-  <li>في [1]، نرى أن <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> قد فسّر علامة <bdi dir="ltr" class="odt-ltr-term">HTML</bdi> &lt;h1&gt;، التي تعرض محتواها بخط كبير؛
+  <li>في [1]، نرى أن <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> قد فسّر العلامة <bdi dir="ltr" class="odt-ltr-term">HTML</bdi> &lt;h1&gt; التي تعرض محتواها بأحرف كبيرة؛
   </li>
 </ul>
 
-<p>الآن لنفعل الشيء نفسه مع الإجراء [/a08] التالي:</p>
+<p>الآن لنفعل الشيء نفسه مع الإجراء التالي [/a08]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- result HTML in text/plain ------------------------</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- نتيجة HTML بتنسيق text/plain ------------------------</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/a08&quot;</span><span style="color:#000000">, method = RequestMethod.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">GET</span><span style="color:#000000">, produces = </span><span style="color:#2a00ff">&quot;text/plain;charset=UTF-8&quot;</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> String a08() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        String </span><span style="color:#6a3e3e">greeting</span><span style="color:#000000"> = </span><span style="color:#2a00ff">&quot;&lt;h1&gt;Greetings from Spring Boot!&lt;/h1&gt;&quot;</span><span style="color:#000000">;</span></span></span>
@@ -1073,7 +1073,7 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 2: استجابة الإجراء من النوع [<bdi dir="ltr" class="odt-ltr-term">text/plain</bdi>]؛
+  <li>السطر 2: استجابة الإجراء هي من النوع [<bdi dir="ltr" class="odt-ltr-term">text/plain</bdi>]؛
   </li>
 </ul>
 
@@ -1081,13 +1081,13 @@
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004A8000001F295952CB8.png" width="596" height="249" style="display:inline-block; margin:4px;width:15.769cm;height:6.588cm;" class="odt-zoomable" data-zoom-src="images/10000000000004A8000001F295952CB8.png" /></td></tr></table>
 
 <ul>
-  <li>في [1]، لم يقم <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> بتفسير علامة <bdi dir="ltr" class="odt-ltr-term">HTML</bdi> &lt;h1&gt; لأن الخادم أبلغه أنه يرسل دفق [<bdi dir="ltr" class="odt-ltr-term">text/plain</bdi>] [2]؛
+  <li>في [1]، لم يفسر <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> العلامة &lt;h1&gt; الخاصة بـ <bdi dir="ltr" class="odt-ltr-term">HTML</bdi> لأن الخادم أبلغه بأنه يرسل له تدفقًا من نوع [<bdi dir="ltr" class="odt-ltr-term">text/plain</bdi>] [2]؛
   </li>
 </ul>
 
-<p>دعونا نجرب شيئًا مشابهًا مع الإجراء [/a09] التالي:</p>
+<p>لنكرر الأمر بشكل مشابه مع الإجراء التالي [/a09]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- result HTML in text/xml ------------------------</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- نتيجة HTML بتنسيق text/xml ------------------------</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/a09&quot;</span><span style="color:#000000">, method = RequestMethod.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">GET</span><span style="color:#000000">, produces = </span><span style="color:#2a00ff">&quot;text/xml;charset=UTF-8&quot;</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> String a09() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        String </span><span style="color:#6a3e3e">greeting</span><span style="color:#000000"> = </span><span style="color:#2a00ff">&quot;&lt;h1&gt;Greetings from Spring Boot!&lt;/h1&gt;&quot;</span><span style="color:#000000">;</span></span></span>
@@ -1096,45 +1096,45 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 2: نرسل دفق [<bdi dir="ltr" class="odt-ltr-term">text/xml</bdi>]؛
+  <li>السطر 2: نرسل تدفقًا من النوع [<bdi dir="ltr" class="odt-ltr-term">text/xml</bdi>]؛
   </li>
 </ul>
 
 <p>والنتائج هي كما يلي:</p>
-<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000049E000002230D3503BE.png" width="591" height="273" style="display:inline-block; margin:4px;width:15.637cm;height:7.235cm;" class="odt-zoomable" data-zoom-src="images/100000000000049E000002230D3503BE.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000049E000002230D3503BE.png" width="591" height="274" style="display:inline-block; margin:4px;width:15.637cm;height:7.237cm;" class="odt-zoomable" data-zoom-src="images/100000000000049E000002230D3503BE.png" /></td></tr></table>
 
 <ul>
-  <li>في [1]، لم يقم <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> بتفسير علامة <bdi dir="ltr" class="odt-ltr-term">HTML</bdi> &lt;h1&gt; لأن الخادم أبلغه أنه يرسل دفق [<bdi dir="ltr" class="odt-ltr-term">text/xml</bdi>] [2]. ثم تعامل مع علامة &lt;h1&gt; كعلامة <bdi dir="ltr" class="odt-ltr-term">XML</bdi>؛
+  <li>في [1]، لم يفسر <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> العلامة <bdi dir="ltr" class="odt-ltr-term">HTML</bdi> &lt;h1&gt; لأن الخادم أبلغه بأنه يرسل له تدفقًا من نوع [<bdi dir="ltr" class="odt-ltr-term">text/xml</bdi>] [2]. لذلك تعامل مع العلامة &lt;h1&gt; على أنها علامة <bdi dir="ltr" class="odt-ltr-term">XML</bdi>؛
   </li>
 </ul>
 
-<p>تسلط هذه الأمثلة الضوء على أهمية رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">Content-Type</bdi>] في استجابة الخادم. يستخدم المتصفح هذا الرأس لتحديد كيفية تفسير المستند الذي يتلقاه؛</p>
-<p><a id="refheading1400891644545772"></a></p>
+<p>ونستخلص من هذه الأمثلة أهمية رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">Content-Type</bdi>] في استجابة الخادم. يستخدم المتصفح هذا الرأس لمعرفة كيفية تفسير المستند الذي يتلقاه؛</p>
+<p><span id="refheading1400891644545772" name="refheading1400891644545772" class="odt-bookmark-anchor"></span></p>
 <h2 id="37-a10-a11-a12">3.7. <span style="color: #4f81bd">[/a10, /a11, /a12]: إعادة توجيه العميل</span></h2>
 <p>نقوم بإنشاء وحدة تحكم جديدة [<bdi dir="ltr" class="odt-ltr-term">RedirectController</bdi>]:</p>
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000FA000000A233444B96.png" width="175" height="113" style="display:inline-block; margin:4px;width:4.63cm;height:3cm;" class="odt-zoomable" data-zoom-src="images/10000000000000FA000000A233444B96.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
-<p>سيكون كود [<bdi dir="ltr" class="odt-ltr-term">RedirectController</bdi>] كما يلي في الوقت الحالي:</p>
+<p>سيكون كود [<bdi dir="ltr" class="odt-ltr-term">RedirectCntroller</bdi>] في الوقت الحالي كما يلي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> istia.st.springmvc.controllers;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.stereotype.Controller;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.web.bind.annotation.RequestMapping;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.web.bind.annotation.RequestMethod;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">@Controller</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> RedirectController {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
 <ul>
-  <li>السطر 7: نستخدم التعليق التوضيحي [@<bdi dir="ltr" class="odt-ltr-term">Controller</bdi>]، مما يعني أنه بشكل افتراضي، يشير نوع [<bdi dir="ltr" class="odt-ltr-term">String</bdi>] لنتيجة الإجراء الآن إلى اسم إجراء أو عرض؛
+  <li>السطر 7: نستخدم التعليق التوضيحي [@<bdi dir="ltr" class="odt-ltr-term">Controller</bdi>]، مما يعني أنه من الآن فصاعدًا، سيشير النوع [<bdi dir="ltr" class="odt-ltr-term">String</bdi>] لنتائج الإجراءات بشكل افتراضي إلى اسم إجراء أو عرض؛
   </li>
 </ul>
 
 <p>نقوم بإنشاء الإجراء [/a10] التالي:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ------------ bridge to third-party action -----------------------</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ------------ إعادة توجيه إلى إجراء تابع لجهة خارجية -----------------------</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/a10&quot;</span><span style="color:#000000">, method = RequestMethod.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">GET</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> String a10() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> </span><span style="color:#2a00ff">&quot;a01&quot;</span><span style="color:#000000">;</span></span></span>
@@ -1142,7 +1142,7 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 4: نُرجع &#x27;a01&#x27; كنتيجة، وهو اسم إجراء. سيقوم هذا الإجراء بعد ذلك بإرسال الاستجابة إلى العميل؛
+  <li>السطر 4: نُرجع «a01» كنتيجة، وهو اسم إجراء. وسيكون هذا الإجراء هو الذي سيرسل الرد إلى العميل؛
   </li>
 </ul>
 
@@ -1150,48 +1150,48 @@
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004D20000034074932B02.png" width="617" height="416" style="display:inline-block; margin:4px;width:16.325cm;height:11.007cm;" class="odt-zoomable" data-zoom-src="images/10000000000004D20000034074932B02.png" /></td></tr></table>
 
 <ul>
-  <li>في [2]، تلقينا الدفق من الإجراء [/a01]؛
+  <li>في [2]، تلقينا تدفق الإجراء [/a01]؛
   </li>
-  <li>في [3]، يعرض المتصفح عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> الخاص بالإجراء [/a10]؛
+  <li>في [3]، يعرض المتصفح <bdi dir="ltr" class="odt-ltr-term">URL</bdi> الخاص بالإجراء [/a10]؛
   </li>
 </ul>
 
 <p>نقوم الآن بإنشاء الإجراء التالي [/a11]:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ------------ temporary 302 redirect to a third-party action -----------------------</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ------------ إعادة توجيه مؤقتة 302 إلى إجراء تابع لجهة خارجية -----------------------</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/a11&quot;</span><span style="color:#000000">, method = RequestMethod.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">GET</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> String a11() {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> </span><span style="color:#2a00ff">&quot;redirect:/a01&quot;</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
-<p>نحصل على النتائج التالية:</p>
+<p>ونحصل على النتائج التالية:</p>
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004590000024724B5497D.png" width="557" height="292" style="display:inline-block; margin:4px;width:14.725cm;height:7.713cm;" class="odt-zoomable" data-zoom-src="images/10000000000004590000024724B5497D.png" /></td></tr></table>
 
 <ul>
-  <li>في سجلات <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> [1-2]، نرى طلبين، أحدهما إلى [/a11] والآخر إلى [/a01]؛
+  <li>في سجلات <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> الخاصة بـ [1-2]، نرى طلبين، أحدهما موجه إلى [/a11]، والآخر إلى [/a01]؛
   </li>
-  <li>في [3]، يستجيب الخادم برمز الحالة [302]، الذي يوجه متصفح العميل لإعادة التوجيه إلى عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> المحدد بواسطة رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">Location:</bdi>] [4]. رمز الحالة [302] هو رمز إعادة توجيه مؤقت؛
+  <li>في [3]، يرد الخادم برمز [302] الذي يطلب من متصفح العميل إعادة التوجيه إلى<bdi dir="ltr" class="odt-ltr-term">URL</bdi> المشار إليه في الرأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">Location:</bdi>] [4]. الرمز [302] هو رمز إعادة توجيه مؤقت؛
   </li>
 </ul>
 
-<p>ثم يقوم المتصفح بإرسال الطلب الثاني إلى عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> الذي تمت إعادة التوجيه إليه:</p>
+<p>ثم يقوم المتصفح بإرسال الطلب الثاني إلى عنوان إعادة التوجيه <bdi dir="ltr" class="odt-ltr-term">URL:</bdi></p>
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004C80000022512B4FA03.png" width="612" height="275" style="display:inline-block; margin:4px;width:16.193cm;height:7.264cm;" class="odt-zoomable" data-zoom-src="images/10000000000004C80000022512B4FA03.png" /></td></tr></table>
 
 <ul>
   <li>في [5]، الطلب الثاني للعميل؛
   </li>
-  <li>في [6]، يعرض متصفح العميل عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> لطلب إعادة التوجيه؛
+  <li>في [6]، يعرض متصفح العميل <bdi dir="ltr" class="odt-ltr-term">URL</bdi> الخاص بطلب التوجيه؛
   </li>
 </ul>
 
-<p>قد ترغب في الإشارة إلى إعادة توجيه دائمة، وفي هذه الحالة يجب عليك إرسال رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> التالي إلى العميل:</p>
+<p>قد نرغب في الإشارة إلى إعادة توجيه دائمة، وفي هذه الحالة، يجب إرسال الرأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> التالي إلى العميل:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>HTTP/1.1 301 Moved Permanently 
 </code></pre></div>
-<p>مما يعني أن إعادة التوجيه دائمة. وتأخذ بعض محركات البحث هذا الاختلاف بين إعادة التوجيه المؤقتة (302) وإعادة التوجيه الدائمة (301) في الاعتبار.</p>
-<p>نكتب الإجراء [/a12] الذي سيقوم بتنفيذ إعادة التوجيه الدائمة هذه:</p>
+<p>وهو ما يعني أن إعادة التوجيه دائمة. ويأخذ بعض محركات البحث هذا الفرق بين إعادة التوجيه المؤقتة (302) والدائمة (301) في الاعتبار.</p>
+<p>نكتب الإجراء [/a12] الذي سيقوم بتنفيذ عملية إعادة التوجيه الدائمة هذه:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ------------ permanent 301 redirect to a third-party action----------------</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ------------ إعادة توجيه دائمة 301 إلى إجراء تابع لجهة خارجية----------------</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/a12&quot;</span><span style="color:#000000">, method = RequestMethod.</span><span style="font-weight:bold;font-style:italic;color:#0000c0">GET</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">void</span><span style="color:#000000"> a12(HttpServletResponse </span><span style="color:#6a3e3e">response</span><span style="color:#000000">) {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">response</span><span style="color:#000000">.setStatus(301);</span></span></span>
@@ -1200,40 +1200,40 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 3: نطلب من <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> إدخال كائن [<bdi dir="ltr" class="odt-ltr-term">HttpServletResponse</bdi>]، الذي يغلف الاستجابة المرسلة إلى العميل؛
+  <li>السطر 3: نطلب من <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi> إدراج الكائن [<bdi dir="ltr" class="odt-ltr-term">HttpServletResponse</bdi>] الذي يغلف الاستجابة المرسلة إلى العميل؛
   </li>
-  <li>السطر 4: نحدد [<bdi dir="ltr" class="odt-ltr-term">status</bdi>] للاستجابة، رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [301]:
+  <li>السطر 4: يتم تعيين [<bdi dir="ltr" class="odt-ltr-term">status</bdi>] للاستجابة، و[301] لرأس <bdi dir="ltr" class="odt-ltr-term">HTTP:</bdi>
   </li>
 </ul>
 
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>HTTP/1.1 301 Moved Permanently
 </code></pre></div>
 <ul>
-  <li>السطر 5: نقوم يدويًا بإنشاء رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> التالي:
+  <li>السطر 5: يتم إنشاء الرأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> التالي يدويًّا:
   </li>
 </ul>
 
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Location: /a01 
 </code></pre></div>
-<p>وهو عنوان <bdi dir="ltr" class="odt-ltr-term">URL</bdi> لإعادة التوجيه.</p>
+<p>وهو عنوان إعادة التوجيه <bdi dir="ltr" class="odt-ltr-term">URL.</bdi></p>
 <p>يؤدي التنفيذ إلى النتائج التالية:</p>
-<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000162000001A442869D52.png" width="248" height="294" style="display:inline-block; margin:4px;width:6.549cm;height:7.77cm;" class="odt-zoomable" data-zoom-src="images/1000000000000162000001A442869D52.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000014B0000008ED50DDD49.png" width="232" height="99" style="display:inline-block; margin:4px;width:6.13cm;height:2.63cm;" class="odt-zoomable" data-zoom-src="images/100000000000014B0000008ED50DDD49.png" /></td></tr></table>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/1000000000000162000001A442869D52.png" width="248" height="294" style="display:inline-block; margin:4px;width:6.549cm;height:7.781cm;" class="odt-zoomable" data-zoom-src="images/1000000000000162000001A442869D52.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/100000000000014B0000008ED50DDD49.png" width="232" height="99" style="display:inline-block; margin:4px;width:6.13cm;height:2.63cm;" class="odt-zoomable" data-zoom-src="images/100000000000014B0000008ED50DDD49.png" /></td></tr></table>
 
-<p>من هذا المثال، سنتعلم كيفية:</p>
+<p>ونستخلص من هذا المثال كيفية:</p>
 <ul>
-  <li>إنشاء حالة استجابة <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi>؛
+  <li>إنشاء حالة الاستجابة <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi>؛
   </li>
   <li>تضمين رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> في الاستجابة؛
   </li>
 </ul>
 
-<p><a id="refheading1400911644545772"></a></p>
-<h2 id="38-a13">3.8. <span style="color: #4f81bd">[/a13]: إنشاء الاستجابة الكاملة</span></h2>
-<p>من الممكن التحكم في الاستجابة بشكل كامل، كما هو موضح في الإجراء التالي في فئة [<bdi dir="ltr" class="odt-ltr-term">ResponsesController</bdi>]:</p>
-<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F7000000A4D658B54C.png" width="173" height="115" style="display:inline-block; margin:4px;width:4.57cm;height:3.034cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F7000000A4D658B54C.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
+<p><span id="refheading1400911644545772" name="refheading1400911644545772" class="odt-bookmark-anchor"></span></p>
+<h2 id="38-a13">3.8. <span style="color: #4f81bd">[/a13]: إنشاء الرد الكامل</span></h2>
+<p>من الممكن التحكم بشكل كامل في الاستجابة كما يوضح الإجراء التالي للفئة [<bdi dir="ltr" class="odt-ltr-term">ResponsesController</bdi>]:</p>
+<table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000000F7000000A4D658B54C.png" width="173" height="115" style="display:inline-block; margin:4px;width:4.57cm;height:3.039cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F7000000A4D658B54C.png" /></td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;">&nbsp;</td></tr></table>
 
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- complete response generation ------------------------</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// ----------------------- إنشاء الاستجابة بالكامل ------------------------</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@RequestMapping</span><span style="color:#000000">(value = </span><span style="color:#2a00ff">&quot;/a13&quot;</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">void</span><span style="color:#000000"> a13(HttpServletResponse </span><span style="color:#6a3e3e">response</span><span style="color:#000000">) </span><span style="font-weight:bold;color:#7f0055">throws</span><span style="color:#000000"> IOException {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="color:#6a3e3e">response</span><span style="color:#000000">.setStatus(666);</span></span></span>
@@ -1245,35 +1245,35 @@
 </code></pre></div>
 
 <ul>
-  <li>السطر 3: نتيجة الإجراء هي [<bdi dir="ltr" class="odt-ltr-term">void</bdi>]. في هذه الحالة، لإرسال استجابة غير فارغة إلى العميل، يجب استخدام كائن [<span style="color: #000000"><bdi dir="ltr" class="odt-ltr-term">HttpServletResponse</bdi> </span><span style="color: #6a3e3e"><bdi dir="ltr" class="odt-ltr-term">response</bdi></span>] المقدم من <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi>؛
+  <li>السطر 3: نتيجة الإجراء هي [<bdi dir="ltr" class="odt-ltr-term">void</bdi>]. في هذه الحالة، لإرسال استجابة غير فارغة إلى العميل، يجب استخدام الكائن [<bdi dir="ltr" class="odt-ltr-term">HttpServletResponse response</bdi>] المقدم من <bdi dir="ltr" class="odt-ltr-term">Spring MVC</bdi>؛
   </li>
-  <li>السطر 4: نعيّن حالة للاستجابة لن يتعرف عليها العميل؛
+  <li>السطر 4: نمنح الرد حالة لن يتعرف عليها العميل؛
   </li>
-  <li>السطر 5: نضيف رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> لن يتعرف عليه العميل؛
+  <li>السطر 5: نضيف رأسًا <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> لن يتعرف عليه العميل؛
   </li>
-  <li>السطر 6: نضيف رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">Content-Type</bdi>] لتحديد نوع البيانات التي نرسلها، وهو <bdi dir="ltr" class="odt-ltr-term">HTML</bdi> في هذه الحالة؛
+  <li>السطر 6: نضيف رأسًا <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> [<bdi dir="ltr" class="odt-ltr-term">Content-Type</bdi>] لتحديد نوع التدفق الذي سنرسله، وهو هنا <bdi dir="ltr" class="odt-ltr-term">HTML</bdi>؛
   </li>
-  <li>السطران 7-8: المستند الذي يتبع رؤوس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> في الاستجابة؛
+  <li>السطران 7-8: المستند الذي سيتبع الرؤوس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> في الرد؛
   </li>
 </ul>
 
-<p>والنتائج هي كما يلي:</p>
+<p>النتائج هي كما يلي:</p>
 <table dir="rtl" class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td dir="rtl" style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: right;"><img src="images/10000000000004DF0000035F6CF10D07.png" width="624" height="432" style="display:inline-block; margin:4px;width:16.498cm;height:11.418cm;" class="odt-zoomable" data-zoom-src="images/10000000000004DF0000035F6CF10D07.png" /></td></tr></table>
 
 <ul>
-  <li>في [1]، نتعرف على عناصر ردنا؛
+  <li>في [1]، يمكننا التعرف على عناصر ردنا؛
   </li>
-  <li>في [2-3]، نرى أن <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> تجاهل حقيقة أن:
+  <li>في [2-3]، نلاحظ أن <bdi dir="ltr" class="odt-ltr-term">Chrome</bdi> تجاهل حقيقة أن:
     <ul>
-      <li>حالة <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> للاستجابة لم تكن حالة <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> معترف بها،
+      <li>أن حالة <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> للاستجابة لم تكن حالة <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> معترف بها،
       </li>
-      <li>وأن الرأس [<bdi dir="ltr" class="odt-ltr-term">header1</bdi>] لم يكن رأس <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> معترفًا به؛
+      <li>أن الرأس [<bdi dir="ltr" class="odt-ltr-term">header1</bdi>] لم يكن رأسًا <bdi dir="ltr" class="odt-ltr-term">HTTP</bdi> معترفًا به؛
       </li>
     </ul>
   </li>
 </ul>
 
-<p>إذا لم يكن العميل متصفحًا بل عميلًا برمجيًا، فيمكنك استخدام أي رموز حالة ورؤوس تريدها.</p>
+<p>إذا لم يكن العميل متصفحًا بل عميلاً مبرمجًا، فيمكن استخدام أي حالات ورؤوس نريدها.</p>
 
 
 
